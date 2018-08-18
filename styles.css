@@ -1,0 +1,122 @@
+#profile {
+    text-align: center;
+    padding: 0;
+    position: relative;
+    z-index:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#profile .across {
+    padding-top: 10px;
+    color: white;
+    min-height: 70px;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin: 10px 0;
+    text-shadow: 1px 2px black;
+}
+
+#profile .across span {
+    font-size: 0.7em;
+    display: block;
+}
+
+#profile .data {
+    text-align: left;
+    padding-left: 10px;
+    color: gray;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+#profile .about .me {
+    background-image: linear-gradient(gold, white, white);
+}
+
+#profile .about .me .photo img {
+    border-radius: 50%;
+    margin: 20px auto 0 auto;
+    width: 175px;
+    height: 175px;
+}
+
+#profile .about .me .name {
+    background: dodgerblue;
+}
+
+#profile .about .me .social-networks i {
+    margin: 5px 25px;
+}
+
+#profile .about .me .location i {
+    margin-top: 10px;
+    vertical-align: sub;
+}
+
+#profile .about .bio-title {
+    background: gold;
+}
+
+#profile .about .skills-title{
+    background: limegreen;
+}
+
+#profile > .about > .data > ul > li  {
+    font-weight: bold;
+    text-align: center;
+}
+
+#profile .about .hobbies-title {
+    background: orangered;
+}
+
+#history {
+    min-height: 2500px; /* Remove after put data */
+    background: indigo;
+}
+
+ul.levels {
+    text-align: left;
+}
+
+ul.levels li {
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 1em;
+    background: dodgerblue;
+    margin: 0 1em;
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+
+ul.levels li::before{
+    content: '';
+    position: absolute;
+    top: .9em;
+    left: -4em;
+    width: 4em;
+    height: .2em;
+    background: dodgerblue;
+    z-index: -1
+  }
+  
+  ul.levels li:first-child::before {
+    display: none;
+  }
+  
+  ul.levels li.active {
+    background: dodgerblue;
+  }
+  
+  ul.levels li.active ~ li {
+    background: gray;
+  }
+  
+  ul.levels li.active ~ li::before {
+    background: gray;
+  }
