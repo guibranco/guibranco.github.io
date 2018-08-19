@@ -31,26 +31,19 @@
     line-height: 2em;
 }
 
-#profile .about .me {
+#profile .about .photo {
     background-image: linear-gradient(gold, white, white);
 }
 
-#profile .about .me .photo img {
-    border-radius: 50%;
-    margin: 20px auto 0 auto;
-    width: 175px;
-    height: 175px;
-}
-
-#profile .about .me .name {
+#profile .about .name {
     background: dodgerblue;
 }
 
-#profile .about .me .social-networks i {
+#profile .about .social-networks i {
     margin: 5px 25px;
 }
 
-#profile .about .me .location i {
+#profile .about .location i {
     margin-top: 10px;
     vertical-align: sub;
 }
