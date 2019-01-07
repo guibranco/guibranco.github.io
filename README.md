@@ -1,2 +1,4 @@
 # guibranco.github.io
-Guilherme Branco Stracini github.io page
+
+My online resume available at [GitHub Pages](https://guibranco.github.io)
+
