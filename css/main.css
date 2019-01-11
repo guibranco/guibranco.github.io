@@ -1232,4 +1232,13 @@ body {
 	#sidebar, #content {
 		width: 100%;
 	}
-}
+	
+	.widget-body .list-points {
+		width: 357px;
+	}
+	
+	.widget-body .list-points li:after {
+		width: 85px;
+	}
+/* } */
+/* } */
