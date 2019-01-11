@@ -916,6 +916,11 @@ body {
 	position: absolute;
 }
 
+.widget-body ul.hobbies {
+	text-align: left;
+	list-style-type: none;
+}
+
 .widget-list {
 	position: relative;
 	overflow: hidden;
@@ -1221,4 +1226,10 @@ body {
 	text-transform: uppercase;
 	width: calc(100% - 20px);
 	padding: 0 0 0 8px;
+}
+
+@media only screen and (max-width: 600px){
+	#sidebar {
+		width: 100%;
+	}
 }
