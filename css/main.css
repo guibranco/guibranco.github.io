@@ -688,7 +688,7 @@ input[type="submit"] {
 }
 
 body {
-	font-size: 10px;
+	font-size: 12px;
 	line-height: 13px;
 	background: #e4e5e6;
 }
@@ -1158,76 +1158,6 @@ body {
 	align-items: center;
 }
 
-.list-features {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	font-size: 12px;
-	line-height: 15px;
-	font-family: "Open Sans", "Arial", sans-serif;
-	font-weight: 300;
-	color: #9589a0;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-}
-
-.list-features li {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	width: 50%;
-	margin: 0 0 10px;
-}
-
-.list-features .circle {
-	width: 30px;
-	height: 30px;
-	border-radius: 100%;
-	background: #ff493a;
-	color: #fff;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-.list-features .circle.yellow {
-	background: #ffbd00;
-}
-
-.list-features .circle.green {
-	background: #51bd00;
-}
-
-.list-features .circle.blue {
-	background: #0092ff;
-}
-
-.list-features .level {
-	text-transform: uppercase;
-	width: calc(100% - 20px);
-	padding: 0 0 0 8px;
-}
-
 @media only screen and (max-width: 600px){
 	#sidebar, #content {
 		width: 100%;
@@ -1240,5 +1170,4 @@ body {
 	.widget-body .list-points li:after {
 		width: 85px;
 	}
-/* } */
-/* } */
+}
