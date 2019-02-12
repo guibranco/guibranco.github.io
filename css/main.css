@@ -821,7 +821,7 @@ body {
 }
 
 .widget-head .title {
-	font-size: 1.2em;/*14px;*/
+	font-size: 1em;
 	line-height: 18px;
 	display: block;
 	color: #fff;
