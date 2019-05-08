@@ -1071,6 +1071,7 @@ body {
 	overflow: hidden;
 }
 
+#content .aboutme,
 #content .name,
 #content .year,
 #content .job {
@@ -1081,6 +1082,13 @@ body {
 	font-weight: 300;
 	font-size: 1.5em;
 	line-height: 1.6em;
+}
+
+#content .aboutme {
+	color: #a7ff00;
+	font-weight: 700;
+	text-transform: none;
+	font-size: 1.2em;
 }
 
 #content .name {
