@@ -1,17 +1,41 @@
-#experience-cards {}
+#experience-cards {
+    width: 100%;
+}
 
-#experience-cards .item {}
+#experience-cards .item {
+    background-color: #FFF;
+    border: 3px solid gray;
+    max-width: 50%
+}
 
-#experience-cards .item .company-logo {}
+#experience-cards .item .company-logo {
+    border-radius: 15px;
+    border: 1px dotted black;
+}
 
-#experience-cards .item .company-name {}
+#experience-cards .item .company-name {
+    font-weight: bold;
+}
 
-#experience-cards .item .company-description {}
+#experience-cards .item .company-description {
+    color: darkslategray;
+}
 
-#experience-cards .item .job-period {}
+#experience-cards .item .job-period {
+    color: orangered;
+}
 
-#experience-cards .item .job-name {}
+#experience-cards .item .job-name {
+    color: navy;
+    font-weight: bold;
+}
 
-#experience-cards .item .job-description {}
+#experience-cards .item .job-description {
+    color: gray;
+}
 
-#experience-cards .item .job-roles {}
+#experience-cards .item .job-roles {
+    color: black;
+    text-align: justify;
+    list-style: none;
+}
