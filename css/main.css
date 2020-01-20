@@ -855,7 +855,7 @@ body {
     display: block;
     text-transform: uppercase;
     margin: 0 0 4px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .widget-body p.profile {
@@ -1068,8 +1068,12 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     color: #fff;
-    margin: 0 0 8px;
+    margin: 0 0 20px;
     text-align: center;
+}
+
+#content h4 {
+    margin: 20px;
 }
 
 #content .exp-row {
