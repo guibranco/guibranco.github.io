@@ -1179,6 +1179,19 @@ body {
     -ms-flex-align: center;
     align-items: center;
 }
+.instagram-media {
+    background:#FFF;
+    border:0;
+    border-radius:3px;
+    box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
+    margin: 1px;
+    max-width:99%;
+    min-width:326px;
+    padding:0;
+    width:99.375%;
+    width:-webkit-calc(100% - 2px);
+    width:calc(100% - 2px);
+}
 
 @media only screen and (max-width: 600px) {
     #sidebar,
@@ -1190,5 +1203,14 @@ body {
     }
     .widget-body .list-points li:after {
         width: 85px;
+    }
+}
+
+@media print {
+    .block-holder {
+        page-break-inside: avoid;
+    }
+    .print-hide {
+        display:none;
     }
 }
