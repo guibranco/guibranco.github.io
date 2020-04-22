@@ -927,7 +927,7 @@ body {
 }
 
 .widget-body ul.hobbies li {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 2.5em;
 }
 
@@ -1104,13 +1104,19 @@ body {
 #content .name {
     color: #0092ff;
     font-weight: 700;
+    border-top: 3px solid;
+    padding-top: 15px;
+}
+
+#content .name span {
+    font-size: 0.7em;
 }
 
 #content .name.yellow {
     color: #ffbd00;
 }
 
-.lang-list {
+#content .lang-list {
     margin: 0 0 15px;
     padding: 0;
     list-style: none;
@@ -1130,43 +1136,43 @@ body {
     justify-content: center;
 }
 
-.lang-list li {
-    padding: 0 11px;
+#content .lang-list li {
+    padding: 0 2em;
 }
 
-.lang-list li.red .level {
+#content .lang-list li.red .level {
     color: #ff493a;
 }
 
-.lang-list li.red .c100 {
+#content .lang-list li.red .c100 {
     background: url(../images/bg-red.svg) no-repeat;
     background-size: 100% 100%;
 }
 
-.lang-list li.blue .level {
+#content .lang-list li.blue .level {
     color: #0092ff;
 }
 
-.lang-list li.blue .c100 {
+#content .lang-list li.blue .c100 {
     background: url(../images/bg-blue.svg) no-repeat;
     background-size: 100% 100%;
 }
 
-.lang-list li .level {
+#content .lang-list li .level {
     display: block;
     text-transform: uppercase;
     color: #51bd00;
-    font-size: 9px;
-    line-height: 12px;
-    margin: 0 0 4px;
+    font-size: 1em;
+    line-height: 2em;
+    margin: 1em;
 }
 
-.lang-list li .c100 {
-    font-size: 9px;
-    line-height: 12px;
+#content .lang-list li .c100 {
+    font-size: 1em;
+    line-height: 2em;
     font-weight: 300;
-    width: 40px;
-    height: 40px;
+    width: 8em;
+    height: 6em;
     background: url(../images/bg-green.svg) no-repeat;
     background-size: 100% 100%;
     display: -webkit-box;
@@ -1179,7 +1185,11 @@ body {
     -ms-flex-align: center;
     align-items: center;
 }
-.instagram-media {
+#content .lang-desc li {
+    line-height: 2em;
+}
+
+#content .instagram-media {
     background:#FFF;
     border:0;
     border-radius:3px;
@@ -1194,15 +1204,73 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    #sidebar .widget .profile {
+        font-size: 1em;
+    }
+    #sidebar .widget .skills .row {
+        width: 101%;
+        margin-bottom: 5px;
+    }
+    #sidebar .widget .hobbies {
+        font-size: 2em;
+    }
     #sidebar,
     #content {
         width: 100%;
+    }
+    #content {
+        padding: 25px 0;
+    }
+    #content .block-holder .exp-row strong {
+        font-size: 1.2em;
+    }
+    #content .block-holder .exp-row strong span {
+        font-size: 0.8em;
+    }
+    #content .block-holder .exp-row .year, 
+    #content .block-holder .exp-row .job {
+        font-size: 1em;
+        line-height: 2em;
+    }
+    #content .block-holder .exp-row p {
+        display: none;
+    }
+    #content .block-holder .exp-row ul {
+        text-align: left;
+        list-style: circle;
+        border-top: 2px dotted;
+        padding-top: 10px;
+    }
+    #content .block-holder .exp-row ul li {
+        line-height: 2em;
+        font-size: 1em;
     }
     .widget-body .list-points {
         width: 357px;
     }
     .widget-body .list-points li:after {
         width: 85px;
+    }
+    .widget-list li {
+        padding-left: 50px;
+    }
+    .widget-list .icon {
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+    }
+    #content .education .exp-row {
+        margin: 10px 0;
+    }
+    #content .lang-list li {
+        padding: 0 1em;
+    }
+    #content .lang-desc {
+        text-align: left;
+        margin-left: 4em;
+    }
+    #content .lang-desc li {
+        line-height: 3em;
     }
 }
 
