@@ -1108,6 +1108,11 @@ body {
     padding-top: 15px;
 }
 
+#content h2.bordered {
+   border-bottom: 2px solid;
+   padding-bottom: 25px;
+}
+
 #content .name span {
     font-size: 0.7em;
 }
