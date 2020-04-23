@@ -9,3 +9,5 @@ It is also available from:
 - [https://stracini.com.br](https://stracini.com.br)
 - [https://guilherme.stracini.com](https://guilherme.stracini.com)
 - [https://stracini.com](https://stracini.com)
+- [https://guilherme.straccini.com.br](https://guilherme.straccini.com.br)
+- [https://straccini.com.br](https://straccini.com.br)
