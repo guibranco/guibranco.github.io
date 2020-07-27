@@ -721,7 +721,7 @@ body {
 
 #content ul li {
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 2.5em;
 }
 
 #sidebar {
@@ -849,6 +849,7 @@ body {
 .widget-body .row {
     position: relative;
     overflow: hidden;
+    margin-top: 15px;
 }
 
 .widget-body .row-title {
