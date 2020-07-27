@@ -849,6 +849,7 @@ body {
 .widget-body .row {
     position: relative;
     overflow: hidden;
+    margin-top: 15px;
 }
 
 .widget-body .row-title {
