@@ -699,7 +699,6 @@ body {
 }
 
 .two-cols {
-    /*max-width: 600px;*/
     max-width: 1200px;
     margin: 0 auto;
     display: -webkit-box;
@@ -717,6 +716,7 @@ body {
 #content ul {
     list-style: none;
     color: white;
+    padding: 0;
 }
 
 #content ul li {
@@ -1077,6 +1077,26 @@ body {
     margin: 20px;
 }
 
+#content h1 {
+    border-bottom: 3px solid #4bbf30;
+    padding-bottom: 10px;
+}
+
+#content .about-row {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+#content .about-row p{
+    font-size: 1em;
+}
+
+#content .about-row ul li{
+    font-size: .9em;
+    line-height: 2em;
+}
+
 #content .exp-row {
     position: relative;
     overflow: hidden;
@@ -1210,78 +1230,110 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
     #sidebar .widget .profile {
         font-size: 1em;
     }
+
     #sidebar .widget .skills .row {
         width: 101%;
         margin-bottom: 5px;
     }
+
     #sidebar .widget .hobbies {
         font-size: 2em;
     }
-    #sidebar,
-    #content {
+
+    #sidebar, #content {
         width: 100%;
     }
+
     #content {
         padding: 25px 0;
     }
+
+    #content .about-row {
+        padding: 1%;
+    }
+
+    #content .about-row ul {
+        width: 100%;
+        margin: 0;
+        padding: 5%;
+        list-style-type: circle;
+    }
+
     #content .block-holder .exp-row strong {
         font-size: 1.2em;
     }
+
     #content .block-holder .exp-row strong span {
         font-size: 0.8em;
     }
+
     #content .block-holder .exp-row .year, 
     #content .block-holder .exp-row .job {
         font-size: 1em;
         line-height: 2em;
     }
+
     #content .block-holder .exp-row p {
         display: none;
     }
+
     #content .block-holder .exp-row ul {
         text-align: left;
         list-style: circle;
         border-top: 2px dotted;
         padding-top: 10px;
     }
+
     #content .block-holder .exp-row ul li {
         line-height: 2em;
         font-size: 1em;
     }
+
     .widget-body .list-points {
         width: 357px;
     }
+
     .widget-body .list-points li:after {
         width: 85px;
     }
+
     .widget-list li {
         padding-left: 50px;
     }
+
     .widget-list .icon {
         width: 32px;
         height: 32px;
         font-size: 20px;
     }
+
     #content .education .exp-row {
         margin: 10px 0;
     }
+
     #content .lang-list li {
         padding: 0 1em;
+        margin: 0 -20px;
     }
+
     #content .lang-desc {
         text-align: left;
         margin-left: 4em;
     }
+
     #content .lang-desc li {
         line-height: 3em;
     }
 }
 
 @media print {
+
     .block-holder {
+        
         page-break-inside: avoid;
     }
     .print-hide {
