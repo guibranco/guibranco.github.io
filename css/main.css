@@ -760,6 +760,7 @@ body {
 
 .widget {
     position: relative;
+    page-break-inside: avoid;
 }
 
 .widget-head {
@@ -1103,6 +1104,7 @@ body {
 #content .exp-row {
     position: relative;
     overflow: hidden;
+    page-break-inside: avoid;
 }
 
 #content .aboutme,
@@ -1394,10 +1396,10 @@ body {
 
 @media print {
 
-    .block-holder {
-        
+    .block-holder {        
         page-break-inside: avoid;
     }
+
     .print-hide {
         display:none;
     }
