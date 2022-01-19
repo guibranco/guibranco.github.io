@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <title>Guilherme Branco Stracini - Senior Software Engineer</title>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7cOpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-      <title>Guilherme Branco Stracini - Senior Software Engineer</title>
-      <link media="all" rel="stylesheet" href="css/main.css?version=20200407150800">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:url" content="https://guibranco.github.io/">
       <meta property="og:title" content="Guilherme Branco Stracini - Senior Software Engineer">
@@ -18,6 +16,8 @@
       <meta property="og:image:height" content="3300">
       <meta property="og:type" content="website">
       <meta property="fb:app_id" content="290252964970555">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7cOpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+      <link media="all" rel="stylesheet" href="/assets/main.css??updatedAt=202201191140500">
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164284296-2"></script>
       <script>
@@ -33,7 +33,7 @@
          <div class="two-cols">
             <aside id="sidebar">
                <div class="profile-img">
-                  <img src="https://guibranco.github.io/photo.png" alt="Guilherme Branco Stracini" title="Guilherme Branco Stracini">
+                  <img src="/photo.png" alt="Guilherme Branco Stracini" title="Guilherme Branco Stracini">
                </div>
                <div class="mobile_action print-hide">
                   <span style="display: block;"></span>
@@ -707,20 +707,5 @@
       </div>
    </body>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-   <script>
-      $('.mobile_action').click(function(){
-
-      if(!$(this).hasClass('active')) {
-         $(this).addClass('active');
-         $('.main_header_nav').animate({'right': '0px'}, 300);
-      } else {
-         $(this).removeClass('active');
-         $('.main_header_nav').animate({'right': '-100%'}, 300);
-      }
-      });
-
-      $('.main_header_nav a').click(function(){
-         $('.mobile_action').trigger('click');
-      });
-   </script>
+   <script src="/assets/main.js?updatedAt=202201191140500"></script>
 </html>
