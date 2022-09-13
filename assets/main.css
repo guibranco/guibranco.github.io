@@ -839,7 +839,7 @@ body {
     overflow: hidden;
     background: #fff;
     padding: 15px 20px;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 .widget-body.style {
@@ -966,6 +966,7 @@ body {
     align-items: center;
     position: relative;
     background: #bbb;
+    font-weight: bold;
 }
 
 .widget-list li:nth-child(2) {
