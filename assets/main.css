@@ -14,15 +14,21 @@ html {
     /* 2 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
-
-/**
- * Remove default margin.
- */
 
 body {
     margin: 0;
+    color: #333;
+    font: 16px/1.2 "Montserrat", "Arial", sans-serif;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+    font-size: 12px;
+    line-height: 13px;
+    background: #e4e5e6;
 }
 
 
@@ -102,6 +108,7 @@ template {
 
 a {
     background-color: transparent;
+    color: #39f;
 }
 
 
@@ -209,6 +216,9 @@ sub {
 
 img {
     border: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
 }
 
 
@@ -261,210 +271,9 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
+    font-family: monospace;
     font-size: 1em;
 }
-
-
-/* Forms
-	 ========================================================================== */
-
-
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-
-
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
-
-button,
-input,
-optgroup,
-select,
-textarea {
-    color: inherit;
-    /* 1 */
-    font: inherit;
-    /* 2 */
-    margin: 0;
-    /* 3 */
-}
-
-
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
-
-button {
-    overflow: visible;
-}
-
-
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
-
-button,
-select {
-    text-transform: none;
-}
-
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-    -webkit-appearance: button;
-    /* 2 */
-    cursor: pointer;
-    /* 3 */
-}
-
-
-/**
- * Re-set default cursor for disabled elements.
- */
-
-button[disabled],
-html input[disabled] {
-    cursor: default;
-}
-
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-
-input {
-    line-height: normal;
-}
-
-
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-
-input[type="checkbox"],
-input[type="radio"] {
-    box-sizing: border-box;
-    /* 1 */
-    padding: 0;
-    /* 2 */
-}
-
-
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-    height: auto;
-}
-
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
- */
-
-input[type="search"] {
-    -webkit-appearance: textfield;
-    /* 1 */
-    box-sizing: content-box;
-    /* 2 */
-}
-
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-
-
-/**
- * Define consistent border, margin, and padding.
- */
-
-fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: .35em .625em .75em;
-}
-
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-
-legend {
-    border: 0;
-    /* 1 */
-    padding: 0;
-    /* 2 */
-}
-
-
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
-
-textarea {
-    overflow: auto;
-}
-
-
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
-
-optgroup {
-    font-weight: bold;
-}
-
 
 /* Tables
 	 ========================================================================== */
@@ -498,11 +307,6 @@ th {
     overflow: hidden;
 }
 
-html {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
 *,
 *:before,
 *:after {
@@ -511,21 +315,6 @@ html {
 
 * {
     max-height: 1000000px;
-}
-
-body {
-    color: #333;
-    background: #fff;
-    font: 16px/1.2 "Montserrat", "Arial", sans-serif;
-    min-width: 320px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: top;
 }
 
 .gm-style img {
@@ -585,116 +374,9 @@ p {
     margin: 0 0 1em;
 }
 
-a {
-    color: #39f;
-}
-
 a:hover,
 a:focus {
     text-decoration: none;
-}
-
-form,
-fieldset {
-    margin: 0;
-    padding: 0;
-    border-style: none;
-}
-
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-input[type="search"],
-input[type="password"],
-textarea {
-    -webkit-appearance: none;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    box-sizing: border-box;
-    border: 1px solid #999;
-    padding: .4em .7em;
-}
-
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="email"]:focus,
-input[type="search"]:focus,
-input[type="password"]:focus,
-textarea:focus {
-    border-color: #333;
-}
-
-input[type="text"]::-webkit-input-placeholder,
-input[type="tel"]::-webkit-input-placeholder,
-input[type="email"]::-webkit-input-placeholder,
-input[type="search"]::-webkit-input-placeholder,
-input[type="password"]::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-    color: #999;
-}
-
-input[type="text"]::-moz-placeholder,
-input[type="tel"]::-moz-placeholder,
-input[type="email"]::-moz-placeholder,
-input[type="search"]::-moz-placeholder,
-input[type="password"]::-moz-placeholder,
-textarea::-moz-placeholder {
-    opacity: 1;
-    color: #999;
-}
-
-input[type="text"]:-moz-placeholder,
-input[type="tel"]:-moz-placeholder,
-input[type="email"]:-moz-placeholder,
-input[type="search"]:-moz-placeholder,
-input[type="password"]:-moz-placeholder,
-textarea:-moz-placeholder {
-    color: #999;
-}
-
-input[type="text"]:-ms-input-placeholder,
-input[type="tel"]:-ms-input-placeholder,
-input[type="email"]:-ms-input-placeholder,
-input[type="search"]:-ms-input-placeholder,
-input[type="password"]:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-    color: #999;
-}
-
-input[type="text"].placeholder,
-input[type="tel"].placeholder,
-input[type="email"].placeholder,
-input[type="search"].placeholder,
-input[type="password"].placeholder,
-textarea.placeholder {
-    color: #999;
-}
-
-select {
-    -webkit-border-radius: 0;
-    border-radius: 0;
-}
-
-textarea {
-    resize: vertical;
-    vertical-align: top;
-}
-
-button,
-input[type="button"],
-input[type="reset"],
-input[type="file"],
-input[type="submit"] {
-    -webkit-appearance: none;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    cursor: pointer;
-}
-
-body {
-    font-size: 12px;
-    line-height: 13px;
-    background: #e4e5e6;
 }
 
 #wrapper {
@@ -733,13 +415,17 @@ body {
     color: #2f2f2f;
 }
 
+.anchor {
+    margin-top: -50px; 
+    margin-bottom: 50px;
+}
+
 .profile-img {
     position: relative;
     overflow: hidden;
     text-align: center;
     background: #bcbcbc;
     padding: 18px 15px 0;
-    text-align: center;
 }
 
 .profile-img:after {
@@ -1031,9 +717,6 @@ body {
     position: absolute;
     left: 50%;
     bottom: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
     content: "";
     background: -webkit-radial-gradient(center ellipse, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
     background: radial-gradient(ellipse at center, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
@@ -1053,9 +736,6 @@ body {
     position: absolute;
     left: 50%;
     top: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
     content: "";
     background: -webkit-radial-gradient(center ellipse, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
     background: radial-gradient(ellipse at center, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
@@ -1159,9 +839,6 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
     text-align: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
