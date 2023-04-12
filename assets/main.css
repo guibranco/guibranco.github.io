@@ -767,6 +767,12 @@ a:focus {
     padding-bottom: 10px;
 }
 
+#content p.sub {
+    font-size: 0.7em;
+    text-align: right;
+    width: 85%;
+}
+
 #content .about-row {
     color: white;
     font-size: 1.2em;
