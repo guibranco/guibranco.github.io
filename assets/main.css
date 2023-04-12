@@ -767,12 +767,6 @@ a:focus {
     padding-bottom: 10px;
 }
 
-#content p.sub {
-    font-size: 0.7em;
-    text-align: right;
-    width: 85%;
-}
-
 #content .about-row {
     color: white;
     font-size: 1.2em;
@@ -781,6 +775,13 @@ a:focus {
 
 #content .about-row p{
     font-size: 1em;
+}
+
+#content .about-row p.sub {
+    font-size: 0.7em;
+    text-align: right;
+    font-weight: bold;
+    width: 78%;
 }
 
 #content .about-row ul li{
