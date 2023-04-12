@@ -974,7 +974,7 @@ a:focus {
 }
 
 #wrapper #content .about-row table caption {
-	margin: 0 5px;
+	margin-bottom: 5px;
 }
 
 #wrapper #content .about-row table,
