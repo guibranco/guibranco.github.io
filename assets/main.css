@@ -773,7 +773,7 @@ a:focus {
     line-height: 1.3em;
 }
 
-#content .about-row p{
+#content .about-row p {
     font-size: 1em;
 }
 
@@ -784,7 +784,7 @@ a:focus {
     width: 78%;
 }
 
-#content .about-row ul li{
+#content .about-row ul li {
     font-size: .9em;
     line-height: 2em;
 }
@@ -981,7 +981,7 @@ a:focus {
 }
 
 #wrapper #content .about-row table caption {
-	margin-bottom: 5px;
+	margin-bottom: 1em;
 }
 
 #wrapper #content .about-row table,
@@ -989,7 +989,7 @@ a:focus {
 #wrapper #content .about-row table tr th,
 #wrapper #content .about-row table tr td {
 	border: 1px solid #FFF;
-	padding: 10px;
+	padding: 1em;
 }
 
 #wrapper #content .about-row table tbody tr:nth-child(odd) {
