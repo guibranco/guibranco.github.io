@@ -973,12 +973,16 @@ a:focus {
 	text-align: center;
 }
 
+#wrapper #content .about-row table {
+	margin: 0 5px;
+}
+
 #wrapper #content .about-row table,
 #wrapper #content .about-row table tr,
 #wrapper #content .about-row table tr th,
 #wrapper #content .about-row table tr td {
 	border: 1px solid #FFF;
-	padding: 2px;
+	padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
