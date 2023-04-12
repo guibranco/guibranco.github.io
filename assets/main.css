@@ -967,6 +967,20 @@ a:focus {
     cursor: pointer;
 }
 
+#wrapper #content .about-row table {
+    	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#wrapper #content .about-row table,
+#wrapper #content .about-row table tr,
+#wrapper #content .about-row table tr th,
+#wrapper #content .about-row table tr td {
+	border: 1px solid #FFF;
+	padding: 2px;
+}
+
 @media only screen and (max-width: 600px) {
 
     .main_header_nav .main_header_nav_item.show-mobile-only {
