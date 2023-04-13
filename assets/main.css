@@ -1062,6 +1062,7 @@ a:focus {
     #content .block-holder .exp-row ul li {
         line-height: 2em;
         font-size: 1em;
+	padding: 10px;
     }
 
     .widget-body .list-points {
