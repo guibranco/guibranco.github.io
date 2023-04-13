@@ -987,7 +987,7 @@ a:focus {
 #content .about-row table,
 #content .about-row table tr,
 #content .about-row table tr th,
-##content .about-row table tr td {
+#content .about-row table tr td {
 	border: 1px solid #FFF;
 	padding: 1em;
 }
