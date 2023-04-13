@@ -1030,6 +1030,10 @@ a:focus {
     #content .about-row {
         padding: 1%;
     }
+	
+    #content .about-row p.sub {
+    	width: 93%;
+    }
 
     #content .about-row ul {
         width: 100%;
