@@ -1054,10 +1054,6 @@ a:focus {
 	margin: auto 5%;
     }
 
-    #content .block-holder .exp-row p {
-        display: none;
-    }
-
     #content .block-holder .exp-row ul {
         text-align: left;
         list-style: circle;
