@@ -974,25 +974,25 @@ a:focus {
     cursor: pointer;
 }
 
-#wrapper #content .about-row table {
+#content .about-row table {
     	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 }
 
-#wrapper #content .about-row table caption {
+#content .about-row table caption {
 	margin-bottom: 1em;
 }
 
-#wrapper #content .about-row table,
-#wrapper #content .about-row table tr,
-#wrapper #content .about-row table tr th,
-#wrapper #content .about-row table tr td {
+#content .about-row table,
+#content .about-row table tr,
+#content .about-row table tr th,
+##content .about-row table tr td {
 	border: 1px solid #FFF;
 	padding: 1em;
 }
 
-#wrapper #content .about-row table tbody tr:nth-child(odd) {
+#content .about-row table tbody tr:nth-child(odd) {
 	background-color: #7c428d;
 }
 
