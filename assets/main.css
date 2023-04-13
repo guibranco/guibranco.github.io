@@ -1022,6 +1022,10 @@ a:focus {
     #content {
         padding: 25px 0;
     }
+	
+    #content .about-row table {
+    	width: 90%;
+    }
 
     #content .about-row {
         padding: 1%;
@@ -1046,6 +1050,8 @@ a:focus {
     #content .block-holder .exp-row .job {
         font-size: 1em;
         line-height: 2em;
+	max-width: 90%;
+	margin: auto 5%;
     }
 
     #content .block-holder .exp-row p {
