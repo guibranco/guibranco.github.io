@@ -925,7 +925,7 @@ a:focus {
     display: block;
     right: 10px;
     top: 2px;
-    padding: 7px 0 0px 0;
+    padding: 7px 0 0px;
     cursor: pointer; 
     z-index: 10000;
     background-color: #FFF;
