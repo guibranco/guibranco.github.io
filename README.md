@@ -12,10 +12,13 @@
 Personal portfolio available at [https://guibranco.github.io](https://guibranco.github.io).
 It is also available from:
 
-- [https://guilhermebranco.com.br](https://guilhermebranco.com.br)
-- [https://guilherme.stracini.com.br](https://guilherme.stracini.com.br)
-- [https://stracini.com.br](https://stracini.com.br)
-- [https://guilherme.stracini.com](https://guilherme.stracini.com)
-- [https://stracini.com](https://stracini.com)
+- [https://guilherme.straccini.com](https://guilherme.straccini.com)
 - [https://guilherme.straccini.com.br](https://guilherme.straccini.com.br)
+- [https://guilherme.stracini.com](https://guilherme.stracini.com)
+- [https://guilherme.stracini.com.br](https://guilherme.stracini.com.br)
+- [https://guilhermebranco.com.br](https://guilhermebranco.com.br)
+- [https://straccini.com](https://straccini.com)
 - [https://straccini.com.br](https://straccini.com.br)
+- [https://stracini.com](https://stracini.com)
+- [https://stracini.com.br](https://stracini.com.br)
+- [https://zerocool.com.br](https://zerocool.com.br)
