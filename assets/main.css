@@ -654,16 +654,8 @@ a:focus {
     font-weight: bold;
 }
 
-.widget-list li:nth-child(2) {
-    background: #c8c8c8;
-}
-
-.widget-list li:nth-child(3) {
-    background: #cdcdcd;
-}
-
-.widget-list li:nth-child(5) {
-    background: #d2d2d2;
+.widget-list li:nth-child(odd) {
+    background: #ccc;
 }
 
 .widget-list .icon {
