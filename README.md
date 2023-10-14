@@ -1,4 +1,4 @@
-# :computer: :nerd_face: GuiBranco GitHub Pages
+# GuiBranco GitHub Pages
 
 [![wakatime](https://wakatime.com/badge/github/guibranco/guibranco.github.io.svg)](https://wakatime.com/badge/github/guibranco/guibranco.github.io)
 [![pages-build-deployment](https://github.com/guibranco/guibranco.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/guibranco/guibranco.github.io/actions/workflows/pages/pages-build-deployment)
@@ -9,7 +9,7 @@
 
 ---
 
-Personal portfolio available at [https://guibranco.github.io](https://guibranco.github.io).
+💻 🤓 Personal portfolio available at [https://guibranco.github.io](https://guibranco.github.io).
 It is also available from:
 
 - [https://guilherme.straccini.com](https://guilherme.straccini.com)
