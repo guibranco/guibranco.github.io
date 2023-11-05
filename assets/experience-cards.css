@@ -1,0 +1,53 @@
+#experience-cards {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#experience-cards .item {
+    background-color: #FFF;
+    border: 3px solid gray;
+    width: calc(50% - 6px);
+    float: left;
+}
+
+#experience-cards .item .company-logo {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#experience-cards .item .company-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+#experience-cards .item .company-name {
+    font-weight: bold;
+}
+
+#experience-cards .item .company-description {
+    color: darkslategray;
+}
+
+#experience-cards .item .job-period {
+    color: orangered;
+}
+
+#experience-cards .item .job-name {
+    color: navy;
+    font-weight: bold;
+}
+
+#experience-cards .item .job-description {
+    color: gray;
+}
+
+#experience-cards .item .job-roles {
+    text-align: justify;
+    list-style: none;
+}
+
+#experience-cards .item .job-roles ul {
+    color: black !important;
+    clear: both;
+}
