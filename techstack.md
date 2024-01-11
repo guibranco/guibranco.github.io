@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [guibranco/guibranco.github.io](https://github.com/guibranco/guibranco.github.io)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|7<br/>Tools used|01/05/24 <br/>Report generated|
+|6<br/>Tools used|01/11/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -87,19 +87,6 @@ Full tech stack [here](/techstack.md)
   <sub><a href="http://www.phpspec.net/en/latest/">PhpSpec</a></sub>
   <br>
   <sub>v8.2.0</sub>
-</td>
-
-</tr>
-</table>
-
-## Other (1)
-<table><tr>
-  <td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/2270/no-img-open-source.png' alt='HTML'>
-  <br>
-  <sub><a href="http://">HTML</a></sub>
-  <br>
-  <sub></sub>
 </td>
 
 </tr>
