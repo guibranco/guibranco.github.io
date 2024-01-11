@@ -2,11 +2,11 @@ repo_name: guibranco/guibranco.github.io
 report_id: b175699178ad9f2d7b5417b77d1f2a12
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:20:05+00:00'
+timestamp: '2024-01-11T12:23:12+00:00'
 requested_by: stack-file[bot]
 provider: github
 branch: main
-detected_tools_count: 7
+detected_tools_count: 6
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -75,13 +75,3 @@ tools:
   detection_source: Dockerfile
   last_updated_by: Guilherme Branco Stracini
   last_updated_on: 2023-02-09 09:04:38.000000000 Z
-- name: HTML
-  description: Hypertext Markup Language for creating web pages.
-  website_url: http://
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
-  detection_source_url: https://github.com/guibranco/guibranco.github.io/blob/main/experience-cards.html
-  detection_source: experience-cards.html
-  last_updated_by: Guilherme Branco Stracini
-  last_updated_on: 2023-11-05 16:27:31.000000000 Z
