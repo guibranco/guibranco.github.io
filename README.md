@@ -15,6 +15,13 @@ Portfolio website (current version - 2018)
 
 ![Guilherme Branco Stracini](guibranco.png)
 
+This is the second and current version of my portfolio. It was first designed in 2018 and is hosted by GH Pages.
+This version is my resume with my occupations in the last years and some hobbies.
+The previous version is still active and lists some projects I have in my old hosting account. 
+
+- [2007 version](https://github.com/guibranco/zerocool)
+- [2018 version](https://github.com/guibranco/guibranco.github.io)
+
 ---
 
 ## Urls
