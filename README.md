@@ -1,5 +1,7 @@
 # GuiBranco GitHub Pages
 
+Portfolio website (current version - 2018)
+
 [![wakatime](https://wakatime.com/badge/github/guibranco/guibranco.github.io.svg)](https://wakatime.com/badge/github/guibranco/guibranco.github.io)
 [![pages-build-deployment](https://github.com/guibranco/guibranco.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/guibranco/guibranco.github.io/actions/workflows/pages/pages-build-deployment)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1c8cefe0518dd7694b96/maintainability)](https://codeclimate.com/github/guibranco/guibranco.github.io/maintainability)
@@ -10,7 +12,12 @@
 ---
 
 💻 🤓 Personal portfolio available at [https://guibranco.github.io](https://guibranco.github.io).
-It is also available from:
+
+![Guilherme Branco Stracini](og_photo.png)
+
+---
+
+## Urls
 
 - [https://guilherme.straccini.com](https://guilherme.straccini.com)
 - [https://guilherme.straccini.com.br](https://guilherme.straccini.com.br)
@@ -21,3 +28,8 @@ It is also available from:
 - [https://straccini.com.br](https://straccini.com.br)
 - [https://stracini.com](https://stracini.com)
 - [https://stracini.com.br](https://stracini.com.br)
+
+---
+
+Copyright Guilherme Branco Stracini © 2018 - 2024
+
