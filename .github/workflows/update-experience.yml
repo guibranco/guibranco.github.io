@@ -1,0 +1,38 @@
+name: Update experience
+
+on:
+  schedule:
+    - cron: '30 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  update-experience:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download experience data
+        run: curl -o experience.json https://raw.githubusercontent.com/guibranco/guibranco/main/.github/automations/experience.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "yarn"
+
+      - name: Run script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          yarn install
+          yarn start-experience
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --global --add --bool push.autoSetupRemote true
+          git add index.html
+          git commit -m 'Update experience table'
+          git push
