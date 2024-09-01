@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start-experience": "node .github/automations/experience.js"
+    "start-experience": "node .github/automations/update-experience.js"
   },
   "dependencies": {
     "calculate-age": "^1.0.0",
