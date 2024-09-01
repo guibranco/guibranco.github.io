@@ -3,10 +3,24 @@ version: 2
 
 updates:
 
+- package-ecosystem: "npm"
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 50
+  assignees: 
+    - "guibranco"
+  reviewers: 
+    - "guibranco"
+  labels:
+    - "npm"
+    - "javascript"
+    - "dependencies"
+
 - package-ecosystem: "github-actions"
   directory: "/"
   schedule:
-    interval: daily
+    interval: weekly
   open-pull-requests-limit: 50
   assignees: 
     - "guibranco"
