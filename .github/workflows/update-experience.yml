@@ -27,6 +27,7 @@ jobs:
         run: |
           yarn install
           yarn start-experience
+          rm experience.json
 
       - name: Commit changes
         run: |
