@@ -91,6 +91,7 @@ async function main() {
     indexHtml = indexHtml.replace(/<!-- START EXPERIENCE TABLE -->.*<!-- END EXPERIENCE TABLE -->/s, experienceTable);
 
     fs.writeFileSync('index.html', indexHtml, 'utf8');
+    console.log("Updated!");
 }
 
 main();
