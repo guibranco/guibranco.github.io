@@ -81,11 +81,11 @@ async function main() {
     const data = fs.readFileSync(fileName, 'utf8');
     const json = JSON.parse(data);
     const rows = chunk(json, columns).map((row) => generateRow(row));
-    const html = `<table width="100%"><thead><th colspan="5">Experience (in years)</th></thead><tbody>${rows.join('')}</tbody></table>`;
 
-    let experienceTable = '<!-- START EXPERIENCE TABLE -->';
-    experienceTable += html;
-    experienceTable += '<!-- END EXPERIENCE TABLE -->';
+    let experienceTable = '';
+    experienceTable += '<!--START_SECTION:experience-table-->';
+    experienceTable += rows.join('');
+    experienceTable += '<!--END_SECTION:experience-table-->';
 
     let indexHtml = fs.readFileSync('index.html', 'utf8');
     indexHtml = indexHtml.replace(/<!--START_SECTION:experience-table-->.*<!--END_SECTION:experience-table-->/s, experienceTable);
