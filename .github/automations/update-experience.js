@@ -87,11 +87,12 @@ async function main() {
     experienceTable += html;
     experienceTable += '<!-- END EXPERIENCE TABLE -->';
 
+    console.log(experienceTable);
+
     let indexHtml = fs.readFileSync('index.html', 'utf8');
     indexHtml = indexHtml.replace(/<!-- START EXPERIENCE TABLE -->.*<!-- END EXPERIENCE TABLE -->/s, experienceTable);
 
     fs.writeFileSync('index.html', indexHtml, 'utf8');
-    console.log("Updated!");
 }
 
 main();
