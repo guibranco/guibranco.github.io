@@ -10,7 +10,7 @@ Portfolio website (current version - 2018)
 
 ---
 
-💻 🤓 Personal portfolio available at [https://guibranco.github.io](https://guibranco.github.io).
+💻 🤓 Personal portfolio available at [https://guilherme.stracini.com.br](https://guilherme.stracini.com.br).
 
 ![Guilherme Branco Stracini](guibranco.png)
 
