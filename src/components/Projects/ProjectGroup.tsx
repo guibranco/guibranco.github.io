@@ -20,7 +20,7 @@ const ProjectGroup = ({ title, projects }: ProjectGroupProps) => {
             className="transition-transform duration-200 hover:scale-105"
           >
             <img 
-              src={`https://github-readme-stats-git-feature-private-repositories-guibranco.vercel.app//api/pin/?username=${project.repo.split('/')[0]}&repo=${project.repo.split('/')[1]}&theme=synthwave&bg_color=341b3b&show_issues=true&show_pull_requests=true${project.repo.split('/')[0] !== 'guibranco' ? '&show_owner=true' : ''}`}
+              src={`https://github-readme-stats-git-feature-private-repositories-guibranco.vercel.app//api/pin/?username=${project.repo.split('/')[0]}&repo=${project.repo.split('/')[1]}&theme=synthwave&bg_color=341b3b&show_issues=true&show_pull_requests=true${project.repo.split('/')[0] !== 'guibranco' ? `&show_owner=${project.showOwner}` : ''}`}
               alt={project.name}
               className="w-full"
             />
