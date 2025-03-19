@@ -12,7 +12,7 @@ Portfolio website (current version - 2018)
 
 💻 🤓 Personal portfolio available at [https://guilherme.stracini.com.br](https://guilherme.stracini.com.br).
 
-![Guilherme Branco Stracini](guibranco.png)
+![Guilherme Branco Stracini](public/guibranco.png)
 
 This is the second and current version of my portfolio. It was first designed in 2018 and is hosted by GH Pages.
 This version is my resume with my occupations in the last years and some hobbies.
