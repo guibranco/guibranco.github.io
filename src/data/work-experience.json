@@ -57,8 +57,8 @@
           "workModel": "hybrid",
           "description": "Working in Grocery Fulfillment Squad",
           "achievements": [
-            "Improve the quality of the fulfillment process by working together with all grocery tribe",
-            "Migration from monolithic architecture to microservices architecture",
+            "Improve the quality of the fulfillment process by working together with all grocery tribes",
+            "Migration from a monolithic architecture to microservices architecture",
             "Item heartbeat/grocery catalog availability monitoring, providing pickers to set an item unavailable at handle & ship process",
             "Item replacement allowing customers, pickers, and back-office change unavailable items on order",
             "Robocalls, automated phone calls with Asterisk integration",
@@ -75,7 +75,7 @@
           "description": "Working in Shopping Experience squad (former FAST - Finding and Shopping Team squad)",
           "achievements": [
             "Improve search, offers, and shopping experience in Grocery tribe / QCommerce tribe",
-            "Migration from monolithic architecture to microservices architecture",
+            "Migration from a monolithic architecture to microservices architecture",
             "Building APIs and services with C# (.NET 5/6/7), Amazon SQS, SQL Server and PostgreSQL",
             "Configure backend for frontend (BFF) API gateway using KrakenD, Luna, and GoLang",
             "DDD (Domain Driven Design) and TDD (Test Driven Development) approaches",
@@ -104,8 +104,8 @@
           "title": "Senior Software Engineer / .NET Developer",
           "period": "June/2021 - Nov/2021",
           "contractType": "part-time",
-          "workModel": "hybrid",
-          "description": "(Part-Time / Contract) Working in Customer Experience Hub (CXH) platform",
+          "workModel": "remote",
+          "description": "Working in Customer Experience Hub (CXH) platform",
           "achievements": [
             "Integrations with Instacart and BestBuy",
             "Improve the quality of code, fixing code smells and bugs",
@@ -129,8 +129,8 @@
           "title": "Senior Software Engineer / Node.JS Developer",
           "period": "May/2021 - August/2021",
           "contractType": "part-time",
-          "workModel": "hybrid",
-          "description": "(Part-Time / Contract) Working for FCamara in the Open Banking / Open Finance project",
+          "workModel": "remote",
+          "description": "Working for FCamara in the Open Banking / Open Finance project",
           "achievements": [
             "Developing IdP (Identity Provider), DCR (Dynamic Client Registration) R",
             "Developing White Label platform",
@@ -155,7 +155,7 @@
           "title": "Senior Software Engineer / .NET Developer",
           "period": "Feb/2021 - May/2021",
           "contractType": "part-time",
-          "workModel": "hybrid",
+          "workModel": "remote",
           "description": "Working for Grace Kennedy Group, the biggest financial & food group in Jamaica and the Caribbean area",
           "achievements": [
             "Remittance integration with Western Union",
