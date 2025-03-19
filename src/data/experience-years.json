@@ -2,11 +2,11 @@
   "experiences": [
     {
       "title": "C# .NET",
-      "startDate": "01/2010"
+      "startDate": "01/2011"
     },
     {
       "title": "Node.JS (JS/TS)",
-      "startDate": "01/2014"
+      "startDate": "01/2015"
     },
     {
       "title": "PHP",
@@ -14,7 +14,7 @@
     },
     {
       "title": "MS SQL Server",
-      "startDate": "01/2008"
+      "startDate": "06/2008"
     },
     {
       "title": "MySQL/MariaDB",
@@ -22,31 +22,31 @@
     },
     {
       "title": "CosmosDB",
-      "startDate": "01/2021"
+      "startDate": "06/2021"
     },
     {
       "title": "Elastic Search",
-      "startDate": "01/2015"
-    },
-    {
-      "title": "Redis",
-      "startDate": "01/2014"
-    },
-    {
-      "title": "RabbitMQ",
       "startDate": "01/2016"
     },
     {
+      "title": "Redis",
+      "startDate": "01/2015"
+    },
+    {
+      "title": "RabbitMQ",
+      "startDate": "01/2017"
+    },
+    {
       "title": "AWS",
-      "startDate": "01/2014"
+      "startDate": "01/2015"
     },
     {
       "title": "Azure",
-      "startDate": "01/2020"
+      "startDate": "01/2021"
     },
     {
       "title": "Oracle 11g",
-      "startDate": "01/2018"
+      "startDate": "11/2018"
     },
     {
       "title": "JS (Frontend)",
@@ -54,31 +54,31 @@
     },
     {
       "title": "jQuery",
-      "startDate": "01/2008"
+      "startDate": "06/2007"
     },
     {
       "title": "ReactJS",
-      "startDate": "01/2015"
+      "startDate": "01/2016"
     },
     {
       "title": "Terraform",
-      "startDate": "01/2021"
+      "startDate": "05/2021"
     },
     {
       "title": "Rust",
-      "startDate": "01/2019"
-    },
-    {
-      "title": "Python",
       "startDate": "01/2020"
     },
     {
+      "title": "Python",
+      "startDate": "11/2020"
+    },
+    {
       "title": "Vite",
-      "startDate": "01/2024"
+      "startDate": "06/2024"
     },
     {
       "title": "Docker",
-      "startDate": "01/2018"
+      "startDate": "01/2019"
     }
   ]
 }
