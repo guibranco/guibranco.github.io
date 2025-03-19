@@ -1,0 +1,400 @@
+{
+  "experiences": [
+    {
+      "company": "OUTsurance Ireland",
+      "logo": "https://guilherme.stracini.com.br/images/experience/OUTSurance.png",
+      "location": "Dublin, Ireland",
+      "description": "Insurance services | +100 employees (only in Ireland)",
+      "period": "April/2023 - Now",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/ie.svg",
+      "linkedin": "https://www.linkedin.com/company/outsurance-ireland/",
+      "website": "https://outsurance.ie/",
+      "roles": [
+        {
+          "title": "Senior Software Engineer / .NET Developer",
+          "period": "April/2023 - Now",
+          "contractType": "full-time",
+          "workModel": "hybrid",
+          "description": "Working in Finance & Billing project",
+          "achievements": [
+            "Develop billing, collections, and payments schedule system",
+            "Develop of shadow ledger system",
+            "ISO 20022: PAIN (Payments Initiation) messages",
+            "Integration with policy administration portal",
+            "Integration with payment gateways and banks (credit card and direct debit payments)",
+            "Saga pattern using NServiceBus, Azure Service Bus, RabbitMQ, and CosmosDB",
+            "Building APIs and services with C# .NET 7, CosmosDB, Container App, Container App Job",
+            "Setup infrastructure with IaC using Terraform",
+            "Agile culture & ceremonies using Scrum and Kanban over Jira and Azure DevOps"
+          ]
+        }
+      ],
+      "relatedCompanies": [
+        {
+          "name": "OUTsurance South Africa",
+          "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/za.svg"
+        },
+        {
+          "name": "YouI Australia",
+          "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/au.svg"
+        }
+      ]
+    },
+    {
+      "company": "Talabat",
+      "logo": "https://guilherme.stracini.com.br/images/experience/Talabat.png",
+      "location": "Dubai, UAE",
+      "description": "Food ordering services | +16K employees",
+      "period": "Jan/2022 - March/2023",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/ae.svg",
+      "linkedin": "https://www.linkedin.com/company/talabat-com/",
+      "website": "https://talabat.com/",
+      "roles": [
+        {
+          "title": "Software Engineer / .NET Developer",
+          "period": "May/2021 - Dec/2021",
+          "contractType": "full-time",
+          "workModel": "hybrid",
+          "description": "Working in Grocery Fulfillment Squad",
+          "achievements": [
+            "Improve the quality of the fulfillment process by working together with all grocery tribe",
+            "Migration from monolithic architecture to microservices architecture",
+            "Item heartbeat/grocery catalog availability monitoring, providing pickers to set an item unavailable at handle & ship process",
+            "Item replacement allowing customers, pickers, and back-office change unavailable items on order",
+            "Robocalls, automated phone calls with Asterisk integration",
+            "Building APIs and services with C# (.NET 5), Amazon SQS, Amazon Lambda, SQL Server, and PostgreSQL",
+            "DDD (Domain Driven Design) approach",
+            "Agile culture & ceremonies using Scrum and Kanban over Jira"
+          ]
+        },
+        {
+          "title": "Software Engineer / .NET Developer",
+          "period": "Jan/2022 - March/2023",
+          "contractType": "full-time",
+          "workModel": "hybrid",
+          "description": "Working in Shopping Experience squad (former FAST - Finding and Shopping Team squad)",
+          "achievements": [
+            "Improve search, offers, and shopping experience in Grocery tribe / QCommerce tribe",
+            "Migration from monolithic architecture to microservices architecture",
+            "Building APIs and services with C# (.NET 5/6/7), Amazon SQS, SQL Server and PostgreSQL",
+            "Configure backend for frontend (BFF) API gateway using KrakenD, Luna, and GoLang",
+            "DDD (Domain Driven Design) and TDD (Test Driven Development) approaches",
+            "Agile culture & ceremonies using Scrum over Jira"
+          ]
+        }
+      ],
+      "relatedCompanies": [
+        {
+          "name": "Delivery Hero",
+          "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/de.svg"
+        }
+      ]
+    },
+    {
+      "company": "Syndigo",
+      "logo": "https://guilherme.stracini.com.br/images/experience/Syndigo.png",
+      "location": "Chicago, USA",
+      "description": "Product information management | +600 employees",
+      "period": "June/2021 - Nov/2021",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/us.svg",
+      "linkedin": "https://www.linkedin.com/company/syndigo/",
+      "website": "https://syndigo.com/",
+      "roles": [
+        {
+          "title": "Senior Software Engineer / .NET Developer",
+          "period": "June/2021 - Nov/2021",
+          "contractType": "part-time",
+          "workModel": "hybrid",
+          "description": "(Part-Time / Contract) Working in Customer Experience Hub (CXH) platform",
+          "achievements": [
+            "Integrations with Instacart and BestBuy",
+            "Improve the quality of code, fixing code smells and bugs",
+            "Building APIs and services with C# (.NET Core 3.1/.NET 5), Azure Blob Storage and SQL Server",
+            "Agile culture & ceremonies using Scrum and Kanban over Jira and Azure DevOps"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "FCamara group",
+      "logo": "https://guilherme.stracini.com.br/images/experience/FCamara.png",
+      "location": "São Paulo, Brazil",
+      "description": "Financial services | +500 employees",
+      "period": "May/2021 - August/2021",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "linkedin": "https://www.linkedin.com/company/fcamara-consulting-&-training/",
+      "website": "https://fcamara.com/",
+      "roles": [
+        {
+          "title": "Senior Software Engineer / Node.JS Developer",
+          "period": "May/2021 - August/2021",
+          "contractType": "part-time",
+          "workModel": "hybrid",
+          "description": "(Part-Time / Contract) Working for FCamara in the Open Banking / Open Finance project",
+          "achievements": [
+            "Developing IdP (Identity Provider), DCR (Dynamic Client Registration) R",
+            "Developing White Label platform",
+            "Integration with Banco Pan",
+            "Building APIs with Node.JS, Cosmos Db, Azure Service Bus",
+            "Agile culture & ceremonies using Scrum and Kanban over Azure DevOps"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Grace Kennedy Financial Group",
+      "logo": "https://guilherme.stracini.com.br/images/experience/GraceKennedyFinancialGroup.jpg",
+      "location": "Kingston, Jamaica",
+      "description": "Financial services | +800 employees",
+      "period": "Feb/2021 - May/2021",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/jm.svg",
+      "linkedin": "https://www.linkedin.com/company/gkfg/",
+      "website": "https://gracekennedyfinancialgroup.com/",
+      "roles": [
+        {
+          "title": "Senior Software Engineer / .NET Developer",
+          "period": "Feb/2021 - May/2021",
+          "contractType": "part-time",
+          "workModel": "hybrid",
+          "description": "Working for Grace Kennedy Group, the biggest financial & food group in Jamaica and the Caribbean area",
+          "achievements": [
+            "Remittance integration with Western Union",
+            "Digital wallet system",
+            "Building API and Services with C# (.NET Core 3.1 and .NET 5), using CosmosDB, Microsoft Azure Service Bus, Entity Framework Core, Dapper, Application Insights, RPA (Robotic Procedure Automation)",
+            "Agile culture & ceremonies using Scrum and Kanban over Azure DevOps"
+          ]
+        }
+      ],
+      "consultingCompany": {
+        "name": "The Bridge Social",
+        "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/cl.svg",
+        "logo": "https://guilherme.stracini.com.br/images/experience/TheBridgeSocial.png",
+        "linkedin": "https://www.linkedin.com/company/thebridgesocial/",
+        "website": "https://thebridge.social/"
+      }
+    },
+    {
+      "company": "Farfetch",
+      "logo": "https://guilherme.stracini.com.br/images/experience/Farfetch.png",
+      "location": "Porto, Portugal",
+      "description": "E-commerce platform | +6k employees",
+      "period": "Dec/2020 - May/2021",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/pt.svg",
+      "linkedin": "https://www.linkedin.com/company/farfetch.com/",
+      "website": "https://farfetch.com/",
+      "roles": [
+        {
+          "title": "Senior Software Engineer / .NET Developer",
+          "period": "Dec/2020 - May/2021",
+          "contractType": "full-time",
+          "workModel": "hybrid",
+          "description": "Allocated in Farfetch, a leading global platform in the luxury fashion online market",
+          "achievements": [
+            "Being part of Search & Scouts team",
+            "Development of improvements in the search services of the platform",
+            "Development solutions using Kafka, Cassandra, C# (.NET Core), Elastic Search",
+            "Working side-by-side with the Data Scientists team providing data and schemes for our project",
+            "Agile culture & ceremonies using Scrum and Kanban over Jira"
+          ]
+        }
+      ],
+      "consultingCompany": {
+        "name": "Multivision",
+        "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/pt.svg",
+        "logo": "https://guilherme.stracini.com.br/images/experience/Multivision.png",
+        "linkedin": "https://www.linkedin.com/company/multivisionconsulting/",
+        "website": "https://multivision.pt/"
+      }
+    },
+    {
+      "company": "Banco BS2",
+      "logo": "https://guilherme.stracini.com.br/images/experience/BS2.png",
+      "location": "Belo Horizonte, Brazil",
+      "description": "Financial services | +2k employees",
+      "period": "July/2019 - Jan/2021",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "linkedin": "https://www.linkedin.com/company/bancobs2/",
+      "website": "https://bs2.com/",
+      "roles": [
+        {
+          "title": "Senior Software Engineer / .NET Developer",
+          "period": "March/2020 - Jan/2021",
+          "contractType": "full-time",
+          "workModel": "on-site",
+          "description": "Working for BS2 bank, a digital bank company, in the special projects team, part of the financial services division",
+          "achievements": [
+            "Implementation of PIX/SPI (Brazilian Instantly payments - BACEN - Banco Central do Brasil)",
+            "ISO 20022: ADMI (Administration), CAMT (Cash Management), PACS (Payments Clearing and Settlement) and REDA (Reference Data) messages",
+            "Development of APIs and Services using C# .NET Core, Dapper, Entity Framework and DDD",
+            "Architecture of the CORE PIX and Indirect PIX solutions inside the BS2 Bank",
+            "Development of accounting system for Indirect PIX partners",
+            "Development of distributed systems using RabbitMQ",
+            "Deploy and development using Docker containers",
+            "Supporting internal clients in integration process",
+            "Agile culture & ceremonies using Scrum and Kanban over Azure DevOps"
+          ]
+        },
+        {
+          "title": "Middle Software Engineer / .NET Developer",
+          "period": "July/2019 - March/2020",
+          "contractType": "full-time",
+          "workModel": "on-site",
+          "description": "Working for BS2 bank, a digital bank company in the B2B tribe, on API Banking squad",
+          "achievements": [
+            "Development of API banking product (https://devs.bs2.com) - BaaS (Banking as a Service)",
+            "Development of open banking project",
+            "Development of APIs and Services using C# .NET Core, Dapper, Entity Framework and DDD",
+            "Development of distributed systems using RabbitMQ",
+            "Deploy and development using Docker containers",
+            "Supporting clients in integration process",
+            "Agile culture & ceremonies using Scrum and Kanban over Team Foundation Services (TFS)"
+          ]
+        }
+      ],
+      "consultingCompany": {
+        "name": "K2 Partnering",
+        "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/gb.svg",
+        "logo": "https://guilherme.stracini.com.br/images/experience/K2PartneringSolutions.png",
+        "linkedin": "https://www.linkedin.com/company/k2-partnering-solutions/",
+        "website": "https://k2partnering.com/"
+      }
+    },
+    {
+      "company": "C&A Modas",
+      "logo": "https://guilherme.stracini.com.br/images/experience/CeA.png",
+      "location": "Barueri, Brazil",
+      "description": "Fashion company | +16k employees (only in Brazil)",
+      "period": "Dec/2018 - June/2019",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "linkedin": "https://www.linkedin.com/company/c&a/",
+      "website": "https://cea.com.br/",
+      "roles": [
+        {
+          "title": "Middle Software Engineer / .NET & Node.JS Developer / Fullstack Developer",
+          "period": "Dec/2018 - June/2019",
+          "contractType": "full-time",
+          "workModel": "on-site",
+          "description": "Working for C&A Modas, a worldwide fashion company with more than 16 thousand employees working on the e-commerce team, on the refund/reversal squad",
+          "achievements": [
+            "Development of integration solutions using Zendesk, SAP, Oracle, and other internal systems",
+            "Automation of payment/refund process using Adyen gateway",
+            "Automation of process using C# .NET Core",
+            "Develop new features and APIs using Node.JS (Express & HAPI)",
+            "Develop of a unified library in C# .NET Core to be used internally by all teams, with commons & utils needs",
+            "Agile culture & ceremonies using Scrum and Kanban over Jira"
+          ]
+        }
+      ],
+      "consultingCompany": {
+        "name": "Foco em Você",
+        "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+        "logo": "https://guilherme.stracini.com.br/images/experience/FocoEmVoce.png"
+      }
+    },
+    {
+      "company": "Editora Inovação / Inovação Media Brasil",
+      "logo": "https://guilherme.stracini.com.br/images/experience/EditoraInovacao.png",
+      "location": "São Paulo, Brazil",
+      "description": "Content producer / online retail seller | +100 employees",
+      "period": "Nov/2011 - Nov/2018",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "linkedin": "https://www.linkedin.com/company/editora-inovacao-ltda/",
+      "roles": [
+        {
+          "title": "Development Coordinator",
+          "period": "Jan/2016 - Nov/2018",
+          "contractType": "full-time",
+          "workModel": "on-site",
+          "description": "Head of development in IT department. Managing developer's team, agencies, and associates",
+          "achievements": [
+            "Development of services and APIs using C# (.NET Framework 4.7/4.8/4.8.1 and .NET Core 2.1)",
+            "Implement SOLID principles",
+            "Implement Apache Kafka and RabbitMQ for distributed systems process",
+            "Implement Elastic Search and Kibana for log & metrics purposes",
+            "Development of an internal search engine using data from Elastic Search (clients, orders and orders items)",
+            "Deploy, evangelize, and speech of continuous integration and continuous delivery (CI/CD)",
+            "Development of integrations solutions",
+            "Development of RESTful APIs for mobile apps",
+            "Coordinate the development of a CRM system",
+            "DevOps culture",
+            "Agile culture & ceremonies using Scrum and Kanban over Trello and RunRun.It"
+          ]
+        },
+        {
+          "title": "Software Development Analyst",
+          "period": "Nov/2013 - Dec/2015",
+          "contractType": "full-time",
+          "workModel": "on-site",
+          "description": "Development of paid subscription platform, integration with services and APIs, resource management",
+          "achievements": [
+            "Website development using ASP.NET C# .NET technology and MVC standard",
+            "Web API 2 (C# .NET) web applications for user data access (via client web application) and restricted access data management of other internal projects",
+            "Application development for product and order integration with the Smart Checkout / VTEX platform (SOAP web service / REST API)",
+            "Payment gateway integration - MaxiPago for subscription management",
+            "Management of triggers and procedures in Microsoft SQL Server 2008 database",
+            "Disaster Management / Automated Backup Plans on Microsoft SQL Server and Windows Server",
+            "Automated backup with Amazon Web Service (AWS) S3"
+          ]
+        },
+        {
+          "title": "IT Analyst / JR Developer",
+          "period": "Nov/2012 - Oct/2013",
+          "contractType": "full-time",
+          "workModel": "on-site",
+          "description": "Develop content platforms, video portals, internal systems, and integrations",
+          "achievements": [
+            "Development of video portal using C# .NET language and MVC standard",
+            "Development of service integration tool (SOAP web service and REST API) in C# .NET",
+            "Monitoring and management of SQL Server database",
+            "Requirements gathering",
+            "Monitoring and management of SQL Server",
+            "Planning, modeling, implementation, and process documentation - ERP (Sankhya)"
+          ]
+        },
+        {
+          "title": "Internship - IT",
+          "period": "Nov/2011 - Oct/2012",
+          "contractType": "full-time",
+          "workModel": "on-site",
+          "description": "Main help desk and support",
+          "achievements": [
+            "Development of email marketing campaigns (coding, triggering, reports)",
+            "Formatting, maintenance and installation of micro-computers(Windows and Linux Ubuntu)",
+            "General software installation and configuration",
+            "Development of internal systems in VB.NET",
+            "Development of system (VB.NET) for management of digital PBX (Total IP)",
+            "Development of new features, tools, and bug fixes in existing projects (classic ASP and PHP)"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Freelance Software Developer",
+      "logo": "https://guilherme.stracini.com.br/images/experience/GuilhermeBrancoStracini.png",
+      "location": "São Paulo, Brazil",
+      "description": "Independent consultant",
+      "period": "2007 - Now",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "linkedin": "https://www.linkedin.com/company/guilherme-branco-stracini-me/",
+      "website": "https://guilherme.straccini.com",
+      "roles": [
+        {
+          "title": "Developer / Analyst / Consultant",
+          "period": "2007 - Now",
+          "contractType": "freelance",
+          "workModel": "remote",
+          "description": "Acting as an independent consultant for some companies, worked on some projects per contract/deliveries",
+          "achievements": [
+            "Development of portals and applications using: C# .NET, PHP, Node.JS, Bootstrap, Bulma, Materialize",
+            "One-off jobs, as a freelancer, using C# .NET, PHP, SQL, Node.JS and Rust",
+            "Consultancy",
+            "Integrations with VTEX (SaaS e-commerce platform) using C# .NET framework",
+            "Integrations with Sankhya (ERP) using C# .NET framework and Microsoft SQL Server",
+            "Integrations with payment gateways",
+            "EBAOH project - Products review platform with gamification"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "projects": [
+    "Insurance platform (billing, collections and payments, accounting and actuary)",
+    "Food & Grocery delivery - Shopping Experience & Order Fulfillment",
+    "Western Union integration/RPA for remittance across countries",
+    "Digital wallet (payments, transfers, remittance, balance, statement, mobile top-up, credit card)",
+    "SPI PIX - Brazilian Instant Payments System (Brazil - BACEN)",
+    "Open Banking / Open Finance (Brazil - BACEN)",
+    "Banking as a Service (BaaS) / API Banking",
+    "Internet banking project for B2B customers",
+    "Gateway integrations with MaxiPago, Adyen, PayPal, Pagar.Me, Western Union, and Stripe",
+    "ISO 20022: ADMI, CAMT, PACS, PAIN, REDA messages",
+    "VTEX (e-commerce PaaS), Zendesk (CRM) - integration",
+    "Sankhya / SAP (ERPs) - management, analysis, integration",
+    "Digital video platforms - development",
+    "Subscription learning platform - development",
+    "Database management",
+    "Microservices culture",
+    "Distributed systems using RabbitMQ, Apache Kafka, Azure Service Bus",
+    "Agile methodologies",
+    "Software Development Lifecycle (SDLC)",
+    "General web development",
+    {
+      "text": "Open Source Software (OSS) projects in C# .NET, PHP, Rust, and JS/TS, available at ",
+      "link": {
+        "url": "https://github.com/guibranco",
+        "text": "https://github.com/guibranco"
+      }
+    }
+  ]
+}

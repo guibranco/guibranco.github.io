@@ -1,0 +1,13 @@
+.profile-img {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: transparent;
+    padding: 18px 15px;
+}
+
+.profile-img img {
+    max-width: 100%;
+    position: relative;
+    z-index: 5;
+}

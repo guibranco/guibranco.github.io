@@ -1,0 +1,190 @@
+#content ul {
+    list-style: none;
+    color: white;
+    padding: 0;
+}
+
+#content ul li {
+    font-size: 1.2em;
+    line-height: 2.5em;
+}
+
+#content .block-holder {
+    position: relative;
+    padding: 25px 0;
+}
+
+#content .block-holder:last-child:after {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    content: "";
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
+    width: 130px;
+    height: 10px;
+    background-size: 100% 100%;
+    transform: translate(-50%, 0);
+}
+
+#content .block-holder.white {
+    color: #fff;
+}
+
+#content .block-holder:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: "";
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
+    width: 130px;
+    height: 10px;
+    background-size: 100% 100%;
+    transform: translate(-50%, 0);
+}
+
+#content h1,
+#content h2 {
+    font-size: 1.8em;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+#content h4 {
+    margin: 20px;
+}
+
+#content h1 {
+    border-bottom: 3px solid #4bbf30;
+    padding-bottom: 10px;
+}
+
+#content .about-row {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+#content .about-row p {
+    font-size: 1em;
+}
+
+#content .about-row p.sub {
+    font-size: 0.7em;
+    text-align: right;
+    font-weight: bold;
+    width: 78%;
+}
+
+#content .about-row ul li {
+    font-size: .9em;
+    line-height: 2em;
+}
+
+#content .exp-row {
+    position: relative;
+    overflow: hidden;
+    page-break-inside: avoid;
+}
+
+#content .aboutme,
+#content .name,
+#content .year,
+#content .job {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9589a0;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+
+#content .aboutme {
+    color: #a7ff00;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 1.2em;
+}
+
+#content .name {
+    color: #0092ff;
+    font-weight: 700;
+    border-top: 3px solid;
+    padding-top: 15px;
+}
+
+#content h2.bordered {
+   border-bottom: 2px solid;
+   padding-bottom: 25px;
+}
+
+#content .name span {
+    font-size: 0.7em;
+}
+
+#content .name.yellow {
+    color: #ffbd00;
+}
+
+/* Experience table styles */
+#content .about-row table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#content .about-row table caption {
+    margin-bottom: 1em;
+}
+
+#content .about-row table,
+#content .about-row table tr,
+#content .about-row table tr th,
+#content .about-row table tr td {
+    border: 1px solid #FFF;
+    padding: 0.5em;
+    color: #FFF;
+}
+
+#content .about-row table thead th {
+    background-color: #4a2654;
+    font-weight: bold;
+}
+
+#content .about-row table tbody tr:nth-child(odd) {
+    background-color: #7c428d;
+}
+
+#content .about-row table tbody tr:nth-child(even) {
+    background-color: #4a2654;
+}
+
+#content .about-row table td strong {
+    color: #a7ff00;
+    font-weight: bold;
+}
+
+.responsive-table {
+    width: 100%;
+    overflow-x: auto;
+    margin: 2rem 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+    #content .about-row table {
+        font-size: 0.8em;
+    }
+
+    #content .about-row table td {
+        padding: 0.4em;
+        white-space: nowrap;
+    }
+}

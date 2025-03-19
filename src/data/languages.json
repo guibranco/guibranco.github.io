@@ -1,0 +1,25 @@
+{
+  "languages": [
+    {
+      "language": "PT",
+      "level": "NATIVE",
+      "percentage": 100,
+      "color": "#4bbf30",
+      "description": "Portuguese - Native Proficiency"
+    },
+    {
+      "language": "EN",
+      "level": "FLUENT",
+      "percentage": 90,
+      "color": "#fd4c3b",
+      "description": "English - Full Professional Proficiency"
+    },
+    {
+      "language": "ES",
+      "level": "INTERMEDIATE",
+      "percentage": 70,
+      "color": "#0092ff",
+      "description": "Spanish - Limited Working Proficiency"
+    }
+  ]
+}

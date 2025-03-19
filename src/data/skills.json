@@ -1,0 +1,80 @@
+{
+  "skills": [
+    {
+      "title": "Coding",
+      "level": 5
+    },
+    {
+      "title": "Testing",
+      "level": 5
+    },
+    {
+      "title": "C#/.NET (Core & Framework)",
+      "level": 5
+    },
+    {
+      "title": "PHP",
+      "level": 4
+    },
+    {
+      "title": "JS/TS (Node.JS)",
+      "level": 4
+    },
+    {
+      "title": "Rust",
+      "level": 3
+    },
+    {
+      "title": "Python",
+      "level": 2
+    },
+    {
+      "title": "Vite+React (TypeScript)",
+      "level": 3
+    },
+    {
+      "title": "DDD, BDD and TDD",
+      "level": 4
+    },
+    {
+      "title": "SOLID, KISS, DRY, YAGNI, GRASP and SOC",
+      "level": 5
+    },
+    {
+      "title": "VCS/SCM (SVN, GIT)",
+      "level": 5
+    },
+    {
+      "title": "Code hosting (GitHub, GitLab, Bitbucket, Azure DevOps)",
+      "level": 5
+    },
+    {
+      "title": "CI/CD (AppVeyor, Azure DevOps, Jenkins, TFS, CircleCI, TeamCity, Terraform, ArgoCD)",
+      "level": 4
+    },
+    {
+      "title": "Cloud (AWS, Azure, Heroku, Vercel, GoDaddy, Digital Ocean, OVH)",
+      "level": 4
+    },
+    {
+      "title": "Agile culture, SCRUM, KANBAN",
+      "level": 5
+    },
+    {
+      "title": "SQL DBMS (MS SQL, MySQL/MariaDB, Oracle)",
+      "level": 5
+    },
+    {
+      "title": "noSQL (Elastic Search, Redis, MongoDB, Cassandra, CosmosDB)",
+      "level": 4
+    },
+    {
+      "title": "Messages brokers (RabbitMQ, LavinMQ, Apache Kafka, AWS SQS, Azure Service Bus)",
+      "level": 4
+    },
+    {
+      "title": "Agile management (Trello, RunRun.It, Jira, TFS)",
+      "level": 3
+    }
+  ]
+}
