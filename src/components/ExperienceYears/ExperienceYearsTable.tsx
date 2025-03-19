@@ -1,10 +1,10 @@
-import React from 'react';
-import experienceData from '../../data/experience-years.json';
-import SectionTitle from '../AboutMe/SectionTitle';
+import React from "react";
+import experienceData from "../../data/experience-years.json";
+import SectionTitle from "../AboutMe/SectionTitle";
 
-const calculateYears = (startDate: string, endDate: string = 'now'): number => {
-  const start = new Date(startDate.split('/').reverse().join('-'));
-  const end = endDate.toLowerCase() === 'now' ? new Date() : new Date(endDate.split('/').reverse().join('-'));
+const calculateYears = (startDate: string, endDate: string = "now"): number => {
+  const start = new Date(startDate.split("/").reverse().join("-"));
+  const end = endDate.toLowerCase() === "now" ? new Date() : new Date(endDate.split("/").reverse().join("-"));
 
   let years = end.getFullYear() - start.getFullYear();
   const months = end.getMonth() - start.getMonth();

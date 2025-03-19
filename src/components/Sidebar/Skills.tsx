@@ -1,6 +1,6 @@
-import React from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
-import skillsData from '../../data/skills.json';
+import React from "react";
+import { ChevronDown, ChevronUp } from "lucide-react";
+import skillsData from "../../data/skills.json";
 
 interface SkillRowProps {
   title: string;

@@ -1,7 +1,7 @@
-import React from 'react';
-import { Flag } from './Flag';
-import SectionTitle from './SectionTitle';
-import mercosurFlag from '../../assets/mercosur.svg';
+import React from "react";
+import { Flag } from "./Flag";
+import SectionTitle from "./SectionTitle";
+import mercosurFlag from "../../assets/mercosur.svg";
 
 const WorkPermit = () => {
   return (

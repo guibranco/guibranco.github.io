@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const DesktopMenu = () => {
   const location = useLocation();
   const menuItems = [
-    { path: '/about-me', label: 'About Me' },
-    { path: '/work-experience', label: 'Work Experience' },
-    { path: '/education', label: 'Education' },
-    { path: '/projects', label: 'Projects' },
-    { path: '/hobbies', label: 'Hobbies' }
+    { path: "/about-me", label: "About Me" },
+    { path: "/work-experience", label: "Work Experience" },
+    { path: "/education", label: "Education" },
+    { path: "/projects", label: "Projects" },
+    { path: "/hobbies", label: "Hobbies" }
   ];
 
   return (

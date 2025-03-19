@@ -1,5 +1,5 @@
-import React from 'react';
-import { IntroFlag } from './IntroFlag';
+import React from "react";
+import { IntroFlag } from "./IntroFlag";
 
 const Introduction = () => {
   return (

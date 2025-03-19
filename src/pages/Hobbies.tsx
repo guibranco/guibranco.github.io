@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
-import { Camera } from 'lucide-react';
-import InstagramEmbed from '../components/Instagram/InstagramEmbed';
-import hobbiesData from '../data/hobbies.json';
+import React, { useEffect } from "react";
+import { Camera } from "lucide-react";
+import InstagramEmbed from "../components/Instagram/InstagramEmbed";
+import hobbiesData from "../data/hobbies.json";
 
 const Hobbies = () => {
   useEffect(() => {
     // Load Instagram embed script
-    const script = document.createElement('script');
-    script.src = 'https://www.instagram.com/embed.js';
+    const script = document.createElement("script");
+    script.src = "https://www.instagram.com/embed.js";
     script.async = true;
     document.body.appendChild(script);
 

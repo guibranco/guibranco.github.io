@@ -1,6 +1,6 @@
-import React from 'react';
-import projectsData from '../../data/about-me-projects.json';
-import SectionTitle from './SectionTitle';
+import React from "react";
+import projectsData from "../../data/about-me-projects.json";
+import SectionTitle from "./SectionTitle";
 
 const ProjectsList = () => {
   return (

@@ -1,8 +1,8 @@
-import React from 'react';
-import { Experience } from '../../types';
-import { calculateDuration } from '../../utils/experience';
-import CompanyHeader from './CompanyHeader';
-import RoleDetails from './RoleDetails';
+import React from "react";
+import { Experience } from "../../types";
+import { calculateDuration } from "../../utils/experience";
+import CompanyHeader from "./CompanyHeader";
+import RoleDetails from "./RoleDetails";
 
 const ExperienceCard = ({
   company,

@@ -1,5 +1,5 @@
-import React from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
+import React from "react";
+import { ChevronDown, ChevronUp } from "lucide-react";
 
 interface ProfileProps {
   collapsed: boolean;

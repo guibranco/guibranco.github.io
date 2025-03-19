@@ -1,7 +1,7 @@
-import React from 'react';
-import ExperienceCard from '../components/Experience/ExperienceCard';
-import educationData from '../data/education.json';
-import languagesData from '../data/languages.json';
+import React from "react";
+import ExperienceCard from "../components/Experience/ExperienceCard";
+import educationData from "../data/education.json";
+import languagesData from "../data/languages.json";
 
 const DonutChart = ({ percentage, color, language }: { percentage: number; color: string; language: string }) => {
   const radius = 50;

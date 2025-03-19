@@ -1,6 +1,6 @@
-import React from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import { ChevronDown, ChevronUp } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPlane,
   faCampground,
@@ -10,8 +10,8 @@ import {
   faHamburger,
   faCandyCane,
   faTv
-} from '@fortawesome/free-solid-svg-icons';
-import hobbiesData from '../../data/sidebar-hobbies.json';
+} from "@fortawesome/free-solid-svg-icons";
+import hobbiesData from "../../data/sidebar-hobbies.json";
 
 const iconMap = {
   faPlane,

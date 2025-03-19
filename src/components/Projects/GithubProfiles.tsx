@@ -1,5 +1,5 @@
-import React from 'react';
-import { GithubProfile } from '../../types';
+import React from "react";
+import { GithubProfile } from "../../types";
 
 interface GithubProfilesProps {
   profiles: GithubProfile[];

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 interface MobileMenuProps {
   mobileMenuOpen: boolean;
@@ -9,11 +9,11 @@ interface MobileMenuProps {
 
 const MobileMenu = ({ mobileMenuOpen, setMobileMenuOpen }: MobileMenuProps) => {
   const menuItems = [
-    { path: '/about-me', label: 'About Me' },
-    { path: '/work-experience', label: 'Work Experience' },
-    { path: '/education', label: 'Education' },
-    { path: '/projects', label: 'Projects' },
-    { path: '/hobbies', label: 'Hobbies' }
+    { path: "/about-me", label: "About Me" },
+    { path: "/work-experience", label: "Work Experience" },
+    { path: "/education", label: "Education" },
+    { path: "/projects", label: "Projects" },
+    { path: "/hobbies", label: "Hobbies" }
   ];
 
   return (

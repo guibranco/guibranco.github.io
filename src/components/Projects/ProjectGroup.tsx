@@ -1,5 +1,5 @@
-import React from 'react';
-import { Project } from '../../types';
+import React from "react";
+import { Project } from "../../types";
 
 interface ProjectGroupProps {
   title: string;

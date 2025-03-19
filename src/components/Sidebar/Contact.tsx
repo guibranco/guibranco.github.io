@@ -1,19 +1,19 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { ChevronDown, ChevronUp } from 'lucide-react';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ChevronDown, ChevronUp } from "lucide-react";
 import { 
   faMapMarkerAlt, 
   faBirthdayCake, 
   faEnvelope,
   faFilePdf
-} from '@fortawesome/free-solid-svg-icons';
+} from "@fortawesome/free-solid-svg-icons";
 import { 
   faWhatsapp, 
   faWordpressSimple,
   faGithub,
   faLinkedin,
   faStackOverflow 
-} from '@fortawesome/free-brands-svg-icons';
+} from "@fortawesome/free-brands-svg-icons";
 
 interface ContactProps {
   collapsed: boolean;

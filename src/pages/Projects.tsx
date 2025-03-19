@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react';
-import ProjectGroup from '../components/Projects/ProjectGroup';
-import GithubProfiles from '../components/Projects/GithubProfiles';
-import projectsData from '../data/projects.json';
+import React, { useEffect } from "react";
+import ProjectGroup from "../components/Projects/ProjectGroup";
+import GithubProfiles from "../components/Projects/GithubProfiles";
+import projectsData from "../data/projects.json";
 
 const Projects = () => {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/github-cards/latest/widget.js';
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/github-cards/latest/widget.js";
     script.async = true;
     document.body.appendChild(script);
 

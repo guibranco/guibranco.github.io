@@ -1,6 +1,6 @@
-import React from 'react';
-import { Calendar, MapPin, Linkedin, Globe } from 'lucide-react';
-import { ConsultingCompany, RelatedCompany } from '../../types';
+import React from "react";
+import { Calendar, MapPin, Linkedin, Globe } from "lucide-react";
+import { ConsultingCompany, RelatedCompany } from "../../types";
 
 interface CompanyHeaderProps {
   company: string;

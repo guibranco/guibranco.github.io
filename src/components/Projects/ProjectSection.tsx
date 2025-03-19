@@ -1,5 +1,5 @@
-import React from 'react';
-import ProjectCard from './ProjectCard';
+import React from "react";
+import ProjectCard from "./ProjectCard";
 
 interface Project {
   name: string;
