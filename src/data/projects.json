@@ -7,52 +7,62 @@
         {
           "name": "Bancos Brasileiros",
           "repo": "guibranco/BancosBrasileiros",
-          "description": "Brazilian banks information"
+          "description": "Brazilian banks information",
+          "showOwner": true
         },
         {
           "name": "PIX BACEN SDK .NET",
           "repo": "guibranco/PIX-BACEN-SDK-DotNet",
-          "description": "SDK for PIX (Brazilian Instant Payments)"
+          "description": "SDK for PIX (Brazilian Instant Payments)",
+          "showOwner": true
         },
         {
           "name": "GuiStracini.HolidayAPI",
           "repo": "guibranco/GuiStracini.HolidayAPI",
-          "description": "Holiday API client for .NET"
+          "description": "Holiday API client for .NET",
+          "showOwner": true
         },
         {
           "name": "Holiday API Rust",
           "repo": "guibranco/holiday-api-rust",
-          "description": "Holiday API client for Rust"
+          "description": "Holiday API client for Rust",
+          "showOwner": true
         },
         {
           "name": "VTEX SDK .NET",
           "repo": "guibranco/VTEX-SDK-dotnet",
-          "description": "VTEX e-commerce platform SDK"
+          "description": "VTEX e-commerce platform SDK",
+          "showOwner": true
         },
         {
           "name": "Sankhya SDK .NET",
           "repo": "guibranco/Sankhya-SDK-dotnet",
-          "description": "Sankhya ERP SDK"
+          "description": "Sankhya ERP SDK",
+          "showOwner": true
         },
         {
           "name": "ViaCEP",
           "repo": "guibranco/ViaCEP",
-          "description": "Brazilian postal code API client for .NET"
+          "description": "Brazilian postal code API client for .NET",
+          "showOwner": true
         },
         {
           "name": "ViaCEP Rust",
           "repo": "guibranco/viacep-rs",
-          "description": "Brazilian postal code API client for Rust"
+          "description": "Brazilian postal code API client for Rust",
+          "showOwner": true
         },
         {
           "name": "CrispyWaffle",
           "repo": "guibranco/CrispyWaffle",
-          "description": "Utility library for .NET"
+          "description": "Utility library for .NET",
+          "showOwner": true
         },
         {
           "name": "Pancake",
           "repo": "guibranco/Pancake",
-          "description": "Utility library for .NET"
+          "description": "Utility library for .NET",
+          "showOwner": true
         }
       ]
     },
@@ -63,22 +73,26 @@
         {
           "name": "API Client Boilerplate .NET",
           "repo": "GuilhermeStracini/apiclient-boilerplate-dotnet",
-          "description": "Template for creating API clients in .NET"
+          "description": "Template for creating API clients in .NET",
+          "showOwner": false
         },
         {
           "name": "API Client Boilerplate Rust",
           "repo": "GuilhermeStracini/apiclient-boilerplate-rs",
-          "description": "Template for creating API clients in Rust"
+          "description": "Template for creating API clients in Rust",
+          "showOwner": false
         },
         {
           "name": "CQRS Boilerplate .NET",
           "repo": "GuilhermeStracini/cqrs-boilerplate-dotnet",
-          "description": "Template for CQRS architecture in .NET"
+          "description": "Template for CQRS architecture in .NET",
+          "showOwner": false
         },
         {
           "name": "API Service Boilerplate PHP",
           "repo": "GuilhermeStracini/api-service-boilerplate-php",
-          "description": "Template for API services in PHP"
+          "description": "Template for API services in PHP",
+          "showOwner": false
         }
       ]
     },
@@ -89,32 +103,38 @@
         {
           "name": "DotNetDevBR - Vagas",
           "repo": "DotNetDevBr/Vagas",
-          "description": ".NET jobs in Brazil"
+          "description": ".NET jobs in Brazil",
+          "showOwner": true
         },
         {
           "name": "NodeJSDevBR - Vagas",
           "repo": "NodeJSDevBr/Vagas",
-          "description": "Node.js jobs in Brazil"
+          "description": "Node.js jobs in Brazil",
+          "showOwner": true
         },
         {
           "name": "PyDevBr - Vagas",
           "repo": "PyDevBr/Vagas",
-          "description": "Python jobs in Brazil"
+          "description": "Python jobs in Brazil",
+          "showOwner": true
         },
         {
           "name": "RustDevBR - Vagas",
           "repo": "RustDevBr/Vagas",
-          "description": "Rust jobs in Brazil"
+          "description": "Rust jobs in Brazil",
+          "showOwner": true
         },
         {
           "name": "Frontend PT - Vagas",
           "repo": "frontend-pt/Vagas",
-          "description": "Frontend jobs in Portugal"
+          "description": "Frontend jobs in Portugal",
+          "showOwner": true
         },
         {
           "name": "Backend PT - Vagas",
           "repo": "backend-pt/vagas",
-          "description": "Backend jobs in Portugal"
+          "description": "Backend jobs in Portugal",
+          "showOwner": true
         }
       ]
     }
