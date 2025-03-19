@@ -5,7 +5,7 @@ import SectionTitle from '../AboutMe/SectionTitle';
 const calculateYears = (startDate: string, endDate: string = 'now'): number => {
   const start = new Date(startDate.split('/').reverse().join('-'));
   const end = endDate.toLowerCase() === 'now' ? new Date() : new Date(endDate.split('/').reverse().join('-'));
-  
+
   let years = end.getFullYear() - start.getFullYear();
   const months = end.getMonth() - start.getMonth();
 
@@ -36,13 +36,13 @@ const ExperienceYearsTable = () => {
     const isMobile = window.innerWidth <= 768;
     const itemsPerRow = isMobile ? 2 : 5;
     const rows = [];
-    
+
     for (let i = 0; i < experiences.length; i += itemsPerRow) {
       rows.push(experiences.slice(i, i + itemsPerRow));
     }
-    
+
     return rows;
-  }, []);
+  }, [experiences]);
 
   const [rows, setRows] = React.useState(createRows());
 
@@ -57,7 +57,7 @@ const ExperienceYearsTable = () => {
 
   return (
     <div>
-      <SectionTitle 
+      <SectionTitle
         title="Experience"
         color="#fbc02d"
       />
@@ -76,7 +76,7 @@ const ExperienceYearsTable = () => {
                     </div>
                   </td>
                 ))}
-                {window.innerWidth <= 768 ? 
+                {window.innerWidth <= 768 ?
                   [...Array(2 - row.length)].map((_, i) => (
                     <td key={`empty-${i}`} className="p-4"></td>
                   )) :
