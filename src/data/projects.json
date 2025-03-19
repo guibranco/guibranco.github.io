@@ -1,0 +1,140 @@
+{
+  "sections": [
+    {
+      "id": "oss",
+      "title": "Open Source Software Projects",
+      "projects": [
+        {
+          "name": "Bancos Brasileiros",
+          "repo": "guibranco/BancosBrasileiros",
+          "description": "Brazilian banks information"
+        },
+        {
+          "name": "PIX BACEN SDK .NET",
+          "repo": "guibranco/PIX-BACEN-SDK-DotNet",
+          "description": "SDK for PIX (Brazilian Instant Payments)"
+        },
+        {
+          "name": "GuiStracini.HolidayAPI",
+          "repo": "guibranco/GuiStracini.HolidayAPI",
+          "description": "Holiday API client for .NET"
+        },
+        {
+          "name": "Holiday API Rust",
+          "repo": "guibranco/holiday-api-rust",
+          "description": "Holiday API client for Rust"
+        },
+        {
+          "name": "VTEX SDK .NET",
+          "repo": "guibranco/VTEX-SDK-dotnet",
+          "description": "VTEX e-commerce platform SDK"
+        },
+        {
+          "name": "Sankhya SDK .NET",
+          "repo": "guibranco/Sankhya-SDK-dotnet",
+          "description": "Sankhya ERP SDK"
+        },
+        {
+          "name": "ViaCEP",
+          "repo": "guibranco/ViaCEP",
+          "description": "Brazilian postal code API client for .NET"
+        },
+        {
+          "name": "ViaCEP Rust",
+          "repo": "guibranco/viacep-rs",
+          "description": "Brazilian postal code API client for Rust"
+        },
+        {
+          "name": "CrispyWaffle",
+          "repo": "guibranco/CrispyWaffle",
+          "description": "Utility library for .NET"
+        },
+        {
+          "name": "Pancake",
+          "repo": "guibranco/Pancake",
+          "description": "Utility library for .NET"
+        }
+      ]
+    },
+    {
+      "id": "templates",
+      "title": "Template Projects",
+      "projects": [
+        {
+          "name": "API Client Boilerplate .NET",
+          "repo": "GuilhermeStracini/apiclient-boilerplate-dotnet",
+          "description": "Template for creating API clients in .NET"
+        },
+        {
+          "name": "API Client Boilerplate Rust",
+          "repo": "GuilhermeStracini/apiclient-boilerplate-rs",
+          "description": "Template for creating API clients in Rust"
+        },
+        {
+          "name": "CQRS Boilerplate .NET",
+          "repo": "GuilhermeStracini/cqrs-boilerplate-dotnet",
+          "description": "Template for CQRS architecture in .NET"
+        },
+        {
+          "name": "API Service Boilerplate PHP",
+          "repo": "GuilhermeStracini/api-service-boilerplate-php",
+          "description": "Template for API services in PHP"
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "title": "Job Board Repositories",
+      "projects": [
+        {
+          "name": "DotNetDevBR - Vagas",
+          "repo": "DotNetDevBr/Vagas",
+          "description": ".NET jobs in Brazil"
+        },
+        {
+          "name": "NodeJSDevBR - Vagas",
+          "repo": "NodeJSDevBr/Vagas",
+          "description": "Node.js jobs in Brazil"
+        },
+        {
+          "name": "PyDevBr - Vagas",
+          "repo": "PyDevBr/Vagas",
+          "description": "Python jobs in Brazil"
+        },
+        {
+          "name": "RustDevBR - Vagas",
+          "repo": "RustDevBr/Vagas",
+          "description": "Rust jobs in Brazil"
+        },
+        {
+          "name": "Frontend PT - Vagas",
+          "repo": "frontend-pt/Vagas",
+          "description": "Frontend jobs in Portugal"
+        },
+        {
+          "name": "Backend PT - Vagas",
+          "repo": "backend-pt/vagas",
+          "description": "Backend jobs in Portugal"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "username": "guibranco",
+      "description": "Main GitHub profile"
+    },
+    {
+      "username": "guilhermestracini",
+      "description": "Secondary GitHub profile"
+    },
+    {
+      "username": "apibr",
+      "description": "Brazilian APIs organization"
+    },
+    {
+      "username": "inovacaomediabrasil",
+      "description": "Media innovation organization"
+    }
+  ]
+}

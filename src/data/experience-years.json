@@ -1,0 +1,84 @@
+{
+  "experiences": [
+    {
+      "title": "C# .NET",
+      "startDate": "01/2010"
+    },
+    {
+      "title": "Node.JS (JS/TS)",
+      "startDate": "01/2014"
+    },
+    {
+      "title": "PHP",
+      "startDate": "01/2007"
+    },
+    {
+      "title": "MS SQL Server",
+      "startDate": "01/2008"
+    },
+    {
+      "title": "MySQL/MariaDB",
+      "startDate": "01/2007"
+    },
+    {
+      "title": "CosmosDB",
+      "startDate": "01/2021"
+    },
+    {
+      "title": "Elastic Search",
+      "startDate": "01/2015"
+    },
+    {
+      "title": "Redis",
+      "startDate": "01/2014"
+    },
+    {
+      "title": "RabbitMQ",
+      "startDate": "01/2016"
+    },
+    {
+      "title": "AWS",
+      "startDate": "01/2014"
+    },
+    {
+      "title": "Azure",
+      "startDate": "01/2020"
+    },
+    {
+      "title": "Oracle 11g",
+      "startDate": "01/2018"
+    },
+    {
+      "title": "JS (Frontend)",
+      "startDate": "01/2007"
+    },
+    {
+      "title": "jQuery",
+      "startDate": "01/2008"
+    },
+    {
+      "title": "ReactJS",
+      "startDate": "01/2015"
+    },
+    {
+      "title": "Terraform",
+      "startDate": "01/2021"
+    },
+    {
+      "title": "Rust",
+      "startDate": "01/2019"
+    },
+    {
+      "title": "Python",
+      "startDate": "01/2020"
+    },
+    {
+      "title": "Vite",
+      "startDate": "01/2024"
+    },
+    {
+      "title": "Docker",
+      "startDate": "01/2018"
+    }
+  ]
+}

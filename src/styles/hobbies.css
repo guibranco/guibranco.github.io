@@ -1,0 +1,10 @@
+.widget-body ul.hobbies {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+.widget-body ul.hobbies li {
+    font-size: 1.1em;
+    line-height: 2.5em;
+}

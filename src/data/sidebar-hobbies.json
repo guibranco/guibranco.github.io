@@ -1,0 +1,36 @@
+{
+  "hobbies": [
+    {
+      "icon": "faPlane",
+      "text": "Travel"
+    },
+    {
+      "icon": "faCampground",
+      "text": "Camping"
+    },
+    {
+      "icon": "faHiking",
+      "text": "Trails"
+    },
+    {
+      "icon": "faSwimmer",
+      "text": "Beaches"
+    },
+    {
+      "icon": "faLaptopCode",
+      "text": "Coding"
+    },
+    {
+      "icon": "faHamburger",
+      "text": "Barbecues w/ friends"
+    },
+    {
+      "icon": "faCandyCane",
+      "text": "Lego (brick toys)"
+    },
+    {
+      "icon": "faTv",
+      "text": "TV series"
+    }
+  ]
+}

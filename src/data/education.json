@@ -1,0 +1,123 @@
+{
+  "education": [
+    {
+      "company": "FATEC São Caetano do Sul - Antonio Russo",
+      "logo": "https://guilherme.stracini.com.br/images/education/FATEC.jpg",
+      "location": "São Caetano do Sul, Brazil",
+      "description": "Systems Analysis and Development - Technologist, College",
+      "period": "Jan/2011 - Dec/2013",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "linkedin": "https://www.linkedin.com/school/fatec-s%C3%A3o-caetano-do-sul-antonio-russo/",
+      "website": "https://fatecsaocaetano.cps.sp.gov.br/",
+      "roles": [
+        {
+          "title": "Systems Analysis and Development",
+          "period": "2800 hours - on-site classes",
+          "contractType": null,
+          "workModel": null,
+          "description": "Technologist Degree",
+          "achievements": [
+            "Analyses, designs, documents, specifies, tests, implements and maintains computational information systems",
+            "Focus on software development and system analysis",
+            "Project management and team leadership",
+            "Database design and administration"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "SENAC",
+      "logo": "https://guilherme.stracini.com.br/images/education/SENAC.jpg",
+      "location": "São Paulo, Brazil",
+      "description": "Computer Technician",
+      "period": "Jan/2008 - Jun/2010",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "linkedin": "https://www.linkedin.com/school/senacsaopaulo/",
+      "website": "https://www.sp.senac.br/senac-vila-prudente",
+      "roles": [
+        {
+          "title": "Computer Technician",
+          "period": "1200 hours - on-site classes",
+          "contractType": null,
+          "workModel": null,
+          "description": "Technical Degree",
+          "achievements": [
+            "Assemble and maintain microcomputers",
+            "Install and configure networks",
+            "Develop systems and websites",
+            "Hardware and software maintenance"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "ETEC Professor Camargo Aranha",
+      "logo": "https://guilherme.stracini.com.br/images/education/ETEC.jpg",
+      "location": "São Paulo, Brazil",
+      "description": "High School Diploma",
+      "period": "Jan/2007 - Dec/2009",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "linkedin": "https://www.linkedin.com/school/etec-professor-camargo-aranha-sp/",
+      "website": "https://eteccamargoaranha.cps.sp.gov.br/",
+      "roles": [
+        {
+          "title": "High School",
+          "period": "Jan/2007 - Dec/2009",
+          "contractType": null,
+          "workModel": null,
+          "description": "High School Diploma",
+          "achievements": [
+            "Regular high school education",
+            "Focus on general studies and college preparation"
+          ]
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "company": "SOS Computadores",
+      "logo": "https://guilherme.stracini.com.br/images/education/SOSComputadores.png",
+      "location": "São Paulo, Brazil",
+      "description": "Computer Technician Certificate",
+      "period": "Jan/2005 - Dec/2005",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "roles": [
+        {
+          "title": "Computer Technician",
+          "period": "260 hours - on-site classes",
+          "description": "Professional Certificate",
+          "achievements": [
+            "Assemble and maintain microcomputers",
+            "Install and configure networks",
+            "Basic computer maintenance",
+            "Network administration fundamentals"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "CNA",
+      "logo": "https://guilherme.stracini.com.br/images/education/CNA.jpg",
+      "location": "São Paulo, Brazil",
+      "description": "English Language Course",
+      "period": "Jan/2004 - Dec/2009",
+      "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/br.svg",
+      "linkedin": "https://www.linkedin.com/school/cna-idiomas-unidade-belenzinho-sp/",
+      "website": "https://www.cna.com.br/belem",
+      "roles": [
+        {
+          "title": "English Course",
+          "period": "6 years - on-site classes",
+          "description": "Language Certificate",
+          "achievements": [
+            "Complete English language course",
+            "Focus on conversation and business English",
+            "Advanced grammar and writing skills",
+            "Cultural aspects of English-speaking countries"
+          ]
+        }
+      ]
+    }
+  ]
+}
