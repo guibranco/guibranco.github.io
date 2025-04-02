@@ -69,7 +69,7 @@ const ExperienceYearsTable = () => {
                 {row.map((exp, colIndex) => (
                   <td key={colIndex} className="relative group p-4 text-center">
                     <span><strong>{exp.years}+</strong> {exp.title}</span>
-                    <div className="invisible group-hover:visible absolute z-[9999] w-max px-3 py-2 text-sm font-medium text-white bg-black rounded-lg shadow-sm 
+                    <div className="invisible group-hover:visible absolute z-9999 w-max px-3 py-2 text-sm font-medium text-white bg-black rounded-lg shadow-sm 
                       top-[calc(100%+0.25rem)] left-1/2 -translate-x-1/2 
                       after:content-[''] after:absolute after:left-1/2 after:bottom-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-t-transparent after:border-b-black">
                       Since {formatDate(exp.startDate)}
