@@ -39,5 +39,4 @@ The previous version is still active and lists some projects I have in my old ho
 
 ---
 
-Copyright Guilherme Branco Stracini © 2018 - 2024
-
+Copyright Guilherme Branco Stracini © 2018 - 2025
