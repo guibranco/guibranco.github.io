@@ -25,6 +25,8 @@ The previous version is still active and lists some projects I have in my old ho
 
 ## Urls
 
+- [https://guilhermestracini.com.br](https://guilhermestracini.com.br)
+- [https://guilhermestraccini.com.br](https://guilhermestraccini.com.br)
 - [https://guilherme.straccini.com](https://guilherme.straccini.com)
 - [https://guilherme.straccini.com.br](https://guilherme.straccini.com.br)
 - [https://guilherme.stracini.com](https://guilherme.stracini.com)
