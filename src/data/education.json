@@ -1,7 +1,7 @@
 {
   "education": [
     {
-      "company": "FATEC São Caetano do Sul - Antonio Russo",
+      "company": "FATEC (São Caetano do Sul – Antonio Russo)",
       "logo": "https://guilherme.stracini.com.br/images/education/FATEC.jpg",
       "location": "São Caetano do Sul, Brazil",
       "description": "Systems Analysis and Development - Technologist, College",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "company": "SENAC",
+      "company": "SENAC (Vila Prudente)",
       "logo": "https://guilherme.stracini.com.br/images/education/SENAC.jpg",
       "location": "São Paulo, Brazil",
       "description": "Computer Technician",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "company": "ETEC Professor Camargo Aranha",
+      "company": "ETEC (Professor Camargo Aranha)",
       "logo": "https://guilherme.stracini.com.br/images/education/ETEC.jpg",
       "location": "São Paulo, Brazil",
       "description": "High School Diploma",
