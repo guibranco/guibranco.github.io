@@ -76,7 +76,7 @@
   ],
   "courses": [
     {
-      "company": "SOS Computadores",
+      "company": "SOS Computadores (Mooca)",
       "logo": "https://guilherme.stracini.com.br/images/education/SOSComputadores.png",
       "location": "São Paulo, Brazil",
       "description": "Computer Technician Certificate",
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "company": "CNA",
+      "company": "CNA (Belenzinho)",
       "logo": "https://guilherme.stracini.com.br/images/education/CNA.jpg",
       "location": "São Paulo, Brazil",
       "description": "English Language Course",
