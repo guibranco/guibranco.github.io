@@ -15,7 +15,7 @@ const PublicProjectGroup = ({ section }: PublicProjectGroupProps) => {
         <h2 className="text-2xl font-semibold text-white mb-1">{section.title}</h2>
         <div className="h-1 w-full rounded-full" style={{ backgroundColor: section.color }} />
       </div>
-      <ProjectGroup title={section.title} projects={section.projects} />
+      <ProjectGroup projects={section.projects} />
     </div>
   );
 };
