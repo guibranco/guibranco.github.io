@@ -38,15 +38,45 @@ const ImageModal = ({
     document.addEventListener("keydown", handleKeyNav);
     document.body.style.overflow = "hidden";
 
+    const firstButton = document.querySelector(".modal-container button, .modal-container a");
+    if (firstButton instanceof HTMLElement) {
+      firstButton.focus();
+    }
+
+    const handleTab = (e: KeyboardEvent) => {
+      if (e.key === "Tab") {
+        const focusableElements = document.querySelectorAll(
+          ".modal-container button:not([disabled]), .modal-container a:not([disabled])",
+        );
+        if (focusableElements.length === 0) {
+          return;
+        }
+
+        const firstElement = focusableElements[0] as HTMLElement;
+        const lastElement = focusableElements[focusableElements.length - 1] as HTMLElement;
+
+        if (e.shiftKey && document.activeElement === firstElement) {
+          e.preventDefault();
+          lastElement.focus();
+        } else if (!e.shiftKey && document.activeElement === lastElement) {
+          e.preventDefault();
+          firstElement.focus();
+        }
+      }
+    };
+
+    document.addEventListener("keydown", handleTab);
+
     return () => {
       document.removeEventListener("keydown", handleEscape);
       document.removeEventListener("keydown", handleKeyNav);
+      document.removeEventListener("keydown", handleTab);
       document.body.style.overflow = "auto";
     };
   }, [onClose, onPrevious, onNext]);
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-black/95" onClick={onClose}>
+    <div className="fixed inset-0 z-50 flex flex-col bg-black/95 modal-container" onClick={onClose}>
       <div className="absolute top-4 right-4 z-50 flex items-center gap-4">
         {project.url && (
           <a
