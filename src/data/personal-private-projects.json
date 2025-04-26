@@ -4,21 +4,33 @@
       "title": "EBAOH - Reviews Platform",
       "description": "A gamified product review platform where users earn points and badges for reviewing products. Features include user authentication, product catalog, review system, and gamification elements.",
       "year": 2019,
-      "screenshot": "https://images.pexels.com/photos/4792733/pexels-photo-4792733.jpeg",
+      "screenshots": [
+        "https://images.pexels.com/photos/4792733/pexels-photo-4792733.jpeg",
+        "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
+        "https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg"
+      ],
       "technologies": ["C# .NET Core", "React", "SQL Server", "Redis", "Azure"]
     },
     {
       "title": "Video Learning Platform",
       "description": "A subscription-based video learning platform with content management, user progress tracking, and payment integration.",
       "year": 2018,
-      "screenshot": "https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg",
+      "screenshots": [
+        "https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg",
+        "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg",
+        "https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
+      ],
       "technologies": ["C# .NET", "jQuery", "SQL Server", "MaxiPago", "AWS S3"]
     },
     {
       "title": "Digital PBX Management",
       "description": "An internal system for managing digital PBX configurations and call routing, featuring real-time monitoring and reporting.",
       "year": 2012,
-      "screenshot": "https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg",
+      "screenshots": [
+        "https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg",
+        "https://images.pexels.com/photos/5473297/pexels-photo-5473297.jpeg",
+        "https://images.pexels.com/photos/5473299/pexels-photo-5473299.jpeg"
+      ],
       "technologies": ["VB.NET", "Windows Forms", "SQL Server"]
     }
   ]
