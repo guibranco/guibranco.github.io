@@ -7,7 +7,6 @@
   --color-primary: #4a90e2;
   --color-secondary: #ff6b6b;
   --color-accent: #ffd700;
-
   --animate-fade-up: fade-up 0.3s ease-out;
 
   @keyframes fade-up {
