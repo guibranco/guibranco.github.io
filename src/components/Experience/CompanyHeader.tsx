@@ -32,12 +32,12 @@ const CompanyHeader = ({
   return (
     <>
       <div className="flex items-start justify-between flex-wrap gap-2 md:gap-4">
-        <div className="flex items-start gap-2 md:gap-4 flex-grow min-w-0">
+        <div className="flex items-start gap-2 md:gap-4 grow min-w-0">
           <div className="flex flex-col items-center gap-2">
             <img 
               src={logo} 
               alt={`${company} logo`} 
-              className="w-10 h-10 md:w-16 md:h-16 object-contain rounded-lg flex-shrink-0"
+              className="w-10 h-10 md:w-16 md:h-16 object-contain rounded-lg shrink-0"
             />
             {consultingCompany && (
               <div className="relative w-6 h-6 md:w-12 md:h-12">
@@ -56,9 +56,9 @@ const CompanyHeader = ({
               </div>
             )}
           </div>
-          <div className="min-w-0 flex-grow">
-            <div className="bg-white rounded-lg shadow-sm px-1.5 py-1 md:px-3 md:py-2">
-              <h2 className="text-[11px] leading-tight md:text-2xl font-semibold !text-black break-words">{company}</h2>
+          <div className="min-w-0 grow">
+            <div className="bg-white rounded-lg shadow-xs px-1.5 py-1 md:px-3 md:py-2">
+              <h2 className="text-[11px] leading-tight md:text-2xl font-semibold text-black! break-words">{company}</h2>
               <div className="flex gap-1 md:gap-2 mt-0.5 md:mt-1">
                 {linkedin && (
                   <a 
@@ -159,7 +159,7 @@ const CompanyHeader = ({
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-end text-gray-500 flex-shrink-0 gap-0.5 md:gap-1">
+        <div className="flex flex-col items-end text-gray-500 shrink-0 gap-0.5 md:gap-1">
           <div className="flex items-center">
             <Calendar size={10} className="mr-1 md:mr-2 md:w-4 md:h-4" />
             <span className="text-[10px] md:text-base">{period}</span>

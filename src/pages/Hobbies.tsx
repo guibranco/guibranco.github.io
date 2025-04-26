@@ -39,7 +39,7 @@ const Hobbies = () => {
               href={`https://www.instagram.com/${hobbiesData.instagramUsername}/`}
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all duration-200"
+              className="inline-flex items-center px-6 py-3 bg-linear-to-r from-purple-600 to-pink-600 text-white font-medium rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all duration-200"
             >
               <Camera size={20} className="mr-2" />
               Follow me on Instagram

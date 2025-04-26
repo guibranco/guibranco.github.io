@@ -62,7 +62,7 @@ const MobileBottomNav = () => {
       {prevRoute ? (
         <button
           onClick={() => navigate(prevRoute.path)}
-          className="flex items-center gap-2 px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95"
+          className="flex items-center gap-2 px-4 py-2 bg-white/90 backdrop-blur-xs rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95"
         >
           <ArrowLeft size={16} />
           <span className="text-sm font-medium">{prevRoute.label}</span>
@@ -72,7 +72,7 @@ const MobileBottomNav = () => {
       {nextRoute && (
         <button
           onClick={() => navigate(nextRoute.path)}
-          className="flex items-center gap-2 px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95"
+          className="flex items-center gap-2 px-4 py-2 bg-white/90 backdrop-blur-xs rounded-full shadow-lg transition-transform hover:scale-105 active:scale-95"
         >
           <span className="text-sm font-medium">{nextRoute.label}</span>
           <ArrowRight size={16} />

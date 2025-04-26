@@ -10,7 +10,7 @@ const ProjectsList = () => {
             key={index}
             className="flex items-start"
           >
-            <span className="h-2 w-2 mt-2 rounded-full bg-green-500 mr-3 flex-shrink-0"></span>
+            <span className="h-2 w-2 mt-2 rounded-full bg-green-500 mr-3 shrink-0"></span>
             <span>
               {typeof project === 'string' ? (
                 project
