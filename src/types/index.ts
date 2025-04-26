@@ -41,7 +41,6 @@ export interface Experience {
 export interface Project {
   name: string;
   repo: string;
-  description: string;
   showOwner: boolean;
 }
 

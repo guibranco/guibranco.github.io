@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Sidebar from "./components/Sidebar/Sidebar";
 import DesktopMenu from "./components/Navigation/DesktopMenu";
 import MobileMenu from "./components/Navigation/MobileMenu";

@@ -1,22 +1,13 @@
-import React, { useEffect } from "react";
 import ProjectGroup from "./ProjectGroup";
 import { ProjectSection } from "../../types";
+import { useExternalScript } from "../../hooks/useExternalScript";
 
 interface PublicProjectGroupProps {
   section: ProjectSection;
 }
 
 const PublicProjectGroup = ({ section }: PublicProjectGroupProps) => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://cdn.jsdelivr.net/github-cards/latest/widget.js";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+  useExternalScript("https://cdn.jsdelivr.net/github-cards/latest/widget.js");
 
   return (
     <div key={section.id} className="mb-12">

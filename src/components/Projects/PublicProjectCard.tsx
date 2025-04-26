@@ -3,7 +3,6 @@ import React from "react";
 interface PublicProjectCardProps {
   name: string;
   repo: string;
-  description: string;
   showOwner: boolean;
 }
 

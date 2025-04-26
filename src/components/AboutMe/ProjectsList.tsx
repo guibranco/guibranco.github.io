@@ -17,7 +17,7 @@ const ProjectsList = () => {
                   <a
                     href={project.link.url}
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors"
                   >
                     {project.link.text}

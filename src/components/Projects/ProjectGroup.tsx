@@ -15,7 +15,6 @@ const ProjectGroup = ({ projects }: ProjectGroupProps) => {
           key={index}
           name={project.name}
           repo={project.repo}
-          description={project.description}
           showOwner={project.showOwner}
         />
       ))}
