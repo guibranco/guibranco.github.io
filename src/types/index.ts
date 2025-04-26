@@ -55,7 +55,7 @@ export interface VisualProject {
   title: string;
   description: string;
   year: number;
-  screenshot: string;
+  screenshots: string[];
   url?: string;
   repo?: string;
   technologies: string[];
