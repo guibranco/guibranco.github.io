@@ -1,7 +1,7 @@
-import React from "react";
-import { Briefcase, Clock } from "lucide-react";
-import { Role } from "../../types";
-import { getContractTypeLabel, getWorkModelLabel } from "../../utils/experience";
+import React from 'react';
+import { Briefcase, Clock } from 'lucide-react';
+import { Role } from '../../types';
+import { getContractTypeLabel, getWorkModelLabel } from '../../utils/experience';
 
 interface RoleDetailsProps {
   role: Role;
@@ -15,7 +15,7 @@ const RoleDetails = ({ role, duration }: RoleDetailsProps) => {
     <div className="border-t pt-2 md:pt-4">
       <div className="flex flex-wrap gap-1 md:gap-2 items-baseline">
         <h3 className="text-xs md:text-base font-medium text-gray-900 break-words mr-auto">{role.title}</h3>
-        <div className="flex flex-col items-end shrink-0">
+        <div className="flex flex-col items-end flex-shrink-0">
           <span className="text-xs md:text-sm text-gray-500">{role.period}</span>
           {duration && (
             <span className="text-[10px] md:text-xs text-indigo-600">{duration}</span>
@@ -42,7 +42,7 @@ const RoleDetails = ({ role, duration }: RoleDetailsProps) => {
       <ul className="mt-2 md:mt-3 space-y-1 md:space-y-2">
         {role.achievements.map((achievement, idx) => (
           <li key={idx} className="flex items-start">
-            <span className="h-1 w-1 md:h-1.5 md:w-1.5 mt-1.5 md:mt-2 rounded-full bg-indigo-500 mr-1.5 md:mr-2 shrink-0"></span>
+            <span className="h-1 w-1 md:h-1.5 md:w-1.5 mt-1.5 md:mt-2 rounded-full bg-indigo-500 mr-1.5 md:mr-2 flex-shrink-0"></span>
             <span className="text-gray-600 text-xs md:text-base">{achievement}</span>
           </li>
         ))}

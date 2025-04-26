@@ -1,13 +1,8 @@
-import React from "react";
-import SectionTitle from "./SectionTitle";
+import React from 'react';
 
 const WakaTime = () => {
   return (
     <div className="text-center">
-      <SectionTitle 
-        title="Time coded" 
-        color="#fd4c3b" // Red from hobbies section
-      />
       <a 
         href="https://wakatime.com/@6be975b7-7258-4475-bc73-9c0fc554430e" 
         target="_blank" 

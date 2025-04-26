@@ -1,15 +1,10 @@
-import React from "react";
-import { Flag } from "./Flag";
-import SectionTitle from "./SectionTitle";
-import mercosurFlag from "../../assets/mercosur.svg";
+import React from 'react';
+import { Flag } from './Flag';
+import mercosurFlag from '../../assets/mercosur.svg';
 
 const WorkPermit = () => {
   return (
     <div className="text-center">
-      <SectionTitle 
-        title="Work permit"
-        color="#0092ff"
-      />
       <ul className="inline-flex flex-col gap-4 mx-auto">
         <li className="flex items-center justify-center gap-2">
           <Flag country="Portuguese passport" code="pt" /> - <Flag country="European Union" code="eu" />

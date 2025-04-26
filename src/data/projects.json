@@ -2,73 +2,220 @@
   "sections": [
     {
       "id": "oss",
-      "title": "Open Source Software Projects",
+      "title": "Libraries",
+      "color": "#fbc02d",
       "projects": [
+        {
+          "name": "AI Commit Message",
+          "repo": "guibranco/dotnet-aicommitmessage",
+          "description": ".NET tool for AI-generated commit messages",
+          "showOwner": false
+        },
         {
           "name": "Bancos Brasileiros",
           "repo": "guibranco/BancosBrasileiros",
           "description": "Brazilian banks information",
-          "showOwner": true
+          "showOwner": false
         },
         {
-          "name": "PIX BACEN SDK .NET",
-          "repo": "guibranco/PIX-BACEN-SDK-DotNet",
-          "description": "SDK for PIX (Brazilian Instant Payments)",
-          "showOwner": true
+          "name": "Bets Brasileiras",
+          "repo": "guibranco/BetsBrasileiras",
+          "description": "Brazilian betting sites information",
+          "showOwner": false
         },
         {
-          "name": "GuiStracini.HolidayAPI",
-          "repo": "guibranco/GuiStracini.HolidayAPI",
-          "description": "Holiday API client for .NET",
-          "showOwner": true
+          "name": "Bitcointrade SDK .NET",
+          "repo": "guibranco/bitcointrade-sdk-dotnet",
+          "description": "Bitcointrade exchange API client for .NET",
+          "showOwner": false
         },
         {
-          "name": "Holiday API Rust",
-          "repo": "guibranco/holiday-api-rust",
-          "description": "Holiday API client for Rust",
-          "showOwner": true
+          "name": "Calendarific SDK .NET",
+          "repo": "guibranco/calendarific-sdk-dotnet",
+          "description": "Calendarific API client for .NET",
+          "showOwner": false
         },
         {
-          "name": "VTEX SDK .NET",
-          "repo": "guibranco/VTEX-SDK-dotnet",
-          "description": "VTEX e-commerce platform SDK",
-          "showOwner": true
+          "name": "Calendarific SDK Rust",
+          "repo": "guibranco/calendarific-sdk-rs",
+          "description": "Calendarific API client for Rust",
+          "showOwner": false
         },
         {
-          "name": "Sankhya SDK .NET",
-          "repo": "guibranco/Sankhya-SDK-dotnet",
-          "description": "Sankhya ERP SDK",
-          "showOwner": true
-        },
-        {
-          "name": "ViaCEP",
-          "repo": "guibranco/ViaCEP",
-          "description": "Brazilian postal code API client for .NET",
-          "showOwner": true
-        },
-        {
-          "name": "ViaCEP Rust",
-          "repo": "guibranco/viacep-rs",
-          "description": "Brazilian postal code API client for Rust",
-          "showOwner": true
+          "name": "CEP Aberto",
+          "repo": "guibranco/CEPAberto",
+          "description": "CEP Aberto API client for .NET",
+          "showOwner": false
         },
         {
           "name": "CrispyWaffle",
           "repo": "guibranco/CrispyWaffle",
           "description": "Utility library for .NET",
-          "showOwner": true
+          "showOwner": false
+        },
+        {
+          "name": "GStraccini Bot Service",
+          "repo": "guibranco/gstraccini-bot-service",
+          "description": "Bot service for various platforms",
+          "showOwner": false
+        },
+        {
+          "name": "GuiStracini.HolidayAPI",
+          "repo": "guibranco/GuiStracini.HolidayAPI",
+          "description": "Holiday API client for .NET",
+          "showOwner": false
+        },
+        {
+          "name": "GuiStracini.Mandae",
+          "repo": "guibranco/GuiStracini.Mandae",
+          "description": "Mandaê shipping API client for .NET",
+          "showOwner": false
+        },
+        {
+          "name": "GuiStracini.SDKBuilder",
+          "repo": "guibranco/GuiStracini.SDKBuilder",
+          "description": "SDK builder library for .NET",
+          "showOwner": false
+        },
+        {
+          "name": "Holiday API Rust",
+          "repo": "guibranco/holiday-api-rust",
+          "description": "Holiday API client for Rust",
+          "showOwner": false
+        },
+        {
+          "name": "IP Query PHP",
+          "repo": "guibranco/ipquery-php",
+          "description": "IP geolocation library for PHP",
+          "showOwner": false
+        },
+        {
+          "name": "LatLongNet SDK .NET",
+          "repo": "guibranco/LatLongNet-SDK-dotnet",
+          "description": "LatLong.net API client for .NET",
+          "showOwner": false
+        },
+        {
+          "name": "Locaweb Servers SDK .NET",
+          "repo": "guibranco/locaweb-servidores-sdk-dotnet",
+          "description": "Locaweb servers API client for .NET",
+          "showOwner": false
+        },
+        {
+          "name": "MaxiPago SDK .NET",
+          "repo": "guibranco/MaxiPago-SDK-dotnet",
+          "description": "MaxiPago payment gateway SDK for .NET",
+          "showOwner": false
+        },
+        {
+          "name": "Pagar.me SDK .NET",
+          "repo": "guibranco/pagarme-sdk-dotnet",
+          "description": "Pagar.me payment gateway SDK for .NET",
+          "showOwner": false
         },
         {
           "name": "Pancake",
           "repo": "guibranco/Pancake",
           "description": "Utility library for .NET",
-          "showOwner": true
+          "showOwner": false
+        },
+        {
+          "name": "PIX BACEN SDK .NET",
+          "repo": "guibranco/PIX-BACEN-SDK-DotNet",
+          "description": "SDK for PIX (Brazilian Instant Payments)",
+          "showOwner": false
+        },
+        {
+          "name": "Progress Bar",
+          "repo": "guibranco/progressbar",
+          "description": "Progress bar library for .NET",
+          "showOwner": false
+        },
+        {
+          "name": "Sankhya SDK .NET",
+          "repo": "guibranco/Sankhya-SDK-dotnet",
+          "description": "Sankhya ERP SDK",
+          "showOwner": false
+        },
+        {
+          "name": "SMTP Locaweb",
+          "repo": "guibranco/SmtpLw",
+          "description": "SMTP Locaweb API client for .NET",
+          "showOwner": false
+        },
+        {
+          "name": "ViaCEP",
+          "repo": "guibranco/ViaCEP",
+          "description": "Brazilian postal code API client for .NET",
+          "showOwner": false
+        },
+        {
+          "name": "ViaCEP Rust",
+          "repo": "guibranco/viacep-rs",
+          "description": "Brazilian postal code API client for Rust",
+          "showOwner": false
+        },
+        {
+          "name": "VTEX SDK .NET",
+          "repo": "guibranco/VTEX-SDK-dotnet",
+          "description": "VTEX e-commerce platform SDK",
+          "showOwner": false
+        }
+      ]
+    },
+    {
+      "id": "github-actions",
+      "title": "GitHub Actions",
+      "color": "#fd4c3b",
+      "projects": [
+        {
+          "name": "Artifact Lock",
+          "repo": "guibranco/github-artifact-lock-action",
+          "description": "GitHub Action to lock workflow artifacts",
+          "showOwner": false
+        },
+        {
+          "name": "Badges",
+          "repo": "guibranco/github-badges-action",
+          "description": "GitHub Action to generate repository badges",
+          "showOwner": false
+        },
+        {
+          "name": "File Reader v2",
+          "repo": "guibranco/github-file-reader-action-v2",
+          "description": "GitHub Action to read file contents",
+          "showOwner": false
+        },
+        {
+          "name": "Infisical Secrets Check",
+          "repo": "guibranco/github-infisical-secrets-check-action",
+          "description": "GitHub Action to check Infisical secrets",
+          "showOwner": false
+        },
+        {
+          "name": "MySQL Migration",
+          "repo": "guibranco/github-mysql-migration-action",
+          "description": "GitHub Action to run MySQL migrations",
+          "showOwner": false
+        },
+        {
+          "name": "Screenshot",
+          "repo": "guibranco/github-screenshot-action",
+          "description": "GitHub Action to capture website screenshots",
+          "showOwner": false
+        },
+        {
+          "name": "Status v2",
+          "repo": "guibranco/github-status-action-v2",
+          "description": "GitHub Action to update commit status",
+          "showOwner": false
         }
       ]
     },
     {
       "id": "templates",
       "title": "Template Projects",
+      "color": "#4bbf30",
       "projects": [
         {
           "name": "API Client Boilerplate .NET",
@@ -83,15 +230,15 @@
           "showOwner": false
         },
         {
-          "name": "CQRS Boilerplate .NET",
-          "repo": "GuilhermeStracini/cqrs-boilerplate-dotnet",
-          "description": "Template for CQRS architecture in .NET",
-          "showOwner": false
-        },
-        {
           "name": "API Service Boilerplate PHP",
           "repo": "GuilhermeStracini/api-service-boilerplate-php",
           "description": "Template for API services in PHP",
+          "showOwner": false
+        },
+        {
+          "name": "CQRS Boilerplate .NET",
+          "repo": "GuilhermeStracini/cqrs-boilerplate-dotnet",
+          "description": "Template for CQRS architecture in .NET",
           "showOwner": false
         }
       ]
@@ -99,11 +246,24 @@
     {
       "id": "jobs",
       "title": "Job Board Repositories",
+      "color": "#0092ff",
       "projects": [
+        {
+          "name": "Backend PT - Vagas",
+          "repo": "backend-pt/vagas",
+          "description": "Backend jobs in Portugal",
+          "showOwner": true
+        },
         {
           "name": "DotNetDevBR - Vagas",
           "repo": "DotNetDevBr/Vagas",
           "description": ".NET jobs in Brazil",
+          "showOwner": true
+        },
+        {
+          "name": "Frontend PT - Vagas",
+          "repo": "frontend-pt/Vagas",
+          "description": "Frontend jobs in Portugal",
           "showOwner": true
         },
         {
@@ -119,42 +279,18 @@
           "showOwner": true
         },
         {
+          "name": "RubyDevBR - Vagas",
+          "repo": "rubydevbr/vagas",
+          "description": "Ruby jobs in Brazil",
+          "showOwner": true
+        },
+        {
           "name": "RustDevBR - Vagas",
           "repo": "RustDevBr/Vagas",
           "description": "Rust jobs in Brazil",
           "showOwner": true
-        },
-        {
-          "name": "Frontend PT - Vagas",
-          "repo": "frontend-pt/Vagas",
-          "description": "Frontend jobs in Portugal",
-          "showOwner": true
-        },
-        {
-          "name": "Backend PT - Vagas",
-          "repo": "backend-pt/vagas",
-          "description": "Backend jobs in Portugal",
-          "showOwner": true
         }
       ]
-    }
-  ],
-  "profiles": [
-    {
-      "username": "guibranco",
-      "description": "Main GitHub profile"
-    },
-    {
-      "username": "guilhermestracini",
-      "description": "Secondary GitHub profile"
-    },
-    {
-      "username": "apibr",
-      "description": "Brazilian APIs organization"
-    },
-    {
-      "username": "inovacaomediabrasil",
-      "description": "Media innovation organization"
     }
   ]
 }

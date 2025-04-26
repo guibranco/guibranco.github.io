@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import ProfileImage from "./ProfileImage";
-import Contact from "./Contact";
-import Profile from "./Profile";
-import Skills from "./Skills";
-import Hobbies from "./Hobbies";
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import ProfileImage from './ProfileImage';
+import Contact from './Contact';
+import Profile from './Profile';
+import Skills from './Skills';
+import Hobbies from './Hobbies';
 
-const STORAGE_KEY = "sidebarCollapsedSections";
+const STORAGE_KEY = 'sidebarCollapsedSections';
 
 const Sidebar = () => {
   const location = useLocation();
@@ -32,7 +32,7 @@ const Sidebar = () => {
   // Collapse all sections on mobile when route changes
   useEffect(() => {
     if (window.innerWidth <= 768) {
-      setCollapsedSections(() => ({
+      setCollapsedSections(prev => ({
         contact: true,
         profile: true,
         skills: true,

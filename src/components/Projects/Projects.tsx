@@ -1,10 +1,10 @@
 import React from 'react';
-import PublicProjectGroup from '../components/Projects/PublicProjectGroup';
-import GithubProfiles from '../components/Projects/GithubProfiles';
-import PersonalPrivateProjectGroup from '../components/Projects/PersonalPrivateProjectGroup';
-import projectsData from '../data/projects.json';
-import profilesData from '../data/profiles.json';
-import personalPrivateProjectsData from '../data/personal-private-projects.json';
+import PublicProjectGroup from './PublicProjectGroup';
+import GithubProfiles from './GithubProfiles';
+import PersonalPrivateProjectGroup from './PersonalPrivateProjectGroup';
+import projectsData from '../../data/projects.json';
+import profilesData from '../../data/profiles.json';
+import personalPrivateProjectsData from '../../data/personal-private-projects.json';
 
 const Projects = () => {
   return (
