@@ -12,12 +12,10 @@ import Education from './pages/Education';
 import Projects from './pages/Projects';
 import Hobbies from './pages/Hobbies';
 
-// Create a wrapper component to handle route changes
 const AppContent = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
 
-  // Close mobile menu on route change
   useEffect(() => {
     setMobileMenuOpen(false);
   }, [location]);
