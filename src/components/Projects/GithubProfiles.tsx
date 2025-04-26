@@ -1,4 +1,3 @@
-import React from "react";
 import { GithubProfile } from "../../types";
 
 interface GithubProfilesProps {

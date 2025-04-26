@@ -1,4 +1,3 @@
-import React from "react";
 import PersonalPrivateProject from "./PersonalPrivateProject";
 import { VisualProject } from "../../types";
 

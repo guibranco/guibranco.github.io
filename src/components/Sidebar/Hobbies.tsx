@@ -1,4 +1,3 @@
-import React from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

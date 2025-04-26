@@ -1,4 +1,3 @@
-import React from "react";
 import ExperienceCard from "../components/Experience/ExperienceCard";
 import educationData from "../data/education.json";
 import languagesData from "../data/languages.json";

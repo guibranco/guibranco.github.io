@@ -1,4 +1,3 @@
-import React from "react";
 import Introduction from "../components/AboutMe/Introduction";
 import WorkPermit from "../components/AboutMe/WorkPermit";
 import ExperienceYearsTable from "../components/ExperienceYears/ExperienceYearsTable";

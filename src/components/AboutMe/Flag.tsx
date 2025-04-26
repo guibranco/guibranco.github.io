@@ -1,5 +1,3 @@
-import React from "react";
-
 interface FlagProps {
   country: string;
   code: string;

@@ -1,4 +1,3 @@
-import React from "react";
 import { Experience } from "../../types";
 import { calculateDuration } from "../../utils/experience";
 import CompanyHeader from "./CompanyHeader";

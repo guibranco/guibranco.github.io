@@ -1,4 +1,3 @@
-import React from "react";
 import { IntroFlag } from "./IntroFlag";
 
 const Introduction = () => {

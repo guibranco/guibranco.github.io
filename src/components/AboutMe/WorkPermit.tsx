@@ -1,4 +1,3 @@
-import React from "react";
 import { Flag } from "./Flag";
 import mercosurFlag from "../../assets/mercosur.svg";
 

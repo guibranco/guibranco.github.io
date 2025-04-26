@@ -1,5 +1,3 @@
-import React from "react";
-
 interface SectionTitleProps {
   title: string;
   color: string;

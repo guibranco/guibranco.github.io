@@ -1,4 +1,3 @@
-import React from "react";
 import PublicProjectGroup from "./PublicProjectGroup";
 import GithubProfiles from "./GithubProfiles";
 import PersonalPrivateProjectGroup from "./PersonalPrivateProjectGroup";

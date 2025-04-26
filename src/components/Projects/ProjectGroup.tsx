@@ -1,9 +1,7 @@
-import React from "react";
 import { Project } from "../../types";
 import PublicProjectCard from "./PublicProjectCard";
 
 interface ProjectGroupProps {
-  title: string;
   projects: Project[];
 }
 

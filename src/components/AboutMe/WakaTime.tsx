@@ -1,5 +1,3 @@
-import React from "react";
-
 const WakaTime = () => {
   return (
     <div className="text-center">

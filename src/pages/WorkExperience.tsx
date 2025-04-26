@@ -1,4 +1,3 @@
-import React from "react";
 import ExperienceCard from "../components/Experience/ExperienceCard";
 import workExperienceData from "../data/work-experience.json";
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 interface IntroFlagProps {
   company: string;
   code: string;

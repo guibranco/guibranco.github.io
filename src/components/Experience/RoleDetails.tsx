@@ -1,4 +1,3 @@
-import React from "react";
 import { Briefcase, Clock } from "lucide-react";
 import { Role } from "../../types";
 import { getContractTypeLabel, getWorkModelLabel } from "../../utils/experience";
