@@ -51,7 +51,9 @@ const MobileBottomNav = () => {
     };
   }, [handleTouchStart]);
 
-  if (!showNav) return null;
+  if (!showNav) {
+    return null;
+  }
 
   return (
     <div
