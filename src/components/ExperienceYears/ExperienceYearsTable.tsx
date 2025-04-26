@@ -41,8 +41,7 @@ const ExperienceYearsTable = () => {
     years: calculateYears(exp.startDate),
   }));
 
-  // Create rows based on screen size
-  const createRows = () => {
+  const createRows = React.useCallback(() => {
     const isMobile = window.innerWidth <= 768;
     const itemsPerRow = isMobile ? 2 : 5;
     const rows = [];
@@ -52,7 +51,7 @@ const ExperienceYearsTable = () => {
     }
 
     return rows;
-  };
+  }, [experiences]);
 
   const [rows, setRows] = React.useState(createRows());
 
@@ -63,7 +62,7 @@ const ExperienceYearsTable = () => {
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [createRows]);
 
   return (
     <div className="w-full">

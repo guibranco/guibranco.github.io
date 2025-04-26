@@ -32,7 +32,7 @@ const Sidebar = () => {
   // Collapse all sections on mobile when route changes
   useEffect(() => {
     if (window.innerWidth <= 768) {
-      setCollapsedSections((prev) => ({
+      setCollapsedSections(() => ({
         contact: true,
         profile: true,
         skills: true,

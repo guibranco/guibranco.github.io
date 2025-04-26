@@ -7,7 +7,7 @@ interface PublicProjectCardProps {
   showOwner: boolean;
 }
 
-const PublicProjectCard = ({ name, repo, description, showOwner }: PublicProjectCardProps) => {
+const PublicProjectCard = ({ name, repo, showOwner }: PublicProjectCardProps) => {
   return (
     <a href={`https://github.com/${repo}`} target="_blank" rel="noopener" className="block">
       <img
