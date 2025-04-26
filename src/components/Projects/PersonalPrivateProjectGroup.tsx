@@ -1,6 +1,6 @@
-import React from 'react';
-import PersonalPrivateProject from './PersonalPrivateProject';
-import { VisualProject } from '../../types';
+import React from "react";
+import PersonalPrivateProject from "./PersonalPrivateProject";
+import { VisualProject } from "../../types";
 
 interface PersonalPrivateProjectGroupProps {
   projects: VisualProject[];

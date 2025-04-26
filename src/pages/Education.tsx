@@ -1,9 +1,17 @@
-import React from 'react';
-import ExperienceCard from '../components/Experience/ExperienceCard';
-import educationData from '../data/education.json';
-import languagesData from '../data/languages.json';
+import React from "react";
+import ExperienceCard from "../components/Experience/ExperienceCard";
+import educationData from "../data/education.json";
+import languagesData from "../data/languages.json";
 
-const DonutChart = ({ percentage, color, language }: { percentage: number; color: string; language: string }) => {
+const DonutChart = ({
+  percentage,
+  color,
+  language,
+}: {
+  percentage: number;
+  color: string;
+  language: string;
+}) => {
   const radius = 50;
   const strokeWidth = 10;
   const normalizedRadius = radius - strokeWidth * 2;
@@ -25,7 +33,7 @@ const DonutChart = ({ percentage, color, language }: { percentage: number; color
           stroke={color}
           fill="transparent"
           strokeWidth={strokeWidth}
-          strokeDasharray={circumference + ' ' + circumference}
+          strokeDasharray={circumference + " " + circumference}
           style={{ strokeDashoffset }}
           r={normalizedRadius}
           cx={radius}
@@ -84,13 +92,16 @@ const Education = () => {
                 <div className="flex flex-wrap justify-center items-center gap-16 my-8">
                   {languages.map((lang, index) => (
                     <div key={index} className="text-center">
-                      <span className="block text-lg font-semibold mb-4" style={{ color: lang.color }}>
+                      <span
+                        className="block text-lg font-semibold mb-4"
+                        style={{ color: lang.color }}
+                      >
                         {lang.level}
                       </span>
-                      <DonutChart 
-                        percentage={lang.percentage} 
-                        color={lang.color} 
-                        language={lang.language} 
+                      <DonutChart
+                        percentage={lang.percentage}
+                        color={lang.color}
+                        language={lang.language}
                       />
                     </div>
                   ))}

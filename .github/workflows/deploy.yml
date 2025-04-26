@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: true
 
 permissions:
@@ -77,18 +77,18 @@ jobs:
         with:
           name: build-output
           path: ./dist
-      
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
-          
+          path: "./dist"
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-  
+
   create_release:
     name: Create release
     needs: [build, deploy]

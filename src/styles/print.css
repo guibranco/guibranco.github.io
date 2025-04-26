@@ -1,9 +1,9 @@
 @media print {
-    .block-holder {        
-        page-break-inside: avoid;
-    }
+  .block-holder {
+    page-break-inside: avoid;
+  }
 
-    .print-hide {
-        display: none;
-    }
+  .print-hide {
+    display: none;
+  }
 }

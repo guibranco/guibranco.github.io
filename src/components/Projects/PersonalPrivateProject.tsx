@@ -1,6 +1,6 @@
-import React from 'react';
-import { Github, Globe } from 'lucide-react';
-import { VisualProject as VisualProjectType } from '../../types';
+import React from "react";
+import { Github, Globe } from "lucide-react";
+import { VisualProject as VisualProjectType } from "../../types";
 
 interface PersonalPrivateProjectProps {
   project: VisualProjectType;
@@ -10,11 +10,7 @@ const PersonalPrivateProject = ({ project }: PersonalPrivateProjectProps) => {
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 animate-fade-up">
       <div className="aspect-video w-full overflow-hidden">
-        <img 
-          src={project.screenshot} 
-          alt={project.title}
-          className="w-full h-full object-cover"
-        />
+        <img src={project.screenshot} alt={project.title} className="w-full h-full object-cover" />
       </div>
       <div className="p-6">
         <div className="flex items-start justify-between gap-4">
@@ -24,7 +20,7 @@ const PersonalPrivateProject = ({ project }: PersonalPrivateProjectProps) => {
         <p className="mt-2 text-gray-600 text-sm">{project.description}</p>
         <div className="mt-4 flex flex-wrap gap-2">
           {project.technologies.map((tech, index) => (
-            <span 
+            <span
               key={index}
               className="px-2 py-1 bg-gray-100 text-gray-600 rounded-full text-xs font-medium"
             >

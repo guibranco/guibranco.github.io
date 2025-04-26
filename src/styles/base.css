@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --font-montserrat: Montserrat, sans-serif;
@@ -42,31 +42,34 @@
 
 /* Base styles */
 html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    color: #333;
-    font: 16px/1.2 "Montserrat", "Arial", sans-serif;
-    min-width: 320px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;    
-    font-size: 12px;
-    line-height: 13px;
-    background: #e4e5e6;
+  margin: 0;
+  color: #333;
+  font:
+    16px/1.2 "Montserrat",
+    "Arial",
+    sans-serif;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  line-height: 13px;
+  background: #e4e5e6;
 }
 
 #wrapper {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .anchor {
-    margin-top: -50px; 
-    margin-bottom: 50px;
+  margin-top: -50px;
+  margin-bottom: 50px;
 }

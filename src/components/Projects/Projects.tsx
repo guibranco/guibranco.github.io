@@ -1,10 +1,10 @@
-import React from 'react';
-import PublicProjectGroup from './PublicProjectGroup';
-import GithubProfiles from './GithubProfiles';
-import PersonalPrivateProjectGroup from './PersonalPrivateProjectGroup';
-import projectsData from '../../data/projects.json';
-import profilesData from '../../data/profiles.json';
-import personalPrivateProjectsData from '../../data/personal-private-projects.json';
+import React from "react";
+import PublicProjectGroup from "./PublicProjectGroup";
+import GithubProfiles from "./GithubProfiles";
+import PersonalPrivateProjectGroup from "./PersonalPrivateProjectGroup";
+import projectsData from "../../data/projects.json";
+import profilesData from "../../data/profiles.json";
+import personalPrivateProjectsData from "../../data/personal-private-projects.json";
 
 const Projects = () => {
   return (
@@ -18,7 +18,7 @@ const Projects = () => {
           ))}
 
           <GithubProfiles profiles={profilesData.profiles} />
-          
+
           <PersonalPrivateProjectGroup projects={personalPrivateProjectsData.projects} />
         </div>
       </div>

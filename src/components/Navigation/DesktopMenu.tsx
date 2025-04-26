@@ -8,7 +8,7 @@ const DesktopMenu = () => {
     { path: "/work-experience", label: "Work Experience" },
     { path: "/education", label: "Education" },
     { path: "/projects", label: "Projects" },
-    { path: "/hobbies", label: "Hobbies" }
+    { path: "/hobbies", label: "Hobbies" },
   ];
 
   return (
@@ -21,8 +21,8 @@ const DesktopMenu = () => {
                 to={item.path}
                 className={`px-4 py-3 inline-block text-sm font-medium transition-colors duration-200 ${
                   location.pathname === item.path
-                    ? 'text-indigo-600 border-b-2 border-indigo-600'
-                    : 'text-gray-700 hover:text-indigo-600 hover:bg-indigo-50'
+                    ? "text-indigo-600 border-b-2 border-indigo-600"
+                    : "text-gray-700 hover:text-indigo-600 hover:bg-indigo-50"
                 }`}
               >
                 {item.label}

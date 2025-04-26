@@ -9,7 +9,7 @@ import {
   faLaptopCode,
   faHamburger,
   faCandyCane,
-  faTv
+  faTv,
 } from "@fortawesome/free-solid-svg-icons";
 import hobbiesData from "../../data/sidebar-hobbies.json";
 
@@ -21,7 +21,7 @@ const iconMap = {
   faLaptopCode,
   faHamburger,
   faCandyCane,
-  faTv
+  faTv,
 };
 
 interface HobbiesProps {
@@ -31,7 +31,7 @@ interface HobbiesProps {
 
 const Hobbies = ({ collapsed, onToggle }: HobbiesProps) => {
   return (
-    <section className={`widget ${collapsed ? 'collapsed' : ''}`}>
+    <section className={`widget ${collapsed ? "collapsed" : ""}`}>
       <div className="anchor" id="hobbies"></div>
       <header className="widget-head red" onClick={onToggle}>
         <div className="wrap flex items-center justify-between w-full px-4">

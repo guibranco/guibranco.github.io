@@ -19,8 +19,8 @@ export interface Role {
   period: string;
   description: string;
   achievements: string[];
-  contractType: 'full-time' | 'part-time' | 'freelance' | 'contract' | null;
-  workModel: 'on-site' | 'hybrid' | 'remote' | null;
+  contractType: "full-time" | "part-time" | "freelance" | "contract" | null;
+  workModel: "on-site" | "hybrid" | "remote" | null;
 }
 
 export interface Experience {

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Calendar, MapPin, Linkedin, Globe } from 'lucide-react';
-import { ConsultingCompany, RelatedCompany } from '../../types';
+import React from "react";
+import { Calendar, MapPin, Linkedin, Globe } from "lucide-react";
+import { ConsultingCompany, RelatedCompany } from "../../types";
 
 interface CompanyHeaderProps {
   company: string;
@@ -27,27 +27,27 @@ const CompanyHeader = ({
   description,
   consultingCompany,
   relatedCompanies,
-  duration
+  duration,
 }: CompanyHeaderProps) => {
   return (
     <>
       <div className="flex items-start justify-between flex-wrap gap-2 md:gap-4">
         <div className="flex items-start gap-2 md:gap-4 grow min-w-0">
           <div className="flex flex-col items-center gap-2">
-            <img 
-              src={logo} 
-              alt={`${company} logo`} 
+            <img
+              src={logo}
+              alt={`${company} logo`}
               className="w-10 h-10 md:w-16 md:h-16 object-contain rounded-lg shrink-0"
             />
             {consultingCompany && (
               <div className="relative w-6 h-6 md:w-12 md:h-12">
-                <img 
+                <img
                   src={consultingCompany.logo || consultingCompany.flag}
                   alt={`${consultingCompany.name} logo`}
                   className="w-full h-full object-contain rounded-lg"
                 />
                 <div className="absolute -top-1 -right-1 w-2 h-2 md:w-4 md:h-4">
-                  <img 
+                  <img
                     src={consultingCompany.flag}
                     alt={`${consultingCompany.name} flag`}
                     className="w-full h-full rounded-full border border-white"
@@ -58,10 +58,12 @@ const CompanyHeader = ({
           </div>
           <div className="min-w-0 grow">
             <div className="bg-white rounded-lg shadow-xs px-1.5 py-1 md:px-3 md:py-2">
-              <h2 className="text-[11px] leading-tight md:text-2xl font-semibold text-black! break-words">{company}</h2>
+              <h2 className="text-[11px] leading-tight md:text-2xl font-semibold text-black! break-words">
+                {company}
+              </h2>
               <div className="flex gap-1 md:gap-2 mt-0.5 md:mt-1">
                 {linkedin && (
-                  <a 
+                  <a
                     href={linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -72,7 +74,7 @@ const CompanyHeader = ({
                   </a>
                 )}
                 {website && (
-                  <a 
+                  <a
                     href={website}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -85,11 +87,11 @@ const CompanyHeader = ({
               </div>
               {consultingCompany && (
                 <p className="text-[10px] leading-tight md:text-sm text-gray-600 mt-0.5 md:mt-1 break-words">
-                  <span className="font-medium">Via:</span>{' '}
+                  <span className="font-medium">Via:</span>{" "}
                   <span className="inline-flex items-center">
-                    {consultingCompany.name}{' '}
+                    {consultingCompany.name}{" "}
                     {consultingCompany.linkedin && (
-                      <a 
+                      <a
                         href={consultingCompany.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -100,7 +102,7 @@ const CompanyHeader = ({
                       </a>
                     )}
                     {consultingCompany.website && (
-                      <a 
+                      <a
                         href={consultingCompany.website}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -115,18 +117,18 @@ const CompanyHeader = ({
               )}
               {relatedCompanies && (
                 <p className="text-[10px] leading-tight md:text-sm text-gray-600 mt-0.5 md:mt-1 break-words">
-                  <span className="font-medium">Part of:</span>{' '}
+                  <span className="font-medium">Part of:</span>{" "}
                   {relatedCompanies.map((related, index) => (
                     <span key={index} className="inline-flex items-center">
-                      {index > 0 && ' and '}
-                      {related.name}{' '}
-                      <img 
-                        src={related.flag} 
-                        alt={`${related.name} flag`} 
+                      {index > 0 && " and "}
+                      {related.name}{" "}
+                      <img
+                        src={related.flag}
+                        alt={`${related.name} flag`}
                         className="w-2 h-2 md:w-4 md:h-4 inline-block mx-1"
                       />
                       {related.linkedin && (
-                        <a 
+                        <a
                           href={related.linkedin}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -137,7 +139,7 @@ const CompanyHeader = ({
                         </a>
                       )}
                       {related.website && (
-                        <a 
+                        <a
                           href={related.website}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -165,13 +167,13 @@ const CompanyHeader = ({
             <span className="text-[10px] md:text-base">{period}</span>
           </div>
           {duration && (
-            <span className="text-[10px] md:text-xs text-indigo-600 font-medium">
-              {duration}
-            </span>
+            <span className="text-[10px] md:text-xs text-indigo-600 font-medium">{duration}</span>
           )}
         </div>
       </div>
-      <p className="mt-1.5 md:mt-4 text-gray-600 text-[10px] leading-tight md:text-base">{description}</p>
+      <p className="mt-1.5 md:mt-4 text-gray-600 text-[10px] leading-tight md:text-base">
+        {description}
+      </p>
     </>
   );
 };

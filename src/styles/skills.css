@@ -1,48 +1,48 @@
 .widget-body .list-points {
-    margin: 0 0 4px;
-    padding: 0;
-    height: 6px;
-    list-style: none;
-    width: 140px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
+  margin: 0 0 4px;
+  padding: 0;
+  height: 6px;
+  list-style: none;
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
 }
 
 .widget-body .list-points li {
-    height: 2px;
-    background: #b7b7b7;
-    position: relative;
+  height: 2px;
+  background: #b7b7b7;
+  position: relative;
 }
 
 .widget-body .list-points li.active:after {
-    background: #2f2f2f;
+  background: #2f2f2f;
 }
 
 .widget-body .list-points li.active:before {
-    background: #2f2f2f;
+  background: #2f2f2f;
 }
 
 .widget-body .list-points li:before {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 6px;
-    height: 6px;
-    content: "";
-    border-radius: 100%;
-    background: #b7b7b7;
-    z-index: 5;
-    transform: translate(0, -50%);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  content: "";
+  border-radius: 100%;
+  background: #b7b7b7;
+  z-index: 5;
+  transform: translate(0, -50%);
 }
 
 .widget-body .list-points li:after {
-    top: 0;
-    bottom: 0;
-    right: 100%;
-    width: 30px;
-    background: #b7b7b7;
-    content: "";
-    position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 30px;
+  background: #b7b7b7;
+  content: "";
+  position: absolute;
 }

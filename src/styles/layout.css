@@ -1,35 +1,35 @@
 .two-cols {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0 1rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 1rem;
 }
 
 @media (min-width: 640px) {
-    .two-cols {
-        padding: 0 1.5rem;
-    }
+  .two-cols {
+    padding: 0 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
-    .two-cols {
-        padding: 0 2rem;
-    }
+  .two-cols {
+    padding: 0 2rem;
+  }
 }
 
 #sidebar {
-    width: 280px;
-    color: #2f2f2f;
-    flex-shrink: 0;
+  width: 280px;
+  color: #2f2f2f;
+  flex-shrink: 0;
 }
 
 #content {
-    flex: 1;
-    min-width: 0;
-    background: #341b3b;
-    color: #39F;
-    padding: 2rem;
-    border-right: 1rem solid #341b3b;
-    border-radius: 0 1rem 1rem 0;
+  flex: 1;
+  min-width: 0;
+  background: #341b3b;
+  color: #39f;
+  padding: 2rem;
+  border-right: 1rem solid #341b3b;
+  border-radius: 0 1rem 1rem 0;
 }

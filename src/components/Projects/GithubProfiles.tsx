@@ -1,5 +1,5 @@
-import React from 'react';
-import { GithubProfile } from '../../types';
+import React from "react";
+import { GithubProfile } from "../../types";
 
 interface GithubProfilesProps {
   profiles: GithubProfile[];
@@ -14,10 +14,10 @@ const GithubProfiles = ({ profiles }: GithubProfilesProps) => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
         {profiles.map((profile, index) => (
-          <div 
+          <div
             key={index}
-            className="github-card bg-white rounded-lg shadow-md p-4" 
-            data-user={profile.username} 
+            className="github-card bg-white rounded-lg shadow-md p-4"
+            data-user={profile.username}
             data-target="blank"
           ></div>
         ))}

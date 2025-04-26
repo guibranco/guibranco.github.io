@@ -1,13 +1,13 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import React, { useState, useEffect, useCallback } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const routes = [
-  { path: '/about-me', label: 'About Me' },
-  { path: '/work-experience', label: 'Work Experience' },
-  { path: '/education', label: 'Education' },
-  { path: '/projects', label: 'Projects' },
-  { path: '/hobbies', label: 'Hobbies' }
+  { path: "/about-me", label: "About Me" },
+  { path: "/work-experience", label: "Work Experience" },
+  { path: "/education", label: "Education" },
+  { path: "/projects", label: "Projects" },
+  { path: "/hobbies", label: "Hobbies" },
 ];
 
 const MobileBottomNav = () => {
@@ -15,7 +15,7 @@ const MobileBottomNav = () => {
   const navigate = useNavigate();
   const [showNav, setShowNav] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
-  const currentIndex = routes.findIndex(route => route.path === location.pathname);
+  const currentIndex = routes.findIndex((route) => route.path === location.pathname);
 
   const prevRoute = currentIndex > 0 ? routes[currentIndex - 1] : null;
   const nextRoute = currentIndex < routes.length - 1 ? routes[currentIndex + 1] : null;
@@ -40,13 +40,13 @@ const MobileBottomNav = () => {
       }, 3000);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    document.addEventListener('touchstart', handleTouchStart);
+    window.addEventListener("scroll", handleScroll);
+    document.addEventListener("touchstart", handleTouchStart);
     handleScroll();
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      document.removeEventListener('touchstart', handleTouchStart);
+      window.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("touchstart", handleTouchStart);
       clearTimeout(hideTimeout);
     };
   }, [handleTouchStart]);
@@ -54,9 +54,9 @@ const MobileBottomNav = () => {
   if (!showNav) return null;
 
   return (
-    <div 
+    <div
       className={`fixed bottom-4 left-4 right-4 flex justify-between md:hidden transition-opacity duration-300 ${
-        isVisible ? 'opacity-100' : 'opacity-0'
+        isVisible ? "opacity-100" : "opacity-0"
       }`}
     >
       {prevRoute ? (
@@ -67,7 +67,9 @@ const MobileBottomNav = () => {
           <ArrowLeft size={16} />
           <span className="text-sm font-medium">{prevRoute.label}</span>
         </button>
-      ) : <div />}
+      ) : (
+        <div />
+      )}
 
       {nextRoute && (
         <button
