@@ -3,7 +3,9 @@ import { HashRouter as Router, Routes, Route, Navigate, useLocation } from "reac
 import Sidebar from "./components/Sidebar/Sidebar";
 import DesktopMenu from "./components/Navigation/DesktopMenu";
 import MobileMenu from "./components/Navigation/MobileMenu";
+import MobileBottomNav from "./components/Navigation/MobileBottomNav";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import Footer from "./components/Footer/Footer";
 import AboutMe from "./pages/AboutMe";
 import WorkExperience from "./pages/WorkExperience";
 import Education from "./pages/Education";
@@ -35,6 +37,8 @@ const AppContent = () => {
         </Routes>
       </div>
       <ScrollToTop />
+      <MobileBottomNav />
+      <Footer />
     </div>
   );
 };

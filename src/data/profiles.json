@@ -1,0 +1,20 @@
+{
+  "profiles": [
+    {
+      "username": "guibranco",
+      "description": "Main GitHub profile"
+    },
+    {
+      "username": "guilhermestracini",
+      "description": "Secondary GitHub profile"
+    },
+    {
+      "username": "apibr",
+      "description": "Brazilian APIs organization"
+    },
+    {
+      "username": "inovacaomediabrasil",
+      "description": "Media innovation organization"
+    }
+  ]
+}

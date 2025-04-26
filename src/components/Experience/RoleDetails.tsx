@@ -1,4 +1,3 @@
-import React from "react";
 import { Briefcase, Clock } from "lucide-react";
 import { Role } from "../../types";
 import { getContractTypeLabel, getWorkModelLabel } from "../../utils/experience";
@@ -14,12 +13,12 @@ const RoleDetails = ({ role, duration }: RoleDetailsProps) => {
   return (
     <div className="border-t pt-2 md:pt-4">
       <div className="flex flex-wrap gap-1 md:gap-2 items-baseline">
-        <h3 className="text-xs md:text-base font-medium text-gray-900 break-words mr-auto">{role.title}</h3>
+        <h3 className="text-xs md:text-base font-medium text-gray-900 break-words mr-auto">
+          {role.title}
+        </h3>
         <div className="flex flex-col items-end shrink-0">
           <span className="text-xs md:text-sm text-gray-500">{role.period}</span>
-          {duration && (
-            <span className="text-[10px] md:text-xs text-indigo-600">{duration}</span>
-          )}
+          {duration && <span className="text-[10px] md:text-xs text-indigo-600">{duration}</span>}
         </div>
       </div>
       {showWorkDetails && (

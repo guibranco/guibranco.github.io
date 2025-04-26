@@ -1,7 +1,8 @@
 export const calculateDuration = (startDate: string, endDate: string = "now"): string => {
   const start = new Date(startDate.split("/").reverse().join("-"));
-  const end = endDate.toLowerCase() === "now" ? new Date() : new Date(endDate.split("/").reverse().join("-"));
-  
+  const end =
+    endDate.toLowerCase() === "now" ? new Date() : new Date(endDate.split("/").reverse().join("-"));
+
   let years = end.getFullYear() - start.getFullYear();
   let months = end.getMonth() - start.getMonth();
 
@@ -29,8 +30,8 @@ export const getContractTypeLabel = (type: string): string => {
   const labels = {
     "full-time": "Full-time",
     "part-time": "Part-time",
-    "freelance": "Freelance",
-    "contract": "Contract"
+    freelance: "Freelance",
+    contract: "Contract",
   };
   return labels[type as keyof typeof labels] || type;
 };
@@ -38,8 +39,8 @@ export const getContractTypeLabel = (type: string): string => {
 export const getWorkModelLabel = (model: string): string => {
   const labels = {
     "on-site": "On-site",
-    "hybrid": "Hybrid",
-    "remote": "Remote"
+    hybrid: "Hybrid",
+    remote: "Remote",
   };
   return labels[model as keyof typeof labels] || model;
 };

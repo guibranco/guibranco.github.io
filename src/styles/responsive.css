@@ -1,106 +1,107 @@
 @media only screen and (max-width: 600px) {
-    #sidebar .widget .profile {
-        font-size: 1em;
-    }
+  #sidebar .widget .profile {
+    font-size: 1em;
+  }
 
-    #sidebar .widget .skills .row {
-        width: 101%;
-        margin-bottom: 5px;
-    }
+  #sidebar .widget .skills .row {
+    width: 101%;
+    margin-bottom: 5px;
+  }
 
-    #sidebar .widget .hobbies {
-        font-size: 2em;
-    }
+  #sidebar .widget .hobbies {
+    font-size: 2em;
+  }
 
-    #sidebar, #content {
-        width: 100%;
-    }
+  #sidebar,
+  #content {
+    width: 100%;
+  }
 
-    #content {
-        padding: 1rem;
-    }
-    
-    #content .about-row table {
-        width: 90%;
-    }
+  #content {
+    padding: 1rem;
+  }
 
-    #content .about-row {
-        padding: 1%;
-    }
-    
-    #content .about-row p.sub {
-        width: 93%;
-    }
+  #content .about-row table {
+    width: 90%;
+  }
 
-    #content .about-row ul {
-        width: 100%;
-        margin: 0;
-        padding: 5%;
-        list-style-type: circle;
-    }
+  #content .about-row {
+    padding: 1%;
+  }
 
-    #content .block-holder .exp-row strong {
-        font-size: 1.2em;
-    }
+  #content .about-row p.sub {
+    width: 93%;
+  }
 
-    #content .block-holder .exp-row strong span {
-        font-size: 0.8em;
-    }
+  #content .about-row ul {
+    width: 100%;
+    margin: 0;
+    padding: 5%;
+    list-style-type: circle;
+  }
 
-    #content .block-holder .exp-row .year, 
-    #content .block-holder .exp-row .job {
-        font-size: 1em;
-        line-height: 2em;
-        max-width: 90%;
-        margin: auto 5%;
-    }
+  #content .block-holder .exp-row strong {
+    font-size: 1.2em;
+  }
 
-    #content .block-holder .exp-row ul {
-        text-align: left;
-        list-style: circle;
-        border-top: 2px dotted;
-        padding-top: 10px;
-    }
+  #content .block-holder .exp-row strong span {
+    font-size: 0.8em;
+  }
 
-    #content .block-holder .exp-row ul li {
-        line-height: 2em;
-        font-size: 1em;
-        padding: 10px;
-    }
+  #content .block-holder .exp-row .year,
+  #content .block-holder .exp-row .job {
+    font-size: 1em;
+    line-height: 2em;
+    max-width: 90%;
+    margin: auto 5%;
+  }
 
-    .widget-body .list-points {
-        width: 357px;
-    }
+  #content .block-holder .exp-row ul {
+    text-align: left;
+    list-style: circle;
+    border-top: 2px dotted;
+    padding-top: 10px;
+  }
 
-    .widget-body .list-points li:after {
-        width: 85px;
-    }
+  #content .block-holder .exp-row ul li {
+    line-height: 2em;
+    font-size: 1em;
+    padding: 10px;
+  }
 
-    .widget-list li {
-        padding-left: 50px;
-    }
+  .widget-body .list-points {
+    width: 357px;
+  }
 
-    .widget-list .icon {
-        width: 32px;
-        height: 32px;
-        font-size: 20px;
-    }
+  .widget-body .list-points li:after {
+    width: 85px;
+  }
 
-    #content .education .exp-row {
-        margin: 10px 0;
-    }
+  .widget-list li {
+    padding-left: 50px;
+  }
 
-    #content .lang-list li {
-        padding: 0 1em;
-        margin: 0 -20px;
-    }
+  .widget-list .icon {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+  }
 
-    #content .lang-desc {
-        text-align: left;
-        margin-left: 4em;
-    }
+  #content .education .exp-row {
+    margin: 10px 0;
+  }
 
-    #content .lang-desc li {
-        line-height: 3em;
-    }
+  #content .lang-list li {
+    padding: 0 1em;
+    margin: 0 -20px;
+  }
+
+  #content .lang-desc {
+    text-align: left;
+    margin-left: 4em;
+  }
+
+  #content .lang-desc li {
+    line-height: 3em;
+  }
 }

@@ -1,57 +1,57 @@
 #content .lang-list {
-    margin: 0 0 15px;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
 }
 
 #content .lang-list li {
-    padding: 0 2em;
+  padding: 0 2em;
 }
 
 #content .lang-list li.red .level {
-    color: #ff493a;
+  color: #ff493a;
 }
 
 #content .lang-list li.red .c100 {
-    background: url(../images/bg-red.svg) no-repeat;
-    background-size: 100% 100%;
+  background: url(../images/bg-red.svg) no-repeat;
+  background-size: 100% 100%;
 }
 
 #content .lang-list li.blue .level {
-    color: #0092ff;
+  color: #0092ff;
 }
 
 #content .lang-list li.blue .c100 {
-    background: url(../images/bg-blue.svg) no-repeat;
-    background-size: 100% 100%;
+  background: url(../images/bg-blue.svg) no-repeat;
+  background-size: 100% 100%;
 }
 
 #content .lang-list li .level {
-    display: block;
-    text-transform: uppercase;
-    color: #51bd00;
-    font-size: 1em;
-    line-height: 2em;
-    margin: 1em;
+  display: block;
+  text-transform: uppercase;
+  color: #51bd00;
+  font-size: 1em;
+  line-height: 2em;
+  margin: 1em;
 }
 
 #content .lang-list li .c100 {
-    font-size: 1em;
-    line-height: 2em;
-    font-weight: 300;
-    width: 8em;
-    height: 6em;
-    background: url(../images/bg-green.svg) no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 1em;
+  line-height: 2em;
+  font-weight: 300;
+  width: 8em;
+  height: 6em;
+  background: url(../images/bg-green.svg) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content .lang-desc li {
-    line-height: 2em;
+  line-height: 2em;
 }

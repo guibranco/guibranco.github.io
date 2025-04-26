@@ -1,4 +1,3 @@
-import React from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import skillsData from "../../data/skills.json";
 
@@ -13,7 +12,7 @@ const SkillRow = ({ title, level }: SkillRowProps) => {
       <strong className="row-title">{title}</strong>
       <ul className="list-points">
         {[...Array(5)].map((_, i) => (
-          <li key={i} className={i < level ? 'active' : ''}></li>
+          <li key={i} className={i < level ? "active" : ""}></li>
         ))}
       </ul>
     </div>
@@ -27,7 +26,7 @@ interface SkillsProps {
 
 const Skills = ({ collapsed, onToggle }: SkillsProps) => {
   return (
-    <section className={`widget ${collapsed ? 'collapsed' : ''}`}>
+    <section className={`widget ${collapsed ? "collapsed" : ""}`}>
       <div className="anchor" id="skills"></div>
       <header className="widget-head green" onClick={onToggle}>
         <div className="wrap flex items-center justify-between w-full px-4">

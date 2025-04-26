@@ -15,7 +15,7 @@ const Sidebar = () => {
       const saved = localStorage.getItem(STORAGE_KEY);
       return saved ? JSON.parse(saved) : {};
     } catch (error) {
-      console.error('Error loading sidebar state:', error);
+      console.error("Error loading sidebar state:", error);
       return {};
     }
   });
@@ -25,7 +25,7 @@ const Sidebar = () => {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(collapsedSections));
     } catch (error) {
-      console.error('Error saving sidebar state:', error);
+      console.error("Error saving sidebar state:", error);
     }
   }, [collapsedSections]);
 
@@ -36,25 +36,25 @@ const Sidebar = () => {
         contact: true,
         profile: true,
         skills: true,
-        hobbies: true
+        hobbies: true,
       }));
     }
   }, [location]);
 
   const toggleSection = (sectionId: string) => {
-    setCollapsedSections(prev => ({
+    setCollapsedSections((prev) => ({
       ...prev,
-      [sectionId]: !prev[sectionId]
+      [sectionId]: !prev[sectionId],
     }));
   };
 
   return (
     <aside id="sidebar">
       <ProfileImage />
-      <Contact collapsed={collapsedSections['contact']} onToggle={() => toggleSection('contact')} />
-      <Profile collapsed={collapsedSections['profile']} onToggle={() => toggleSection('profile')} />
-      <Skills collapsed={collapsedSections['skills']} onToggle={() => toggleSection('skills')} />
-      <Hobbies collapsed={collapsedSections['hobbies']} onToggle={() => toggleSection('hobbies')} />
+      <Contact collapsed={collapsedSections["contact"]} onToggle={() => toggleSection("contact")} />
+      <Profile collapsed={collapsedSections["profile"]} onToggle={() => toggleSection("profile")} />
+      <Skills collapsed={collapsedSections["skills"]} onToggle={() => toggleSection("skills")} />
+      <Hobbies collapsed={collapsedSections["hobbies"]} onToggle={() => toggleSection("hobbies")} />
     </aside>
   );
 };
