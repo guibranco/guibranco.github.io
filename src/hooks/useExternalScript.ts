@@ -8,10 +8,11 @@ export function useExternalScript(src: string): void {
     const script = document.createElement("script");
     script.src = src;
     script.async = true;
+    script.setAttribute("data-script-id", src);
     document.body.appendChild(script);
 
     return () => {
-      if (document.querySelectorAll(`[data-uses-script="${src}"]`).length <= 1) {
+      if (document.querySelectorAll(`script[data-script-id="${src}"]`).length <= 1) {
         document.body.removeChild(script);
       }
     };
