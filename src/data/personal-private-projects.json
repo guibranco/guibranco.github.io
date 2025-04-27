@@ -9,10 +9,10 @@
         "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
         "https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg"
       ],
-      "url": "https://ebaoh.com",
-      "repo": "https://github.com/guibranco/EBAOH",
-      "docs": "https://guibranco.github.io/EBAOH",
-      "technologies": ["C# .NET Core", "React", "SQL Server", "Redis", "Azure"]
+      "url": "https://ebaoh.com.br",
+      "repo": "https://github.com/guibranco/ebaoh",
+      "docs": "https://guibranco.github.io/ebaoh",
+      "technologies": ["PHP", "Code Igniter 4", "MySQL", "Facebook API"]
     },
     {
       "title": "Video Learning Platform",
@@ -34,7 +34,7 @@
         "https://images.pexels.com/photos/5473297/pexels-photo-5473297.jpeg",
         "https://images.pexels.com/photos/5473299/pexels-photo-5473299.jpeg"
       ],
-      "technologies": ["VB.NET", "Windows Forms", "SQL Server"]
+      "technologies": ["VB.NET", "Windows Forms", "TotalIP API"]
     }
   ]
 }
