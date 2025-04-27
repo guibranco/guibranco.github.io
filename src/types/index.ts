@@ -58,6 +58,7 @@ export interface VisualProject {
   screenshots: string[];
   url?: string;
   repo?: string;
+  docs?: string;
   technologies: string[];
 }
 
