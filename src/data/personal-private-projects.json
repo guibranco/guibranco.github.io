@@ -9,6 +9,9 @@
         "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
         "https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg"
       ],
+      "url": "https://ebaoh.com",
+      "repo": "https://github.com/guibranco/EBAOH",
+      "docs": "https://guibranco.github.io/EBAOH",
       "technologies": ["C# .NET Core", "React", "SQL Server", "Redis", "Azure"]
     },
     {
