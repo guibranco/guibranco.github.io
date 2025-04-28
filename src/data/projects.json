@@ -153,6 +153,11 @@
           "showOwner": false
         },
         {
+          "name": "CSharpier Linter",
+          "repo": "guibranco/github-csharpier-linter-action",
+          "showOwner": false          
+        },
+        {
           "name": "File Reader v2",
           "repo": "guibranco/github-file-reader-action-v2",
           "showOwner": false
