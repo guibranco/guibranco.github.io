@@ -158,6 +158,11 @@
           "showOwner": false          
         },
         {
+          "name": "Database Migration",
+          "repo": "guibranco/github-database-migration-action",
+          "showOwner": false
+        },
+        {
           "name": "File Reader v2",
           "repo": "guibranco/github-file-reader-action-v2",
           "showOwner": false
@@ -166,12 +171,7 @@
           "name": "Infisical Secrets Check",
           "repo": "guibranco/github-infisical-secrets-check-action",
           "showOwner": false
-        },
-        {
-          "name": "MySQL Migration",
-          "repo": "guibranco/github-mysql-migration-action",
-          "showOwner": false
-        },
+        },        
         {
           "name": "Screenshot",
           "repo": "guibranco/github-screenshot-action",
