@@ -18,7 +18,7 @@
     "@fortawesome/free-regular-svg-icons": "^7.0.0",
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@fortawesome/react-fontawesome": "^0.2.3",
-    "lucide-react": "^0.528.0",
+    "lucide-react": "^0.536.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.7.1"
