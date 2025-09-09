@@ -21,11 +21,6 @@
           "showOwner": false
         },
         {
-          "name": "Bitcointrade SDK .NET",
-          "repo": "guibranco/bitcointrade-sdk-dotnet",
-          "showOwner": false
-        },
-        {
           "name": "Calendarific SDK .NET",
           "repo": "guibranco/calendarific-sdk-dotnet",
           "showOwner": false
