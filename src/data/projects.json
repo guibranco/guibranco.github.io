@@ -11,12 +11,12 @@
           "showOwner": false
         },
         {
-          "name": "GuiStracini.HolidayAPI",
+          "name": "GuiStracini.HolidayAPI SDK .NET",
           "repo": "guibranco/GuiStracini.HolidayAPI",
           "showOwner": false
         },
         {
-          "name": "GuiStracini.Mandae",
+          "name": "GuiStracini.Mandae SDK NET",
           "repo": "guibranco/GuiStracini.Mandae",
           "showOwner": false
         },
@@ -73,13 +73,13 @@
           "showOwner": false
         },
         {
-          "name": "Holiday API Rust",
-          "repo": "guibranco/holiday-api-rust",
+          "name": "Holiday API SDK Rust",
+          "repo": "guibranco/holiday-api-sdk-rs",
           "showOwner": false
         },
         {
-          "name": "ViaCEP Rust",
-          "repo": "guibranco/viacep-rs",
+          "name": "ViaCEP SDK Rust",
+          "repo": "guibranco/viacep-sdk-rs",
           "showOwner": false
         }
       ]
@@ -117,8 +117,8 @@
           "showOwner": false
         },
         {
-          "name": "CEP Aberto",
-          "repo": "guibranco/CEPAberto",
+          "name": "CEP Aberto SDK .NET",
+          "repo": "guibranco/CEPAberto-sdk-dotnet",
           "showOwner": false
         },
         {
@@ -137,13 +137,13 @@
           "showOwner": false
         },
         {
-          "name": "SMTP Locaweb",
-          "repo": "guibranco/SmtpLw",
+          "name": "SMTP Locaweb SDK .NET",
+          "repo": "guibranco/SmtpLw-sdk-dotnet",
           "showOwner": false
         },
         {
-          "name": "ViaCEP",
-          "repo": "guibranco/ViaCEP",
+          "name": "ViaCEP SDK .NET",
+          "repo": "guibranco/ViaCEP-SDK-dotnet",
           "showOwner": false
         }
       ]
