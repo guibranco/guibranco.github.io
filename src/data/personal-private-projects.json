@@ -12,7 +12,12 @@
       "url": "https://ebaoh.com.br",
       "repo": "https://github.com/guibranco/ebaoh",
       "docs": "https://guibranco.github.io/ebaoh",
-      "technologies": ["PHP", "Code Igniter 4", "MySQL", "Facebook API"]
+      "technologies": [
+        "PHP",
+        "Code Igniter 4",
+        "MySQL",
+        "Facebook API"
+      ]
     },
     {
       "title": "Video Learning Platform",
@@ -23,7 +28,13 @@
         "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg",
         "https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
       ],
-      "technologies": ["C# .NET", "jQuery", "SQL Server", "MaxiPago", "AWS S3"]
+      "technologies": [
+        "C# .NET",
+        "jQuery",
+        "SQL Server",
+        "MaxiPago",
+        "AWS S3"
+      ]
     },
     {
       "title": "Digital PBX Management",
@@ -34,7 +45,45 @@
         "https://images.pexels.com/photos/5473297/pexels-photo-5473297.jpeg",
         "https://images.pexels.com/photos/5473299/pexels-photo-5473299.jpeg"
       ],
-      "technologies": ["VB.NET", "Windows Forms", "TotalIP API"]
+      "technologies": [
+        "VB.NET",
+        "Windows Forms",
+        "TotalIP API"
+      ]
+    },
+    {
+      "title": "GStraccini BOT - GitHub bot",
+      "description": "GStraccini-bot automates repository management, ensuring organization and health by handling pull requests, issues, comments, and commits.",
+      "year": 2023,
+      "screenshots": [
+        "https://images.pexels.com/photos/8566474/pexels-photo-8566474.jpeg",
+        "https://images.pexels.com/photos/8294564/pexels-photo-8294564.jpeg",
+        "https://images.pexels.com/photos/6153343/pexels-photo-6153343.jpeg"
+      ],
+      "technologies": [
+        "PHP",
+        "C# .NET",
+        "GitHub API",
+        "MySQL",
+        "RabbitMQ",
+        "LavinMQ"
+      ]
+    },
+    {
+      "title": "Clean CV maker",
+      "description": "Helps IT professionals to create a clean CV in HTML, PDF and JSON",
+      "year": 2025,
+      "screenshots": [
+        "https://images.pexels.com/photos/5989940/pexels-photo-5989940.jpeg",
+        "https://images.pexels.com/photos/5921773/pexels-photo-5921773.jpeg",
+        "https://images.pexels.com/photos/5989928/pexels-photo-5989928.jpeg"
+      ],
+      "technologies": [
+        "React",
+        "JS",
+        "TS",
+        "GitHub"
+      ]
     }
   ]
 }
