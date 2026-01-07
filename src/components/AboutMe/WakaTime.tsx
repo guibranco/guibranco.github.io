@@ -13,7 +13,7 @@ const WakaTime = () => {
           className="mx-auto mb-4"
         />
         <img
-          src="https://github-readme-stats-git-feature-private-repositories-guibranco.vercel.app//api/wakatime?username=guistracini&range=all_time&layout=compact&theme=synthwave&bg_color=341b3b&hide_title=true"
+          src="https://github-readme-stats-guibranco.vercel.app/api/wakatime?username=guistracini&range=all_time&layout=compact&theme=synthwave&bg_color=341b3b&hide_title=true"
           alt="Total time coded since April 10, 2015 by language"
           className="mx-auto"
         />
