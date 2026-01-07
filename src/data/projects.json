@@ -1,48 +1,13 @@
 {
   "sections": [
     {
-      "id": "oss",
-      "title": "Libraries",
-      "color": "#fbc02d",
+      "id": "sdk-dotnet",
+      "title": "SDK - .NET",
+      "color": "#512bd4",
       "projects": [
-        {
-          "name": "AI Commit Message",
-          "repo": "guibranco/dotnet-aicommitmessage",
-          "showOwner": false
-        },
-        {
-          "name": "Bancos Brasileiros",
-          "repo": "guibranco/BancosBrasileiros",
-          "showOwner": false
-        },
-        {
-          "name": "Bets Brasileiras",
-          "repo": "guibranco/BetsBrasileiras",
-          "showOwner": false
-        },
         {
           "name": "Calendarific SDK .NET",
           "repo": "guibranco/calendarific-sdk-dotnet",
-          "showOwner": false
-        },
-        {
-          "name": "Calendarific SDK Rust",
-          "repo": "guibranco/calendarific-sdk-rs",
-          "showOwner": false
-        },
-        {
-          "name": "CEP Aberto",
-          "repo": "guibranco/CEPAberto",
-          "showOwner": false
-        },
-        {
-          "name": "CrispyWaffle",
-          "repo": "guibranco/CrispyWaffle",
-          "showOwner": false
-        },
-        {
-          "name": "GStraccini Bot Service",
-          "repo": "guibranco/gstraccini-bot-service",
           "showOwner": false
         },
         {
@@ -58,16 +23,6 @@
         {
           "name": "GuiStracini.SDKBuilder",
           "repo": "guibranco/GuiStracini.SDKBuilder",
-          "showOwner": false
-        },
-        {
-          "name": "Holiday API Rust",
-          "repo": "guibranco/holiday-api-rust",
-          "showOwner": false
-        },
-        {
-          "name": "IP Query PHP",
-          "repo": "guibranco/ipquery-php",
           "showOwner": false
         },
         {
@@ -91,23 +46,94 @@
           "showOwner": false
         },
         {
-          "name": "Pancake",
-          "repo": "guibranco/Pancake",
-          "showOwner": false
-        },
-        {
           "name": "PIX BACEN SDK .NET",
           "repo": "guibranco/PIX-BACEN-SDK-DotNet",
           "showOwner": false
         },
         {
-          "name": "Progress Bar",
-          "repo": "guibranco/progressbar",
+          "name": "Sankhya SDK .NET",
+          "repo": "guibranco/Sankhya-SDK-dotnet",
           "showOwner": false
         },
         {
-          "name": "Sankhya SDK .NET",
-          "repo": "guibranco/Sankhya-SDK-dotnet",
+          "name": "VTEX SDK .NET",
+          "repo": "guibranco/VTEX-SDK-dotnet",
+          "showOwner": false
+        }
+      ]
+    },
+    {
+      "id": "sdk-rust",
+      "title": "SDK - Rust",
+      "color": "#ce412b",
+      "projects": [
+        {
+          "name": "Calendarific SDK Rust",
+          "repo": "guibranco/calendarific-sdk-rs",
+          "showOwner": false
+        },
+        {
+          "name": "Holiday API Rust",
+          "repo": "guibranco/holiday-api-rust",
+          "showOwner": false
+        },
+        {
+          "name": "ViaCEP Rust",
+          "repo": "guibranco/viacep-rs",
+          "showOwner": false
+        }
+      ]
+    },
+    {
+      "id": "sdk-php",
+      "title": "SDK - PHP",
+      "color": "#777bb3",
+      "projects": [
+        {
+          "name": "IP Query PHP",
+          "repo": "guibranco/ipquery-php",
+          "showOwner": false
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "color": "#fbc02d",
+      "projects": [
+        {
+          "name": "AI Commit Message",
+          "repo": "guibranco/dotnet-aicommitmessage",
+          "showOwner": false
+        },
+        {
+          "name": "Bancos Brasileiros",
+          "repo": "guibranco/BancosBrasileiros",
+          "showOwner": false
+        },
+        {
+          "name": "Bets Brasileiras",
+          "repo": "guibranco/BetsBrasileiras",
+          "showOwner": false
+        },
+        {
+          "name": "CEP Aberto",
+          "repo": "guibranco/CEPAberto",
+          "showOwner": false
+        },
+        {
+          "name": "CrispyWaffle",
+          "repo": "guibranco/CrispyWaffle",
+          "showOwner": false
+        },
+        {
+          "name": "Pancake",
+          "repo": "guibranco/Pancake",
+          "showOwner": false
+        },
+        {
+          "name": "Progress Bar",
+          "repo": "guibranco/progressbar",
           "showOwner": false
         },
         {
@@ -119,15 +145,17 @@
           "name": "ViaCEP",
           "repo": "guibranco/ViaCEP",
           "showOwner": false
-        },
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "title": "Services",
+      "color": "#00bfa5",
+      "projects": [
         {
-          "name": "ViaCEP Rust",
-          "repo": "guibranco/viacep-rs",
-          "showOwner": false
-        },
-        {
-          "name": "VTEX SDK .NET",
-          "repo": "guibranco/VTEX-SDK-dotnet",
+          "name": "GStraccini Bot Service",
+          "repo": "guibranco/gstraccini-bot-service",
           "showOwner": false
         }
       ]
