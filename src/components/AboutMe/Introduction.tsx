@@ -4,10 +4,10 @@ const Introduction = () => {
   return (
     <>
       <p>
-        Senior, hands-on software engineer with strong expertise in C#/.NET and Node.js, focused on
-        designing, building, and maintaining scalable backend systems. Experienced across financial
-        services, insurance, logistics, delivery platforms, quick commerce (QCommerce), e-commerce,
-        and complex integrations for web and desktop solutions.
+        Senior, hands-on software engineer with strong expertise in C#/.NET, focused on designing,
+        building, and maintaining scalable backend systems. Experienced across financial services,
+        insurance, logistics, delivery platforms, quick commerce (QCommerce), e-commerce, and
+        complex integrations for web and desktop solutions.
       </p>
 
       <br />
@@ -60,9 +60,14 @@ const Introduction = () => {
       <br />
 
       <p>
-        Additionally, I have over eight years of experience in the e-commerce domain, with
-        significant hands-on work using the VTEX platform as a service (PaaS), supporting
-        integrations, order flows, and high-traffic production environments.
+        I also bring over eight years of experience in the e-commerce domain, working with
+        high-traffic and enterprise-grade platforms. This includes projects for{" "}
+        <IntroFlag company="Farfetch" code="pt" />, contributing to internal platform-level systems,
+        as well as <IntroFlag company="C&A Brasil" code="br" /> and{" "}
+        <IntroFlag company="Inovação Media Brasil" code="br" />, where I worked extensively with the
+        VTEX platform (PaaS). My experience spans order management, catalog and pricing
+        integrations, checkout flows, third-party integrations, and supporting scalable,
+        high-availability production environments.
       </p>
     </>
   );
