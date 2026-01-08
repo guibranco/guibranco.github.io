@@ -17,13 +17,17 @@ const Profile = ({ collapsed, onToggle }: ProfileProps) => {
       </header>
       <div className="widget-body">
         <p className="profile">
-          Senior Backend Engineer at OUTsurance Ireland, architecting financial, billing, and collections systems using C# .NET, SQL, NoSQL, and message queues. Aspiring to principal engineer and software architect roles.
+          Senior Backend Engineer at OUTsurance Ireland, architecting financial, billing, and
+          collections systems using C# .NET, SQL, NoSQL, and message queues. Aspiring to principal
+          engineer and software architect roles.
           <br />
           <br />
-          Open-source contributor across multiple languages, including Rust, C# .NET, PHP, and Node.js. Passionate about robotics, data analysis, and financial markets.
+          Open-source contributor across multiple languages, including Rust, C# .NET, PHP, and
+          Node.js. Passionate about robotics, data analysis, and financial markets.
           <br />
           <br />
-          When not coding: tracking down James Bond filming locations and collecting Lego park stamps worldwide.
+          When not coding: tracking down James Bond filming locations and collecting Lego park
+          stamps worldwide.
         </p>
       </div>
     </section>
