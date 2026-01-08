@@ -4,10 +4,10 @@ const Introduction = () => {
   return (
     <>
       <p>
-        Senior, hands-on software engineer with strong expertise in C#/.NET, focused on
-        designing, building, and maintaining scalable backend systems. Experienced across financial
-        services, insurance, logistics, delivery platforms, quick commerce (QCommerce), e-commerce,
-        and complex integrations for web and desktop solutions.
+        Senior, hands-on software engineer with strong expertise in C#/.NET, focused on designing,
+        building, and maintaining scalable backend systems. Experienced across financial services,
+        insurance, logistics, delivery platforms, quick commerce (QCommerce), e-commerce, and
+        complex integrations for web and desktop solutions.
       </p>
 
       <br />
@@ -64,10 +64,10 @@ const Introduction = () => {
         high-traffic and enterprise-grade platforms. This includes projects for{" "}
         <IntroFlag company="Farfetch" code="pt" />, contributing to internal platform-level systems,
         as well as <IntroFlag company="C&A Brasil" code="br" /> and{" "}
-        <IntroFlag company="Inovação Media Brasil" code="br" />, where I worked extensively with the VTEX platform
-        (PaaS). My experience spans order management, catalog and pricing integrations, checkout
-        flows, third-party integrations, and supporting scalable, high-availability production
-        environments.
+        <IntroFlag company="Inovação Media Brasil" code="br" />, where I worked extensively with the
+        VTEX platform (PaaS). My experience spans order management, catalog and pricing
+        integrations, checkout flows, third-party integrations, and supporting scalable,
+        high-availability production environments.
       </p>
     </>
   );
