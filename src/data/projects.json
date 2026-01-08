@@ -2,9 +2,14 @@
   "sections": [
     {
       "id": "sdk-dotnet",
-      "title": "SDK - .NET",
+      "title": ".NET SDKs",
       "color": "#512bd4",
       "projects": [
+        {
+          "name": "CEP Aberto SDK .NET",
+          "repo": "guibranco/CEPAberto-sdk-dotnet",
+          "showOwner": false
+        },        
         {
           "name": "Calendarific SDK .NET",
           "repo": "guibranco/calendarific-sdk-dotnet",
@@ -56,6 +61,16 @@
           "showOwner": false
         },
         {
+          "name": "SMTP Locaweb SDK .NET",
+          "repo": "guibranco/SmtpLw-sdk-dotnet",
+          "showOwner": false
+        },
+        {
+          "name": "ViaCEP SDK .NET",
+          "repo": "guibranco/ViaCEP-SDK-dotnet",
+          "showOwner": false
+        },
+        {
           "name": "VTEX SDK .NET",
           "repo": "guibranco/VTEX-SDK-dotnet",
           "showOwner": false
@@ -64,7 +79,7 @@
     },
     {
       "id": "sdk-rust",
-      "title": "SDK - Rust",
+      "title": "RUST SDKs",
       "color": "#ce412b",
       "projects": [
         {
@@ -86,7 +101,7 @@
     },
     {
       "id": "sdk-php",
-      "title": "SDK - PHP",
+      "title": "PHP SDKs",
       "color": "#777bb3",
       "projects": [
         {
@@ -115,12 +130,7 @@
           "name": "Bets Brasileiras",
           "repo": "guibranco/BetsBrasileiras",
           "showOwner": false
-        },
-        {
-          "name": "CEP Aberto SDK .NET",
-          "repo": "guibranco/CEPAberto-sdk-dotnet",
-          "showOwner": false
-        },
+        },       
         {
           "name": "CrispyWaffle",
           "repo": "guibranco/CrispyWaffle",
@@ -135,29 +145,7 @@
           "name": "Progress Bar",
           "repo": "guibranco/progressbar",
           "showOwner": false
-        },
-        {
-          "name": "SMTP Locaweb SDK .NET",
-          "repo": "guibranco/SmtpLw-sdk-dotnet",
-          "showOwner": false
-        },
-        {
-          "name": "ViaCEP SDK .NET",
-          "repo": "guibranco/ViaCEP-SDK-dotnet",
-          "showOwner": false
-        }
-      ]
-    },
-    {
-      "id": "services",
-      "title": "Services",
-      "color": "#00bfa5",
-      "projects": [
-        {
-          "name": "GStraccini Bot Service",
-          "repo": "guibranco/gstraccini-bot-service",
-          "showOwner": false
-        }
+        }        
       ]
     },
     {
