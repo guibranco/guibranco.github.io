@@ -93,6 +93,11 @@
           "showOwner": false
         },
         {
+          "name": "SMSDev SDK Rust",
+          "repo": "guibranco/smsdev-sdk-rs",
+          "showOwner": false
+        },
+        {
           "name": "ViaCEP SDK Rust",
           "repo": "guibranco/viacep-sdk-rs",
           "showOwner": false
