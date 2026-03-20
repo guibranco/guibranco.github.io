@@ -5,6 +5,7 @@ import {
   faBirthdayCake,
   faEnvelope,
   faFilePdf,
+  faBlog,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faWhatsapp,
@@ -95,7 +96,15 @@ const Contact = ({ collapsed, onToggle }: ContactProps) => {
               <span className="icon">
                 <FontAwesomeIcon icon={faWordpressSimple} />
               </span>
-              Blog
+              Blog (WordPress)
+            </a>
+          </li>
+          <li>
+            <a href="https://guilherme.stracini.com.br/blog" target="_blank" rel="noopener">
+              <span className="icon">
+                <FontAwesomeIcon icon={faBlog} />
+              </span>
+              Blog (Tecnologia &amp; Viagens)
             </a>
           </li>
           <li>
