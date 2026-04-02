@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import { X, ChevronLeft, ChevronRight, Globe, Github, Book } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, Globe, Book } from "lucide-react";
+import { GitHubIcon } from "@/components/Icons/GitHubIcon";
 import { VisualProject } from "../../types";
 
 interface ImageModalProps {
@@ -98,7 +99,7 @@ const ImageModal = ({
             className="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-full text-white hover:bg-white/20 transition-colors"
             onClick={(e) => e.stopPropagation()}
           >
-            <Github size={16} />
+            <GitHubIcon size={16} />
             <span>View Code</span>
           </a>
         )}
