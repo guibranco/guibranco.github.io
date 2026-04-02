@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Github, Globe, ChevronLeft, ChevronRight, ZoomIn, Book } from "lucide-react";
+import { Globe, ChevronLeft, ChevronRight, ZoomIn, Book } from "lucide-react";
+import { GitHubIcon } from "@/components/Icons/GitHubIcon";
 import { VisualProject as VisualProjectType } from "../../types";
 import ImageModal from "./ImageModal";
 
@@ -106,7 +107,7 @@ const PersonalPrivateProject = ({ project }: PersonalPrivateProjectProps) => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-sm text-gray-600 hover:text-gray-900 transition-colors"
             >
-              <Github size={16} />
+              <GitHubIcon size={16} />
               <span>View Code</span>
             </a>
           )}
