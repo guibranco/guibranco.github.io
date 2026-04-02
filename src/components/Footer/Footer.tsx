@@ -1,4 +1,4 @@
-import { GitHubIcon } from '@/components/Icons/GitHubIcon';
+import { GitHubIcon } from "@/components/Icons/GitHubIcon";
 
 const Footer = () => {
   return (
