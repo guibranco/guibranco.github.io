@@ -1,5 +1,15 @@
 import React from "react";
 
+/**
+ * Renders the GitHub logo as an SVG icon.
+ *
+ * This component forwards all standard SVG props to the underlying
+ * <svg> element, allowing customization such as size, color, className,
+ * accessibility attributes, and event handlers.
+ *
+ * @param props SVG element props applied to the icon
+ * @returns A React SVG element representing the GitHub logo
+ */
 export function GitHubIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
