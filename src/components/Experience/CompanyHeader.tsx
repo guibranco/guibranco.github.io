@@ -1,4 +1,5 @@
-import { Calendar, MapPin, Linkedin, Globe } from "lucide-react";
+import { Calendar, MapPin, Globe } from "lucide-react";
+import { LinkedInIcon } from "@/components/Icons/LinkedInIcon";
 import { ConsultingCompany, RelatedCompany } from "../../types";
 
 interface CompanyHeaderProps {
@@ -69,7 +70,7 @@ const CompanyHeader = ({
                     className="text-blue-600 hover:text-blue-800 transition-colors"
                     aria-label={`${company} LinkedIn`}
                   >
-                    <Linkedin size={12} className="md:w-[18px] md:h-[18px]" />
+                    <LinkedInIcon size={12} className="md:w-[18px] md:h-[18px]" />
                   </a>
                 )}
                 {website && (
