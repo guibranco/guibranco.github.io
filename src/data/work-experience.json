@@ -132,10 +132,10 @@
           "workModel": "remote",
           "description": "Working for FCamara in the Open Banking / Open Finance project",
           "achievements": [
-            "Developing IdP (Identity Provider), DCR (Dynamic Client Registration) R",
+            "Developing IdP (Identity Provider), DCR (Dynamic Client Registration)",
             "Developing White Label platform",
             "Integration with Banco Pan",
-            "Building APIs with Node.JS, Cosmos Db, Azure Service Bus",
+            "Building APIs with Node.JS, CosmosDB, Azure Service Bus",
             "Agile culture & ceremonies using Scrum and Kanban over Azure DevOps"
           ]
         }
