@@ -45,11 +45,26 @@
       "logo": "https://guilherme.stracini.com.br/images/experience/Talabat.png",
       "location": "Dubai, UAE",
       "description": "Food ordering services | +16K employees",
-      "period": "Jan/2022 - March/2023",
+      "period": "May/2021 - March/2023",
       "flag": "https://raw.githubusercontent.com/hjnilsson/country-flags/master/svg/ae.svg",
       "linkedin": "https://www.linkedin.com/company/talabat-com/",
       "website": "https://talabat.com/",
-      "roles": [
+      "roles": [        
+        {
+          "title": "Software Engineer / .NET Developer",
+          "period": "Jan/2022 - March/2023",
+          "contractType": "full-time",
+          "workModel": "hybrid",
+          "description": "Working in Shopping Experience squad (former FAST - Finding and Shopping Team squad)",
+          "achievements": [
+            "Improve search, offers, and shopping experience in Grocery tribe / QCommerce tribe",
+            "Migration from a monolithic architecture to microservices architecture",
+            "Building APIs and services with C# (.NET 5/6/7), Amazon SQS, SQL Server and PostgreSQL",
+            "Configure backend for frontend (BFF) API gateway using KrakenD, Luna, and GoLang",
+            "DDD (Domain Driven Design) and TDD (Test Driven Development) approaches",
+            "Agile culture & ceremonies using Scrum over Jira"
+          ]
+        },
         {
           "title": "Software Engineer / .NET Developer",
           "period": "May/2021 - Dec/2021",
@@ -65,21 +80,6 @@
             "Building APIs and services with C# (.NET 5), Amazon SQS, Amazon Lambda, SQL Server, and PostgreSQL",
             "DDD (Domain Driven Design) approach",
             "Agile culture & ceremonies using Scrum and Kanban over Jira"
-          ]
-        },
-        {
-          "title": "Software Engineer / .NET Developer",
-          "period": "Jan/2022 - March/2023",
-          "contractType": "full-time",
-          "workModel": "hybrid",
-          "description": "Working in Shopping Experience squad (former FAST - Finding and Shopping Team squad)",
-          "achievements": [
-            "Improve search, offers, and shopping experience in Grocery tribe / QCommerce tribe",
-            "Migration from a monolithic architecture to microservices architecture",
-            "Building APIs and services with C# (.NET 5/6/7), Amazon SQS, SQL Server and PostgreSQL",
-            "Configure backend for frontend (BFF) API gateway using KrakenD, Luna, and GoLang",
-            "DDD (Domain Driven Design) and TDD (Test Driven Development) approaches",
-            "Agile culture & ceremonies using Scrum over Jira"
           ]
         }
       ],
