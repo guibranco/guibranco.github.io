@@ -17,17 +17,23 @@ const Profile = ({ collapsed, onToggle }: ProfileProps) => {
       </header>
       <div className="widget-body">
         <p className="profile">
-          Senior Backend Engineer at OUTsurance Ireland, architecting financial, billing, and
-          collections systems using C# .NET, SQL, NoSQL, and message queues. Aspiring to principal
-          engineer and software architect roles.
+          Technology enthusiast, currently working with C# .NET, SQL, NoSQL, and queues. My
+          professional goal is to become a principal engineer/staff engineer/software architect.
           <br />
           <br />
-          Open-source contributor across multiple languages, including Rust, C# .NET, PHP, and
-          Node.js. Passionate about robotics, data analysis, and financial markets.
+          As a senior backend engineer, we are developing the financial, billing, and collections
+          system for OUTsurance Ireland, an online insurance company in Dublin, Ireland.
           <br />
           <br />
-          When not coding: tracking down James Bond filming locations and collecting Lego park
-          stamps worldwide.
+          Interests in robotics, data analysis, programming, and financial investments (shares,
+          fixed income, stock).
+          <br />
+          <br />
+          I have written open-source libraries in Rust, C# .NET, PHP, and JS (Node.JS).
+          <br />
+          <br />
+          My life goal is to visit all the places portrayed in the 007 - James Bond movies and visit
+          Lego parks worldwide.
         </p>
       </div>
     </section>

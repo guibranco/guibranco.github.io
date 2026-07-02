@@ -1,4 +1,4 @@
-import { GitHubIcon } from "@/components/Icons/GitHubIcon";
+import { Github } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
         >
-          <GitHubIcon size={20} />
+          <Github size={20} />
           <span className="text-sm">View source on GitHub</span>
         </a>
       </div>
