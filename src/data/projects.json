@@ -155,7 +155,7 @@
         {
           "name": "CSharpier Linter",
           "repo": "guibranco/github-csharpier-linter-action",
-          "showOwner": false          
+          "showOwner": false
         },
         {
           "name": "Database Migration",
@@ -171,7 +171,7 @@
           "name": "Infisical Secrets Check",
           "repo": "guibranco/github-infisical-secrets-check-action",
           "showOwner": false
-        },        
+        },
         {
           "name": "Screenshot",
           "repo": "guibranco/github-screenshot-action",

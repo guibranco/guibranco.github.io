@@ -7,7 +7,7 @@ import prettier from "eslint-config-prettier";
 import eslintPluginPrettier from "eslint-plugin-prettier";
 
 export default tseslint.config(
-  { ignores: ["dist"] },
+  { ignores: ["dist", "coverage"] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended, prettier],
     files: ["**/*.{ts,tsx}"],
@@ -25,6 +25,12 @@ export default tseslint.config(
       "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
       curly: ["error", "all"],
       "prettier/prettier": "error",
+    },
+  },
+  {
+    files: ["tests/**/*.{ts,tsx}"],
+    languageOptions: {
+      globals: globals.vitest,
     },
   },
 );
