@@ -1,4 +1,5 @@
-import { Github } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
         >
-          <Github size={20} />
+          <FontAwesomeIcon icon={faGithub} className="w-5 h-5" />
           <span className="text-sm">View source on GitHub</span>
         </a>
       </div>
