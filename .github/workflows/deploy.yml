@@ -9,15 +9,12 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
       fullSemVer: ${{ steps.gitversion.outputs.fullSemVer }}
 
@@ -68,6 +65,9 @@ jobs:
     name: Deploy GH Pages
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
 
     steps:
       - name: Download artifact
@@ -91,6 +91,8 @@ jobs:
     name: Create release
     needs: [build, deploy]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       fullSemVer: ${{ needs.build.outputs.fullSemVer }}
 
