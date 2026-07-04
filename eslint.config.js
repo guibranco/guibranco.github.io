@@ -27,4 +27,10 @@ export default tseslint.config(
       "prettier/prettier": "error",
     },
   },
+  {
+    files: ["tests/**/*.{ts,tsx}"],
+    languageOptions: {
+      globals: globals.vitest,
+    },
+  },
 );
