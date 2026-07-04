@@ -84,6 +84,155 @@
         "TS",
         "GitHub"
       ]
+    },
+    {
+      "title": "VTEX & Sankhya ERP Integration Suite (Freelance)",
+      "description": "Freelance integration suite connecting the VTEX e-commerce platform and Sankhya ERP with clients' back-office systems, plus payment gateway integrations delivered as independent contract work.",
+      "year": 2015,
+      "screenshots": [
+        "https://images.pexels.com/photos/6424590/pexels-photo-6424590.jpeg",
+        "https://images.pexels.com/photos/4487361/pexels-photo-4487361.jpeg",
+        "https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg"
+      ],
+      "technologies": [
+        "C# .NET Framework",
+        "VTEX API",
+        "Sankhya API",
+        "SQL Server"
+      ]
+    },
+    {
+      "title": "Open Banking & BaaS Platform (Banco BS2)",
+      "description": "Banking-as-a-Service product exposing account, payment, and open banking APIs to partner businesses, backed by distributed processing and containerized deployments.",
+      "year": 2019,
+      "screenshots": [
+        "https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg",
+        "https://images.pexels.com/photos/8382611/pexels-photo-8382611.jpeg",
+        "https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg"
+      ],
+      "technologies": [
+        "C# .NET Core",
+        "Dapper",
+        "Entity Framework",
+        "RabbitMQ",
+        "Docker"
+      ]
+    },
+    {
+      "title": "E-commerce Refund Automation (C&A Modas)",
+      "description": "Automated the payment refund/reversal pipeline for a nationwide fashion retailer's e-commerce operation, integrating Adyen, Zendesk, SAP, and Oracle to speed up customer refunds.",
+      "year": 2019,
+      "screenshots": [
+        "https://images.pexels.com/photos/3812433/pexels-photo-3812433.jpeg",
+        "https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg",
+        "https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg"
+      ],
+      "technologies": [
+        "C# .NET Core",
+        "Node.JS",
+        "Adyen",
+        "SAP",
+        "Zendesk"
+      ]
+    },
+    {
+      "title": "PIX/SPI Instant Payments Platform (Banco BS2)",
+      "description": "Architected the CORE and Indirect PIX solutions for a Brazilian digital bank, implementing BACEN's instant payments (PIX/SPI) and ISO 20022 messaging for real-time settlement and accounting.",
+      "year": 2020,
+      "screenshots": [
+        "https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg",
+        "https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg",
+        "https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg"
+      ],
+      "technologies": [
+        "C# .NET Core",
+        "Dapper",
+        "Entity Framework",
+        "RabbitMQ",
+        "Docker"
+      ]
+    },
+    {
+      "title": "Digital Wallet & Remittance Platform (Grace Kennedy)",
+      "description": "Digital wallet and cross-border remittance system for the Caribbean's largest financial group, integrating Western Union transfers with cloud messaging and RPA-driven back-office processes.",
+      "year": 2021,
+      "screenshots": [
+        "https://images.pexels.com/photos/6406691/pexels-photo-6406691.jpeg",
+        "https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg",
+        "https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg"
+      ],
+      "technologies": [
+        "C# .NET Core 3.1",
+        "CosmosDB",
+        "Azure Service Bus",
+        "Entity Framework Core",
+        "Dapper"
+      ]
+    },
+    {
+      "title": "Open Banking IdP & DCR Platform (FCamara)",
+      "description": "Identity Provider (IdP) and Dynamic Client Registration (DCR) services for an Open Banking/Open Finance initiative, plus a white-label platform integrating with Banco Pan.",
+      "year": 2021,
+      "screenshots": [
+        "https://images.pexels.com/photos/8382611/pexels-photo-8382611.jpeg",
+        "https://images.pexels.com/photos/6406691/pexels-photo-6406691.jpeg",
+        "https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg"
+      ],
+      "technologies": [
+        "Node.JS",
+        "CosmosDB",
+        "Azure Service Bus"
+      ]
+    },
+    {
+      "title": "Fashion Search & Discovery Platform (Farfetch)",
+      "description": "Improved search relevance and discovery for a global luxury fashion marketplace as part of the Search & Scouts team, working alongside data scientists to enrich search schemas and ranking.",
+      "year": 2021,
+      "screenshots": [
+        "https://images.pexels.com/photos/206571/pexels-photo-206571.jpeg",
+        "https://images.pexels.com/photos/15306470/pexels-photo-15306470.jpeg",
+        "https://images.pexels.com/photos/5480781/pexels-photo-5480781.jpeg"
+      ],
+      "technologies": [
+        "C# .NET Core",
+        "Kafka",
+        "Cassandra",
+        "Elastic Search"
+      ]
+    },
+    {
+      "title": "Grocery Fulfillment Platform (Talabat)",
+      "description": "Microservices platform improving grocery fulfillment across a food-delivery marketplace, including real-time catalog availability heartbeat, item replacement flows, and automated robocalls for order handling.",
+      "year": 2021,
+      "screenshots": [
+        "https://images.pexels.com/photos/4487361/pexels-photo-4487361.jpeg",
+        "https://images.pexels.com/photos/19972996/pexels-photo-19972996.jpeg",
+        "https://images.pexels.com/photos/8476604/pexels-photo-8476604.jpeg"
+      ],
+      "technologies": [
+        "C# .NET 5",
+        "Amazon SQS",
+        "Amazon Lambda",
+        "SQL Server",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "title": "Billing & Shadow Ledger Platform (OUTsurance)",
+      "description": "Insurance billing and collections system handling payment schedules and a shadow ledger, exchanging ISO 20022 PAIN messages and integrating with the policy administration portal and payment gateways.",
+      "year": 2023,
+      "screenshots": [
+        "https://images.pexels.com/photos/7735629/pexels-photo-7735629.jpeg",
+        "https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg",
+        "https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg"
+      ],
+      "technologies": [
+        "C# .NET 7",
+        "CosmosDB",
+        "NServiceBus",
+        "Azure Service Bus",
+        "Terraform"
+      ]
     }
   ]
 }

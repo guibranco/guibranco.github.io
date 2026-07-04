@@ -30,16 +30,18 @@ const Sidebar = () => {
   }, [collapsedSections]);
 
   // Collapse all sections on mobile when route changes
-  useEffect(() => {
+  const [prevLocation, setPrevLocation] = useState(location);
+  if (location !== prevLocation) {
+    setPrevLocation(location);
     if (window.innerWidth <= 768) {
-      setCollapsedSections(() => ({
+      setCollapsedSections({
         contact: true,
         profile: true,
         skills: true,
         hobbies: true,
-      }));
+      });
     }
-  }, [location]);
+  }
 
   const toggleSection = (sectionId: string) => {
     setCollapsedSections((prev) => ({
