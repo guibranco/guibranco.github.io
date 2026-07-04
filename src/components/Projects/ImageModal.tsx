@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { X, ChevronLeft, ChevronRight, Globe, Book } from "lucide-react";
-import { GitHubIcon } from "@/components/Icons/GitHubIcon";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { VisualProject } from "../../types";
 
 interface ImageModalProps {
@@ -99,7 +100,7 @@ const ImageModal = ({
             className="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-full text-white hover:bg-white/20 transition-colors"
             onClick={(e) => e.stopPropagation()}
           >
-            <GitHubIcon size={16} />
+            <FontAwesomeIcon icon={faGithub} className="w-4 h-4" />
             <span>View Code</span>
           </a>
         )}

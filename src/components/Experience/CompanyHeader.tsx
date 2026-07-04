@@ -1,5 +1,6 @@
 import { Calendar, MapPin, Globe } from "lucide-react";
-import { LinkedInIcon } from "@/components/Icons/LinkedInIcon";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { ConsultingCompany, RelatedCompany } from "../../types";
 
 interface CompanyHeaderProps {
@@ -70,7 +71,10 @@ const CompanyHeader = ({
                     className="text-blue-600 hover:text-blue-800 transition-colors"
                     aria-label={`${company} LinkedIn`}
                   >
-                    <LinkedInIcon size={12} className="md:w-[18px] md:h-[18px]" />
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="w-3 h-3 md:w-[18px] md:h-[18px]"
+                    />
                   </a>
                 )}
                 {website && (
@@ -98,7 +102,7 @@ const CompanyHeader = ({
                         className="text-blue-600 hover:text-blue-800 transition-colors mx-1"
                         aria-label={`${consultingCompany.name} LinkedIn`}
                       >
-                        <LinkedInIcon size={10} className="md:w-4 md:h-4" />
+                        <FontAwesomeIcon icon={faLinkedin} className="w-2.5 h-2.5 md:w-4 md:h-4" />
                       </a>
                     )}
                     {consultingCompany.website && (
@@ -135,7 +139,10 @@ const CompanyHeader = ({
                           className="text-blue-600 hover:text-blue-800 transition-colors mx-1"
                           aria-label={`${related.name} LinkedIn`}
                         >
-                          <LinkedInIcon size={10} className="md:w-4 md:h-4" />
+                          <FontAwesomeIcon
+                            icon={faLinkedin}
+                            className="w-2.5 h-2.5 md:w-4 md:h-4"
+                          />
                         </a>
                       )}
                       {related.website && (
