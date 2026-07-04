@@ -22,7 +22,6 @@ const Harness = () => {
 
 describe("Sidebar", () => {
   beforeEach(() => {
-    localStorage.clear();
     setInnerWidth(1024);
   });
 
