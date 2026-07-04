@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { HashRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Sidebar from "./components/Sidebar/Sidebar";
 import DesktopMenu from "./components/Navigation/DesktopMenu";
@@ -15,10 +15,12 @@ import Hobbies from "./pages/Hobbies";
 const AppContent = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const [prevLocation, setPrevLocation] = useState(location);
 
-  useEffect(() => {
+  if (location !== prevLocation) {
+    setPrevLocation(location);
     setMobileMenuOpen(false);
-  }, [location]);
+  }
 
   return (
     <div id="wrapper">
