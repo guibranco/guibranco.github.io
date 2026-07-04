@@ -4,12 +4,11 @@ on:
   pull_request:
   workflow_dispatch:
 
-permissions:
-  pull-requests: write
-
 jobs:
   size-label:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
 
     steps:
       - name: size-label
