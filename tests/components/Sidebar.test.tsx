@@ -22,6 +22,12 @@ const Harness = () => {
 
 describe("Sidebar", () => {
   beforeEach(() => {
+    try {
+      window.localStorage.clear();
+    } catch {
+      // Some Node runtimes ship a non-functional localStorage global that
+      // shadows jsdom's; Sidebar itself tolerates this via try/catch.
+    }
     setInnerWidth(1024);
   });
 
