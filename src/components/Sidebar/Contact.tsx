@@ -149,7 +149,7 @@ const Contact = ({ collapsed, onToggle }: ContactProps) => {
           </li>
           <li>
             <a
-              href="https://guibranco.github.io/curriculum-vitae-guilherme-stracini.pdf"
+              href="/curriculum-vitae-guilherme-stracini.pdf"
               target="_blank"
               rel="noopener"
             >
