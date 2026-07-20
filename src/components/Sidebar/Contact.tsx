@@ -148,11 +148,7 @@ const Contact = ({ collapsed, onToggle }: ContactProps) => {
             </a>
           </li>
           <li>
-            <a
-              href="/curriculum-vitae-guilherme-stracini.pdf"
-              target="_blank"
-              rel="noopener"
-            >
+            <a href="/curriculum-vitae-guilherme-stracini.pdf" target="_blank" rel="noopener">
               <span className="icon">
                 <FontAwesomeIcon icon={faFilePdf} />
               </span>
