@@ -20,10 +20,10 @@
     "@fortawesome/free-brands-svg-icons": "^7.3.0",
     "@fortawesome/free-regular-svg-icons": "^7.3.1",
     "@fortawesome/free-solid-svg-icons": "^7.3.1",
-    "@fortawesome/react-fontawesome": "^3.4.0",
-    "lucide-react": "^1.24.0",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "@fortawesome/react-fontawesome": "^3.5.0",
+    "lucide-react": "^1.26.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.1"
   },
   "devDependencies": {
@@ -44,7 +44,7 @@
     "eslint-plugin-react-refresh": "^0.5.3",
     "globals": "^17.7.0",
     "jsdom": "^29.1.1",
-    "postcss": "^8.5.20",
+    "postcss": "^8.5.22",
     "prettier": "^3.9.6",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
